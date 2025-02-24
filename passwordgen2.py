@@ -29,14 +29,13 @@ def startcode():
         l = random.choices(string.ascii_uppercase, k=q)
         y = random.choices(string.digits, k=q)
         b = random.choices(string.ascii_lowercase, k=q)
-        j = ''.join(l)
-        z = ''.join(y)
-        o = ''.join(b)
-        w = ''.join(passwordsymbols)
-        p1 = j
-        p2 = z
-        p3 = o
-        p4 = w
+        l = ''.join(l)
+        y = ''.join(y)
+        b = ''.join(b)
+        p4 = ''.join(passwordsymbols)
+        p1 = l
+        p2 = y
+        p3 = b
         passwordlist = list(p1 + p2 + p3 + p4)
         print("Current Vars (Unshuffled Varibals avaible for password generation | Unformated text): ")
         print(passwordlist)
