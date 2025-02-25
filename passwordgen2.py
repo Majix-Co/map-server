@@ -7,8 +7,11 @@ passwordlist = []
 #Below is version code number
 versioncodename = "V2-Beta"
 passwordsymbols = ['!','@','#','$','%','^','&','*','(',')','-','_','+','=','<','>','?','/','[',']','{','}','|','`','~']
-blocklist = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','!','@','#','$','%','^','&','*','(',')','-','_','+','=','<','>','?','/','[',']','{','}','|','-1','-2','-3','-4','-5','-6','-7','-8','-9']
+blocklist = string.ascii_letters
+','.join(blocklist)
 allowedlist = ['1','2','3','4','5','6','7','8','9','0']
+blocklist = ''.join(blocklist)
+#print("Current Block list", blocklist)
 def startcode():
     print("Welcome to the Password Generator")
     print("Your password will be temporary saved to the script before being deleted")
