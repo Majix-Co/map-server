@@ -28,6 +28,7 @@ def startcode():
         #char in blocklist for char in 0 is checking if a char in the list is in the var O
         print("You typed a invalid charchter please try again")
         print("Please try again")
+        print("ERROR")
         startcode()
     elif any(char in allowedlist for char in O):
         q = int(O)
@@ -38,7 +39,7 @@ def startcode():
         ''.join(p1)
         ''.join(p2)
         ''.join(p3)
-        p4 = ''.join(passwordsymbols)
+        p4 = [''.join(passwordsymbols)]
         passwordlist = list(p1 + p2 + p3 + p4)
         print("Current Vars (Unshuffled Varibals avaible for password generation | Unformated text): ")
         print(passwordlist)
