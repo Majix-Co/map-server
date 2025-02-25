@@ -12,12 +12,6 @@ function startcode() {
     alert("© Caiden Pinter 2025");
     alert("Current Version is: ", versioncodename);
     alert("Please answer the questions below");
-
-    const readline = require('readline').createInterface({
-        input: process.stdin,
-        output: process.stdout
-    });
-
     O = prompt("Password Length: ")
         if (O === "") {
             alert("Please enter a number do not leave blank");

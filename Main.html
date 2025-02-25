@@ -67,7 +67,7 @@ body {
 </body>
 
 <script>
-  const crypto = require('crypto');
+const crypto = require('crypto');
 
 let passwordlist = [];
 const versioncodename = "V2BETA -- Javascript conversion";
@@ -81,13 +81,7 @@ function startcode() {
     alert("© Caiden Pinter 2025");
     alert("Current Version is: ", versioncodename);
     alert("Please answer the questions below");
-
-    const readline = require('readline').createInterface({
-        input: process.stdin,
-        output: process.stdout
-    });
-
-    readline.question("Password Length: ", O => {
+    O = prompt("Password Length: ")
         if (O === "") {
             alert("Please enter a number do not leave blank");
             alert("Please try again by rerunning the script");
@@ -137,6 +131,7 @@ function startcode() {
 }
 
 startcode();
+
 
 </script>
 </html>
