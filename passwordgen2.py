@@ -5,7 +5,7 @@ import secrets
 #For bypassing the letter check system add everything in block list to allow list and set block list to none"
 passwordlist = []
 #Below is version code number
-versioncodename = "V2-Beta"
+versioncodename = "V2 OpenBeta"
 passwordsymbols = ['!','@','#','$','%','^','&','*','(',')','-','_','+','=','<','>','?','/','[',']','{','}','|','`','~']
 blocklist = string.ascii_letters
 ','.join(blocklist)
