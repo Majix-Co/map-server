@@ -67,52 +67,50 @@ body {
 </body>
 
 <script>
-  <script>
   function startcode() {
     alert("Welcome to the Password Generator");
-    alert("Your password will be temporary saved to the script before being deleted");
+    alert("Your password will be temporarily saved to the script before being deleted");
     alert("© Caiden Pinter 2025");
     alert("Current Version is: V2BETA -- Javascript conversion");
     alert("Please answer the questions below");
 
-    const passwordLength = prompt("Password Length: ");
-    
-    if (passwordLength === "" || isNaN(passwordLength)) {
-      alert("Please enter a valid number.");
-      startcode();
-    } else {
-      const passwordsymbols = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '+', '=', '<', '>', '?', '/', '[', ']', '{', '}', '|', '`', '~'];
-      const blocklist = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
-      const allowedlist = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'];
+    let passwordLength = prompt("Password Length: ");
 
-      if (Array.from(passwordLength).some(char => blocklist.includes(char))) {
-        alert("You typed an invalid character. Please try again.");
-        startcode();
+    // Loop until a valid number is entered
+    while (passwordLength === "" || isNaN(passwordLength) || parseInt(passwordLength) <= 0) {
+      if (passwordLength === "") {
+        alert("Please enter a valid number.");
+      } else if (isNaN(passwordLength)) {
+        alert("Please enter a valid number.");
       } else if (parseInt(passwordLength) <= 0) {
-        alert("Please use a higher number.");
-        startcode();
-      } else {
-        let l = Array.from({ length: passwordLength }, () => String.fromCharCode(65 + Math.floor(Math.random() * 26)));
-        let y = Array.from({ length: passwordLength }, () => Math.floor(Math.random() * 10).toString());
-        let b = Array.from({ length: passwordLength }, () => String.fromCharCode(97 + Math.floor(Math.random() * 26)));
-        let p4 = passwordsymbols.join('');
-        let p1 = l.join('');
-        let p2 = y.join('');
-        let p3 = b.join('');
-        
-        let passwordlist = Array.from(p1 + p2 + p3 + p4);
-        passwordlist = passwordlist.sort(() => Math.random() - 0.5);
-
-        let final_password = Array.from({ length: passwordLength }, () => passwordlist[Math.floor(Math.random() * passwordlist.length)]).join('');
-        
-        alert("Final Password: " + final_password.slice(0, passwordLength));
-        alert("Thank you for using this tool!");
+        alert("Please use a number greater than 0.");
       }
+
+      passwordLength = prompt("Password Length: ");
     }
+
+    const passwordsymbols = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '+', '=', '<', '>', '?', '/', '[', ']', '{', '}', '|', '`', '~'];
+    const blocklist = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
+    const allowedlist = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'];
+
+    let l = Array.from({ length: passwordLength }, () => String.fromCharCode(65 + Math.floor(Math.random() * 26)));
+    let y = Array.from({ length: passwordLength }, () => Math.floor(Math.random() * 10).toString());
+    let b = Array.from({ length: passwordLength }, () => String.fromCharCode(97 + Math.floor(Math.random() * 26)));
+    let p4 = passwordsymbols.join('');
+    let p1 = l.join('');
+    let p2 = y.join('');
+    let p3 = b.join('');
+    
+    let passwordlist = Array.from(p1 + p2 + p3 + p4);
+    passwordlist = passwordlist.sort(() => Math.random() - 0.5);
+
+    let final_password = Array.from({ length: passwordLength }, () => passwordlist[Math.floor(Math.random() * passwordlist.length)]).join('');
+    
+    alert("Final Password: " + final_password.slice(0, passwordLength));
+    alert("Thank you for using this tool!");
   }
 
   startcode();
 </script>
 
-</script>
 </html>
