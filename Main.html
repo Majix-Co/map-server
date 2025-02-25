@@ -2,115 +2,63 @@
 <html>
   <head>
     <title>Majix Webserver! | Server Front End</title>
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <!-- <meta http-equiv='refresh' content='0; URL=https://sites.google.com/view/majixwebserver/home'> -->
-  <!-- <meta http-equiv='refresh' content='0; URL=https://majix5612.github.io/finalannounment/'> -->
-  <!-- Use code above for force announment page if not delete above code-->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
   </head>
-  <body>
-     <h1 style="color:Black; align:center;">How'd you get here?</h1>
-<style>
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+  <body style="background-color:#A9DEF9;">
+    <h1 style="color:Black; text-align:center;">How'd you get here?</h1>
 
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
+    <div class="topnav">
+      <a class="active" href="https://sites.google.com/view/majixwebserver/">Go to Home Page</a>
+      <a href="https://majix5612.github.io/indexold.html/">Old web Page (If new ui is blocked)</a>
+    </div>
 
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
+    <div style="padding-left:16px">
+      <h2>Welcome to the Majix WebServer Backend</h2>
+      <p>How did this happen?</p>
+      <p>*When the page attempted to auto redirect you to the new page the request was blocked<br>*The auto redirect code is currently disabled for site testing you can use the button to go to the page</p>
+      <p>To return to the correct page you can click "Go to Home Page"</p>
+      <p>We are sorry this happen :( Sorry for the inconvenience</p>
+      <h1>The Majix2.0 Interface is currently being updated and is not usable please check later</h1>
+      <p>This is due to bugs in the new interface</p>
+      <p>If you are able to, make sure auto redirects on this site are allowed</p>
+      <p>Anywho, thanks for visiting this secret page!</p>
+      <h4>© Majix5612 2024</h4>
+    </div>
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
+    <script>
+      function startcode() {
+        alert("Welcome to the Password Generator");
+        alert("Your password will be temporarily saved to the script before being deleted");
+        alert("© Caiden Pinter 2025");
+        alert("Current Version is: V2BETA -- Javascript conversion");
+        alert("Please answer the questions below");
 
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-</style>
-</head>
-<body>
+        let passwordLength = parseInt(prompt("Password Length: "));
 
-<div class="topnav">
-  <a class="active" href="https://sites.google.com/view/majixwebserver/">Go to Home Page</a>
-  <a href="https://majix5612.github.io/indexold.html/">Old web Page (If new ui is blocked)</a>
-  
-</div>
+        // Loop until a valid number is entered
+        while (isNaN(passwordLength) || passwordLength <= 0) {
+          alert("Please enter a valid number greater than 0.");
+          passwordLength = parseInt(prompt("Password Length: "));
+        }
 
-<div style="padding-left:16px">
-  <h2>Welcome to the Majix WebServer Backend</h2>
-  <p>How did this happen?</p>
-  <p>*When the page attempted to auto redirect you to the new page the request was blocked<br>*The auto redirect code is currently disabled for site testing you can use the button to go to the page</p>
-  <p>To return to the correct page you can click "Go to Home Page"</p>
-  <p>We are sorry this happen :( Sorry for the incovience</p>
-  <h1>The Majix2.0 Interface is currently being updated and is not usable please check later</h1>
-  <p>This is do to bugs on new interface</p>
-  <p>If you are able to make sure auto redirects on this site are allowed</p>
-  <p>Anywho thanks for visiting this secret page!</p>
-  <h4>© Majix5612 2024</h4>
-</div>
+        const passwordsymbols = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '+', '=', '<', '>', '?', '/', '[', ']', '{', '}', '|', '`', '~'];
+        const allowedlist = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'];
 
-  
-<body style="background-color:#A9DEF9;">
-  <!-- <script src="script.js"></script> -->
-</body>
+        let l = Array.from({ length: passwordLength }, () => String.fromCharCode(65 + Math.floor(Math.random() * 26))); // Uppercase letters
+        let y = Array.from({ length: passwordLength }, () => Math.floor(Math.random() * 10).toString()); // Numbers
+        let b = Array.from({ length: passwordLength }, () => String.fromCharCode(97 + Math.floor(Math.random() * 26))); // Lowercase letters
+        let p4 = passwordsymbols.join('');
+        
+        let passwordlist = [...l, ...y, ...b, ...p4];
+        passwordlist = passwordlist.sort(() => Math.random() - 0.5);
 
-<script>
-  function startcode() {
-    alert("Welcome to the Password Generator");
-    alert("Your password will be temporarily saved to the script before being deleted");
-    alert("© Caiden Pinter 2025");
-    alert("Current Version is: V2BETA -- Javascript conversion");
-    alert("Please answer the questions below");
-
-    let passwordLength = prompt("Password Length: ");
-
-    // Loop until a valid number is entered
-    while (passwordLength === "" || isNaN(passwordLength) || parseInt(passwordLength) <= 0) {
-      if (passwordLength === "") {
-        alert("Please enter a valid number.");
-      } else if (isNaN(passwordLength)) {
-        alert("Please enter a valid number.");
-      } else if (parseInt(passwordLength) <= 0) {
-        alert("Please use a number greater than 0.");
+        let final_password = Array.from({ length: passwordLength }, () => passwordlist[Math.floor(Math.random() * passwordlist.length)]).join('');
+        
+        alert("Final Password: " + final_password.slice(0, passwordLength));
+        alert("Thank you for using this tool!");
       }
 
-      passwordLength = prompt("Password Length: ");
-    }
-
-    const passwordsymbols = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '+', '=', '<', '>', '?', '/', '[', ']', '{', '}', '|', '`', '~'];
-    const blocklist = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
-    const allowedlist = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'];
-
-    let l = Array.from({ length: passwordLength }, () => String.fromCharCode(65 + Math.floor(Math.random() * 26)));
-    let y = Array.from({ length: passwordLength }, () => Math.floor(Math.random() * 10).toString());
-    let b = Array.from({ length: passwordLength }, () => String.fromCharCode(97 + Math.floor(Math.random() * 26)));
-    let p4 = passwordsymbols.join('');
-    let p1 = l.join('');
-    let p2 = y.join('');
-    let p3 = b.join('');
-    
-    let passwordlist = Array.from(p1 + p2 + p3 + p4);
-    passwordlist = passwordlist.sort(() => Math.random() - 0.5);
-
-    let final_password = Array.from({ length: passwordLength }, () => passwordlist[Math.floor(Math.random() * passwordlist.length)]).join('');
-    
-    alert("Final Password: " + final_password.slice(0, passwordLength));
-    alert("Thank you for using this tool!");
-  }
-
-  startcode();
-</script>
-
+      startcode();
+    </script>
+  </body>
 </html>
