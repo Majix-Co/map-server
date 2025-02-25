@@ -18,7 +18,7 @@ function startcode() {
         output: process.stdout
     });
 
-    readline.question("Password Length: ", O => {
+    O = prompt("Password Length: ")
         if (O === "") {
             alert("Please enter a number do not leave blank");
             alert("Please try again by rerunning the script");
