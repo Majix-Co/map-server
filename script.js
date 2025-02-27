@@ -1,5 +1,5 @@
 const crypto = require('crypto');
-
+ 
 let passwordlist = [];
 const versioncodename = "V2BETA -- Javascript conversion";
 const passwordsymbols = ['!','@','#','$','%','^','&','*','(',')','-','_','+','=','<','>','?','/','[',']','{','}','|','`','~'];
