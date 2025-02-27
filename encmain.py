@@ -78,5 +78,5 @@ else:
        os.path.isfile("passwordgen.py")
        decrypt()
    except Exception as e:
-       print("[ERROR]Failed file test please make sure your files are named corectly and are in this directory. See README for more info")
+       print("[ERROR]Failed file test please make sure your files are named corectly and are in this directory. See README for more info. You could also have a broken enc key see readme for more info")
        exit()
