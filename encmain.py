@@ -3,7 +3,7 @@ from cryptography.fernet import Fernet
 import os
 import time
 print("[WARN] This script uses the OS module")
-def mainenc():    
+def encrypt():    
     # Generate a key and save it
     key = Fernet.generate_key()
     with open('enckey.key', 'wb') as filekey:
@@ -64,7 +64,7 @@ i = input("Do you agree to allow this program to access the required files? (y[e
 if i == "y":
     try:
         os.path.isfile("passwordgen3.py")
-        mainenc()
+        encrypt()
     
     except Exception as e:
         print("An error has occurred. Please check if the main file is in this directory.")
