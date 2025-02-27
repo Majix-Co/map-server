@@ -53,7 +53,7 @@ def decrypt():
                     v.write(f.read())
                     time.sleep(3)
                     print("\nBackup created")
-                    i = input("\nWould you like to keep the backup [If you change the file the old key will be invalid](y/n): ")
+                    i = input("\nWould you like to keep the backup? [If you change the file the old key will be invalid] (y/n): ")
                     if i == "y":
                         os.remove('enckey.key')
                         print("Thank you for using eCrypt")
