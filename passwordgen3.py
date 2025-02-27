@@ -26,7 +26,7 @@ def startcode():
         startcode()
     elif any(char in blocklist for char in O):
         #char in blocklist for char in 0 is checking if a char in the list is in the var O
-        print("You typed a invalid charchter please try again")
+        print("\nYou typed a invalid charchter please try again\n")
         print("Please try again")
         print("\nERROR\n")
         startcode()
