@@ -1,6 +1,7 @@
 import cryptography
 from cryptography.fernet import Fernet
 import os
+import time
 print("[WARN] This script uses the OS module")
 def mainenc():    
     # Generate a key and save it
@@ -42,6 +43,7 @@ def decrypt():
                     v = open('encbackup.key', 'w')
                     v.write(f.read())
                     print("Backup created")
+                    time.sleep(5)
                     i = input("Would you like to keep the backup (n/y): ")
                     if i == "y":
                         os.remove('enckey.key')
