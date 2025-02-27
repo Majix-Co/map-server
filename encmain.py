@@ -3,6 +3,8 @@ from cryptography.fernet import Fernet
 import os
 import time
 print("[WARN] This script uses the OS module")
+# To run encrypt module run encrypt() to run decrypt run (decrypt)
+# when opening a file make use "w" for writable 'X' for create 'r' for read only 'b' for enc
 def encrypt():    
     # Generate a key and save it
     key = Fernet.generate_key()
@@ -58,7 +60,7 @@ def decrypt():
         print("Will not decrypt file killing current process")
         exit()
 print("Welcome to eCrypt V4")
-print("Please wait while your file is generated")
+print("© Caiden Pinter 2025 | Majix Co. 2025")
 
 i = input("Do you agree to allow this program to access the required files? (y[encrypt]/n/decrypt): ")
 if i == "y":
