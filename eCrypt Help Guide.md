@@ -8,3 +8,5 @@
 <li>File name == passwordgen3.py</li>
 <li><b>Make sure EVERYTHING is in the same directory perferibly with only thee required files</b></li>
 </ul>
+<h2>I lost the encryption key what should I do?</h2>
+<b>Unfortunately if you lose the key there no way to retrieve the data if you lose the key place keep the key in a safe place</b>

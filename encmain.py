@@ -6,31 +6,36 @@ print("[WARN] This script uses the OS module")
 # To run encrypt module run encrypt() to run decrypt run (decrypt)
 # when opening a file make use "w" for writable 'X' for create 'r' for read only 'b' for enc
 def encrypt():    
-    # Generate a key and save it
-    key = Fernet.generate_key()
-    with open('enckey.key', 'wb') as filekey:
-        filekey.write(key)
-# specify type and use that UNLESS you are using a varibal
-    # Read the key from the file
-    with open('enckey.key', 'rb') as filekey:
-        key = filekey.read()
+    i = input("Are you sure you would like to encrypt? Once encrypted if you lose the key you CAN NOT access the data. See README for more info(y/n): ")
+    if i == "y":
+        # Generate a key and save it
+        key = Fernet.generate_key()
+        with open('enckey.key', 'wb') as filekey:
+            filekey.write(key)
+    # specify type and use that UNLESS you are using a varibal
+        # Read the key from the file
+        with open('enckey.key', 'rb') as filekey:
+            key = filekey.read()
 
-    # Read the file to be encrypted
-    with open('passwordgen3.py', 'rb') as file:
-        original = file.read()
+        # Read the file to be encrypted
+        with open('passwordgen3.py', 'rb') as file:
+            original = file.read()
 
     # Create a Fernet cipher suite and encrypt the data
-    cipher_suite = Fernet(key)
-    encrypted = cipher_suite.encrypt(original)
+        cipher_suite = Fernet(key)
+        encrypted = cipher_suite.encrypt(original)
 
-    # Write the encrypted data back to the file
-    with open('passwordgen3.py', 'wb') as encrypted_file:
-        encrypted_file.write(encrypted)
-        print("Encrypted!")
+        # Write the encrypted data back to the file
+        with open('passwordgen3.py', 'wb') as encrypted_file:
+            encrypted_file.write(encrypted)
+            print("Encrypted!")
+    elif i == "n":
+        print("Okay, No changes were made. Quiting Program")
+        exit()
 def decrypt():
     i = input("Are you sure you would like to decrypt (y/n) ")
     if i == "y":
-        print("This will deencrypt the file and delete the old key a new key will need to be genereated")
+        print("\nThis will decrypt the file and delete the old key a new key will need to be genereated")
         with open('enckey.key', 'rb') as filekey:
             key = filekey.read()
             fernet = Fernet(key)
@@ -39,14 +44,14 @@ def decrypt():
                 decrypted = fernet.decrypt(encrypted)
                 with open('passwordgen3.py', 'wb') as dec_file:
                     dec_file.write(decrypted)
-                    print("Making backup of old key")
+                    print("\nMaking backup of old key")
                     f = open('enckey.key', 'r')
                     open('encbackup.key', 'x')
                     v = open('encbackup.key', 'w')
                     v.write(f.read())
                     time.sleep(3)
-                    print("Backup created")
-                    i = input("Would you like to keep the backup (y/n): ")
+                    print("\nBackup created")
+                    i = input("\nWould you like to keep the backup (y/n): ")
                     if i == "y":
                         os.remove('enckey.key')
                         print("Thank you for using eCrypt")
