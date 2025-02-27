@@ -7,7 +7,7 @@ def mainenc():
     key = Fernet.generate_key()
     with open('enckey.key', 'wb') as filekey:
         filekey.write(key)
-
+# specify type and use that UNLESS you are using a varibal
     # Read the key from the file
     with open('enckey.key', 'rb') as filekey:
         key = filekey.read()
