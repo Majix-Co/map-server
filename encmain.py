@@ -27,8 +27,8 @@ def mainenc():
 print("Welcome to eCrypt V4")
 print("Please wait while your file is generated")
 
-i = input("Do you agree to allow this program to access the required files? (y/n/decrypt): ")
-if i.lower() == "y":
+i = input("Do you agree to allow this program to access the required files? (y[encrypt]/n/decrypt): ")
+if i == "y":
     try:
         os.path.isfile("passwordgen3.py")
         mainenc()
@@ -56,7 +56,7 @@ else:
                 v = open('encbackup.key', 'w')
                 v.write(f.read())
                 print("Backup created")
-                i = input("Would you like to keep the backup (n/y)")
+                i = input("Would you like to keep the backup (n/y): ")
                 if i == "y":
                     os.remove('enckey.key')
                     print("Thank you for using eCrypt")
