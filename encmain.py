@@ -56,6 +56,7 @@ def decrypt():
                         os.remove('encbackup.key')
                         print("Thank you for using eCrypt")
                         exit()
+    # END OF DECRYPT CODE
     elif i == "n":
         print("Will not decrypt file killing current process")
         exit()
