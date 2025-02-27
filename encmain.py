@@ -42,8 +42,8 @@ def decrypt():
                     open('encbackup.key', 'x')
                     v = open('encbackup.key', 'w')
                     v.write(f.read())
-                    print("Backup created")
                     time.sleep(5)
+                    print("Backup created")
                     i = input("Would you like to keep the backup (n/y): ")
                     if i == "y":
                         os.remove('enckey.key')
