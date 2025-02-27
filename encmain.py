@@ -28,7 +28,7 @@ def encrypt():
         encrypted_file.write(encrypted)
         print("Encrypted!")
 def decrypt():
-    i = input("Are you sure you would like to decrypt (y/n)")
+    i = input("Are you sure you would like to decrypt (y/n) ")
     if i == "y":
         print("This will deencrypt the file and delete the old key a new key will need to be genereated")
         with open('enckey.key', 'rb') as filekey:
@@ -46,7 +46,7 @@ def decrypt():
                     v.write(f.read())
                     time.sleep(3)
                     print("Backup created")
-                    i = input("Would you like to keep the backup (n/y): ")
+                    i = input("Would you like to keep the backup (y/n): ")
                     if i == "y":
                         os.remove('enckey.key')
                         print("Thank you for using eCrypt")
