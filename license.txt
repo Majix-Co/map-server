@@ -1,4 +1,0 @@
-[eCrypt 4]
-Your code encyrpted, secured, locked down
-(C) Caiden Pinter 2025
-[1]Check script if it is allowed

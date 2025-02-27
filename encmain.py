@@ -27,7 +27,7 @@ def mainenc():
 print("Welcome to eCrypt V4")
 print("Please wait while your file is generated")
 
-i = input("Do you agree to allow this program to access the required files? (y/n): ")
+i = input("Do you agree to allow this program to access the required files? (y/n/decrypt): ")
 if i.lower() == "y":
     try:
         os.path.isfile("passwordgen3.py")
@@ -50,5 +50,20 @@ else:
             decrypted = fernet.decrypt(encrypted)
             with open('passwordgen3.py', 'wb') as dec_file:
                 dec_file.write(decrypted)
-                os.remove('enckey.key')
+                print("Making backup of old key")
+                f = open('enckey.key', 'r')
+                open('encbackup.key', 'x')
+                v = open('encbackup.key', 'w')
+                v.write(f.read())
+                print("Backup created")
+                i = input("Would you like to keep the backup (n/y)")
+                if i == "y":
+                    os.remove('enckey.key')
+                    print("Thank you for using eCrypt")
+                    exit()
+                elif i == "n":
+                    os.remove('enckey.key')
+                    os.remove('encbackup.key')
+                    print("Thank you for using eCrypt")
+                    exit()
 
