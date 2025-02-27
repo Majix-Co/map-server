@@ -2,9 +2,9 @@ import cryptography
 from cryptography.fernet import Fernet
 import os
 import time
-version = "4.1"
+version = "4.1ES"
 print("[WARN] This script uses the OS module")
-# To run encrypt module run encrypt() to run decrypt run (decrypt)
+# To run encrypt module run encrypt() to run decrypt run decrypt()
 # when opening a file make use "w" for writable 'X' for create 'r' for read only 'b' for enc
 def encrypt():    
     i = input("Are you sure you would like to encrypt? Once encrypted if you lose the key you CAN NOT access the data. See README for more info(y/n): ")
@@ -33,6 +33,7 @@ def encrypt():
     elif i == "n":
         print("Okay, No changes were made. Quiting Program")
         exit()
+# Define of decrypt
 def decrypt():
     i = input("Are you sure you would like to decrypt (y/n) ")
     if i == "y":
