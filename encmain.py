@@ -1,0 +1,54 @@
+import cryptography
+from cryptography.fernet import Fernet
+import os
+
+def mainenc():    
+    # Generate a key and save it
+    key = Fernet.generate_key()
+    with open('enckey.key', 'wb') as filekey:
+        filekey.write(key)
+
+    # Read the key from the file
+    with open('enckey.key', 'rb') as filekey:
+        key = filekey.read()
+
+    # Read the file to be encrypted
+    with open('passwordgen3.py', 'rb') as file:
+        original = file.read()
+
+    # Create a Fernet cipher suite and encrypt the data
+    cipher_suite = Fernet(key)
+    encrypted = cipher_suite.encrypt(original)
+
+    # Write the encrypted data back to the file
+    with open('passwordgen3.py', 'wb') as encrypted_file:
+        encrypted_file.write(encrypted)
+
+print("Welcome to eCrypt V4")
+print("Please wait while your file is generated")
+
+i = input("Do you agree to allow this program to access the required files? (y/n): ")
+if i.lower() == "y":
+    try:
+        os.path.isfile("passwordgen3.py")
+        mainenc()
+    
+    except Exception as e:
+        print("An error has occurred. Please check if the main file is in this directory.")
+        print("This error has occurred:", e)
+elif i.lower() == "n":
+    print("This needs to be accepted. Killing program. No changes have been made")
+    exit()
+else:
+    i = input("Are you sure you would like to decrypt (y/n)")
+    print("This will deencrypt the file and delete the old key a new key will need to be genereated")
+    with open('enckey.key', 'rb') as filekey:
+        key = filekey.read()
+        fernet = Fernet(key)
+        with open('passwordgen3.py', 'rb') as enc_file:
+            encrypted = enc_file.read()
+            decrypted = fernet.decrypt(encrypted)
+            with open('passwordgen3.py', 'wb') as dec_file:
+                dec_file.write(decrypted)
+                os.remove('enckey.key')
+
