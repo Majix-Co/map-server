@@ -1,7 +1,7 @@
 import cryptography
 from cryptography.fernet import Fernet
 import os
-
+print("[WARN] This script uses the OS module")
 def mainenc():    
     # Generate a key and save it
     key = Fernet.generate_key()
