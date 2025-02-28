@@ -84,9 +84,9 @@ version = "4.1"
 print("[WARN] This script uses the OS module")
 #print("\nWill create new working directory to add files\n")
 def enccheck():
-        print("Function was sucsefully called!")
-        print("Key will be made by user discression")
-        i = input("Do you agree to allow this program to access the required files? (y[encrypt]/n/decrypt): ")
+        print("\nFunction was successfully called!")
+        #print("\nKey will be made by user discression")
+        i = input("\nDo you agree to allow this program to access the required files? (y[encrypt]/n/decrypt): ")
         if i == "y":
             try:
                 os.path.isfile(encfile)
@@ -97,7 +97,7 @@ def enccheck():
         elif i.lower() == "n":
             print("This needs to be accepted. Killing program. No changes have been made")
             exit()
-        else:
+        elif i == "decrypt":
             try:
                 os.path.isfile(i + '.key')
                 os.path.isfile(encfile)
@@ -105,6 +105,9 @@ def enccheck():
             except FileNotFoundError as e:
                 print("[ERROR]Failed file test please make sure your files are named corectly and are in this directory. See README for more info. You could also have a broken enc key see readme for more info")
                 exit()
+        else:
+            print("That option is not a option please try again")
+            exit()
 print("Welcome to eCrypt", version)
 print("© Caiden Pinter 2025 | Majix Co. 2025")
 i = input("What file do you want to use (Give full path) ex. /home/user/Downloads/example.txt: ")
@@ -112,11 +115,12 @@ print("Okay, This file will be prepared for encryption")
 print("\nChecking if path is valid\n")
 isexist = os.path.exists(i)
 if isexist == True:
-    print("Your path is valid calling encrypt function")
-    print("Stating File structure")
+    print("\nYour path is valid calling encrypt function")
+    print("\nStating File structure")
     encfile = i
     print("\nThis file is selected: ", encfile)
     print("\nCalling check")
     enccheck()
 elif isexist == False:
     print("That file path is invalid or does not exist please try again")
+    exit()
