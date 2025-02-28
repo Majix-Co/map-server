@@ -7,7 +7,7 @@ def decrypt():
     i = input("Are you sure you would like to decrypt (y/n) ")
     if i == "y":
         print("\n[FileCheck] Starting File check service\n")
-        i = input("What is the name of the key (Make sure it is in the same directory as this script) [Please include .key in the name]: ")
+        i = input("What is the name of the key (Make sure it is in the same directory as this script)\n[Please include .key in the name]\n: ")
         keycurrent = i
         filecheck = os.path.isfile(i) 
         if filecheck == True:
