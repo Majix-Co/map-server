@@ -2,7 +2,6 @@ import cryptography
 from cryptography.fernet import Fernet
 import os
 import time
-import shutil
 def decrypt():
     i = input("Are you sure you would like to decrypt (y/n) ")
     if i == "y":
