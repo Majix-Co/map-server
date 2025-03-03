@@ -5,6 +5,7 @@ echo Preparing for deployment
 echo //////////////////////Preparing Self Extracting Script////////////////////////////////
 sleep 5
 echo Getting needed files
+sudo apt-get install curl
 cd eCrypt-Installer
 echo Getting files
 curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/eCrypt4.1.py -o eCrypt4.1.py
