@@ -17,7 +17,7 @@ if filecheck == True:
     if filecheck2 == True:
         print("All checks Passed!")
         print("Preparing next check")
-        os.system('./postfixinstall3.py')
+        os.system('./postfixinstall3.sh')
         exit()
     elif filecheck2 == False:
         print("Looks like the file is not right")
