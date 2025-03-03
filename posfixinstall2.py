@@ -17,6 +17,7 @@ if filecheck == True:
     if filecheck2 == True:
         print("All checks Passed!")
         print("Preparing next check")
+        os.system('chmod +x postfixinstall3.sh')
         os.system('./postfixinstall3.sh')
         exit()
     elif filecheck2 == False:
