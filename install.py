@@ -17,8 +17,10 @@ if i == "f":
         platformcheck = os.name
         if platformcheck == "posix":
             shutil.move(finalsource,"eCrypt-Installer")
-            # Insert curl link
+            os.system('curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/posfixinstall.sh -o posfixinstall.sh')
             os.system('chmod +x posfixinstall.sh')
+            os.system('./posfixinstall.sh')
+            exit()
         elif platformcheck == "nt":
             print("NT DETECTED")
             # Get windows script
