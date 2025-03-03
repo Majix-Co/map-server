@@ -20,6 +20,14 @@ try:
   shutil.move(source, dest)
   os.system('./cleanup.sh')
   exit()
+except FileNotFoundError:
+  os.mkdir(i)
+  dest = i
+  shutil.move(source, dest)
+  source = "passwordgen3.py"
+  shutil.move(source, dest)
+  os.system('./cleanup.sh')
+  exit()
 
 
 
