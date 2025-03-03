@@ -13,11 +13,13 @@ print("Installer completed okay!")
 source = "eCrypt4.1.py"
 os.system('chmod +x cleanup.sh')
 i = input("Where do you want to save the installed files? Give full directory: ")
-dest = i
-shutil.move(source, dest)
-source = "passwordgen3.py"
-shutil.move(source, dest)
-os.system('./cleanup.sh')
-exit()
+try:
+  dest = i
+  shutil.move(source, dest)
+  source = "passwordgen3.py"
+  shutil.move(source, dest)
+  os.system('./cleanup.sh')
+  exit()
+
 
 
