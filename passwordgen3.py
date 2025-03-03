@@ -5,7 +5,7 @@ import secrets
 #For bypassing the letter check system add everything in block list to allow list and set block list to none"
 passwordlist = []
 #Below is version code number
-versioncodename = "V2 OpenBeta"
+versioncodename = "V3 OpenBeta"
 passwordsymbols = ['!','@','#','$','%','^','&','*','(',')','-','_','+','=','<','>','?','/','[',']','{','}','|','`','~']
 blocklist = string.ascii_letters
 ','.join(blocklist)
@@ -26,22 +26,20 @@ def startcode():
         startcode()
     elif any(char in blocklist for char in O):
         #char in blocklist for char in 0 is checking if a char in the list is in the var O
-        print("You typed a invalid charchter please try again")
+        print("\nYou typed a invalid charchter please try again\n")
         print("Please try again")
+        print("\nERROR\n")
         startcode()
     elif any(char in allowedlist for char in O):
         q = int(O)
         print("Your password will contain numbers letters")
-        l = random.choices(string.ascii_uppercase, k=q)
-        y = random.choices(string.digits, k=q)
-        b = random.choices(string.ascii_lowercase, k=q)
-        l = ''.join(l)
-        y = ''.join(y)
-        b = ''.join(b)
-        p4 = ''.join(passwordsymbols)
-        p1 = l
-        p2 = y
-        p3 = b
+        p1 = random.choices(string.ascii_uppercase, k=q)
+        p2 = random.choices(string.digits, k=q)
+        p3 = random.choices(string.ascii_lowercase, k=q)
+        ''.join(p1)
+        ''.join(p2)
+        ''.join(p3)
+        p4 = [''.join(passwordsymbols)]
         passwordlist = list(p1 + p2 + p3 + p4)
         print("Current Vars (Unshuffled Varibals avaible for password generation | Unformated text): ")
         print(passwordlist)
