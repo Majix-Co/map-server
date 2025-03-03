@@ -8,17 +8,16 @@ os.remove('install.py')
 os.remove('passwordgencm.py')
 os.remove('posfixinstall2.py')
 os.remove('postfixinstall3.sh')
-os.system('cd ..')
-os.remove('posfixinstall.sh')
-os.system('cd eCrypt-Installer')
-source = os.cwd()
-source2 = "eCrypt4.1.py"
-finalsource = source + "/" + source2
-os.system('cd ..')
-dest = os.getcwd()
-shutil.move(finalsource, dest)
-source2 = "passwordgen3.py"
-finalsource = source + "/" + source2
-shutil.move(finalsource, dest)
-os.rmdir("eCrypt-Installer")
+os.remove('cleanup.py')
 print("Installer completed okay!")
+source = "eCrypt4.1.py"
+os.system('chmod +x cleanup.sh')
+i = input("Where do you want to save the installed files? Give full directory")
+dest = i
+shutil.move(source, dest)
+source = "passwordgen3.py"
+shutil.move(source, dest)
+os.system('./cleanup.sh')
+exit()
+
+
