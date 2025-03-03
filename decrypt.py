@@ -22,7 +22,7 @@ def decrypt2():
                     v = open('encbackup.key', 'w')
                     v.write(f.read())
                     time.sleep(3)
-                    print("\nBackup created")
+                    #print("\nBackup created")
                     i = "n"
                     if i == "y":
                         os.remove('enckey.key')
@@ -57,7 +57,7 @@ def decrypt1():
                     v = open('encbackup.key', 'w')
                     v.write(f.read())
                     time.sleep(3)
-                    print("\nBackup created")
+                    #print("\nBackup created")
                     i = "n"
                     if i == "y":
                         os.remove('enckey.key')
@@ -66,7 +66,7 @@ def decrypt1():
                     elif i == "n":
                         os.remove('ecryptinkey.key')
                         os.remove('encbackup.key')
-                        print("Thank you for using eCrypt")
+                        print("Fully decrypted file")
                         decrypt2()
     # END OF DECRYPT CODE
     elif i == "n":
