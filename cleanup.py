@@ -20,4 +20,5 @@ shutil.move(finalsource, dest)
 source2 = "passwordgen3.py"
 finalsource = source + "/" + source2
 shutil.move(finalsource, dest)
-
+os.rmdir("eCrypt-Installer")
+print("Installer completed okay!")
