@@ -1,8 +1,8 @@
 import filecmp
 import time
 import os
-print("Majix Installer")
-print("2/5 | Comparing files to web versions")
+print("\nMajix Installer")
+print("\n2/5 | Comparing files to web versions\n")
 time.sleep(2)
 dir = os.getcwd()
 source = dir + "/" + "eCryptcm.py"
@@ -10,7 +10,7 @@ scheck1 = dir + "/" + "eCrypt4.1.py"
 print("Checking values")
 filecheck = filecmp.cmp(source,scheck1)
 if filecheck == True:
-    print("Okay File looks okay")
+    print("\nOkay File looks okay")
     source = dir + "/" + "passwordgencm.py"
     scheck1 = dir + "/" + "passwordgen3.py"
     filecheck2 = filecmp.cmp(source,scheck1)

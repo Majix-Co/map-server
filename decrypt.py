@@ -2,8 +2,8 @@ import cryptography
 from cryptography.fernet import Fernet
 import os
 import time
-print("Majix Installer")
-print("4/5 | Decrypting files")
+print("\nMajix Installer")
+print("\n4/5 | Decrypting files")
 def decrypt2():
     i = "y"
     if i == "y":
@@ -51,7 +51,7 @@ def decrypt1():
                 decrypted = fernet.decrypt(encrypted)
                 with open('eCrypt4.1.py', 'wb') as dec_file:
                     dec_file.write(decrypted)
-                    print("\nMaking backup of old key")
+                    #print("\nMaking backup of old key")
                     f = open('ecryptinkey.key', 'r')
                     open('encbackup.key', 'x')
                     v = open('encbackup.key', 'w')

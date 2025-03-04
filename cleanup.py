@@ -1,7 +1,7 @@
 import os
 import shutil
 print("Majix Installer")
-print("5/5 | Cleanup")
+print("\n5/5 | Cleanup\n")
 os.remove('decrypt.py')
 os.remove('eCryptcm.py')
 os.remove('install.py')
