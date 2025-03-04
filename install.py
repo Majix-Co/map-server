@@ -27,8 +27,8 @@ if i == "f":
         else:
             print("This script is not compatible with your OS")
     except FileExistsError:
-        print("Directory Already exist")
-        print("Script was already ran cleaning up")
+        print("Partial Install Detected")
+        print("Removing old files please re-download this script")
         os.remove(__file__)
         os.rmdir("eCrypt-Installer")
         print("Cleaned up")
