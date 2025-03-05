@@ -1,6 +1,17 @@
 @echo off
+REM Store the current directory path
+set currentDir=%cd%
+
+REM Navigate to the directory above the current one
 cd ..
-del /f posfixinstall.bat
-curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ntscript/cleanup2.py -o cleanup2.py
-python3 cleanup2.py
+
+REM Check if the directory to delete exists before attempting to delete it
+IF EXIST %currentDir% (
+    rd /s /q %currentDir%
+) ELSE (
+    echo Directory %currentDir% not found, skipping deletion.
+)
+
+
+REM Exit the script
 exit
