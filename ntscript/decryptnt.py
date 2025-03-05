@@ -29,6 +29,10 @@ def decrypt2():
                         print("Thank you for using eCrypt")
                         exit()
                     elif i == "n":
+                        filekey.close()
+                        f.close()
+                        v.close()
+                        enc_file.close()
                         os.remove('password3key.key')
                         os.remove('encbackup.key')
                         #print("Thank you for using eCrypt")
