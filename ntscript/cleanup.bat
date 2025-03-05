@@ -1,5 +1,5 @@
 @echo off
 cd ..
-del /f posfixinstall.sh
-del /f cleanup.sh
+del /f posfixinstall.bat
+del /f cleanup.bat
 rmdir /s /q eCrypt-Installer
