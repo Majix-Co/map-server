@@ -17,6 +17,7 @@ if i == "f":
         platformcheck = os.name
         if platformcheck == "posix":
             shutil.move(finalsource,"eCrypt-Installer")
+            print("System Deteced as Posfix (Unix Based System)")
             os.system('curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/posfixinstall.sh -o posfixinstall.sh')
             os.system('chmod +x posfixinstall.sh')
             os.system('./posfixinstall.sh')
@@ -37,7 +38,7 @@ if i == "f":
         os.rmdir("eCrypt-Installer")
         print("Cleaned up")
         exit()
-elif i == "x":
+elif i == "m":
     print("Whoops!, Minimal install is not currently supported please use full install")
     exit()                  
 
