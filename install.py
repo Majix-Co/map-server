@@ -32,12 +32,20 @@ if i == "f":
         else:
             print("This script is not compatible with your OS (yet)")
     except FileExistsError:
-        print("Partial Install Detected")
-        print("Removing old files please re-download this script")
-        os.remove(__file__)
-        os.rmdir("eCrypt-Installer")
-        print("Cleaned up")
-        exit()
+        if platformcheck == "posix":
+            print("Partial Install Detected")
+            print("Removing old files please re-download this script")
+            os.remove(__file__)
+            os.rmdir("eCrypt-Installer")
+            print("Cleaned up")
+            exit()
+        elif platformcheck == "nt":
+            print("Partial Install Detected")
+            print("Removing old files please re-download this script")
+            os.remove(__file__)
+            os.system('rmdir /s /q eCrypt-Installer')
+            print("Cleaned up")
+            exit()
 elif i == "m":
     print("Whoops!, Minimal install is not currently supported please use full install")
     exit()                  
