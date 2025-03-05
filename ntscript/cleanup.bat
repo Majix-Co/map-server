@@ -1,8 +1,7 @@
 @echo off
-move cleanup.bat %UserProfile%\cleanup.bat
+set olddirectory=%CD%
 cd ..
-rmdir /s /q eCrypt-Installer
+set currentworking=%CD%
 del /f posfixinstall.bat
-del /f %UserProfile%\cleanup.bat
-
-
+move %olddirectory% %CD%
+rmdir /s /q eCrypt-Installer
