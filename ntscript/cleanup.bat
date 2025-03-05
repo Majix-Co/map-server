@@ -3,5 +3,6 @@ set olddirectory=%CD%
 cd ..
 set currentworking=%CD%
 del /f posfixinstall.bat
-move %olddirectory% %CD%
+move "%olddirectory%" "%currentworking%"
+cd %currentworking%
 rmdir /s /q eCrypt-Installer
