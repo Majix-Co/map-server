@@ -64,6 +64,8 @@ def decrypt1():
                         print("Thank you for using eCrypt")
                         exit()
                     elif i == "n":
+                        filekey.close()
+                        enc_file.close()
                         os.remove('ecryptinkey.key')
                         os.remove('encbackup.key')
                         print("Fully decrypted file")
