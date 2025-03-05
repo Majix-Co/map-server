@@ -43,6 +43,7 @@ if i == "f":
             print("Partial Install Detected")
             print("Removing old files please re-run this script")
             os.system('rmdir /s /q eCrypt-Installer')
+            os.remove('posfixinstall.bat')
             print("Cleaned up")
             exit()
 elif i == "m":
