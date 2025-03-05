@@ -34,15 +34,13 @@ if i == "f":
     except FileExistsError:
         if platformcheck == "posix":
             print("Partial Install Detected")
-            print("Removing old files please re-download this script")
-            os.remove(__file__)
+            print("Removing old files please re-run this script")
             os.rmdir("eCrypt-Installer")
             print("Cleaned up")
             exit()
         elif platformcheck == "nt":
             print("Partial Install Detected")
-            print("Removing old files please re-download this script")
-            os.remove(__file__)
+            print("Removing old files please re-run this script")
             os.system('rmdir /s /q eCrypt-Installer')
             print("Cleaned up")
             exit()
