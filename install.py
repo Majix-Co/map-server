@@ -23,6 +23,8 @@ if i == "f":
             exit()
         elif platformcheck == "nt":
             print("NT DETECTED")
+            print("Windows support is being worked on currently")
+            print("It is expected to be released eventually")
             # Get windows script
         else:
             print("This script is not compatible with your OS")
@@ -33,6 +35,8 @@ if i == "f":
         os.rmdir("eCrypt-Installer")
         print("Cleaned up")
         exit()
-                  
+elif i == "x":
+    print("Whoops!, Minimal install is not currently supported please use full install")
+    exit()                  
 
 
