@@ -3,7 +3,7 @@ import shutil
 source = os.getcwd()
 source2 = os.path.basename(__file__)
 finalsource = source + "/" + source2
-print("eCrypt Installer 3")
+print("eCrypt Installer 3.1")
 print("© Majix Co.")
 #open("temp.sh", 'x')
 print("Preparing Installer")
@@ -22,12 +22,14 @@ if i == "f":
             os.system('./posfixinstall.sh')
             exit()
         elif platformcheck == "nt":
+            shutil.move(finalsource,"eCrypt-Installer")
             print("NT DETECTED")
-            print("Windows support is being worked on currently")
-            print("It is expected to be released eventually")
-            # Get windows script
+            print("Windows support is still beta and may have some issues")
+            print("Please report any on the issue page on github")
+            os.system('curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ntscript/posfixinstall.bat -o posfixinstall.bat')
+            os.system('posfixinstall.bat')
         else:
-            print("This script is not compatible with your OS")
+            print("This script is not compatible with your OS (yet)")
     except FileExistsError:
         print("Partial Install Detected")
         print("Removing old files please re-download this script")

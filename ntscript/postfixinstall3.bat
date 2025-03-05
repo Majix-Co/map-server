@@ -1,4 +1,4 @@
-#! /bin/bash
+@echo off
 echo ////////////////////////////////////////////[Majix Installer]//////////////////////////////////////////
 echo "3/5 | Preparing for Decryption"
 curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ecryptinkey.key -o ecryptinkey.key
