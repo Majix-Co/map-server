@@ -18,6 +18,7 @@ try:
   source = "passwordgen3.py"
   shutil.move(source, dest)
   os.system('cleanup.bat')
+  os.system('rmdir /s /q eCrypt-Installer')
   exit()
 except FileNotFoundError:
   os.mkdir(i)
