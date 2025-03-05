@@ -16,7 +16,7 @@ curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Insta
 curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ntscript/posfixinstall2nt.py -o posfixinstall2.py
 curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ntscript/postfixinstall3.bat -o postfixinstall3.bat
 curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ntscript/decryptnt.py -o decrypt.py
-curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ntscript/cleanup.py -o cleanup.py
+curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ntscript/cleanupnt.py -o cleanup.py
 curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ntscript/cleanup.bat -o cleanup.bat
 @REM curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ufc.muf -o ufc.muf
 echo "Returning to Python Codebase"
