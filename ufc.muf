@@ -1,7 +1,7 @@
 Majix Co. Update File Checker
 © Majix Co. | UFC 1
 Current Version Code: eCrypt-Services-Client 3.1
-Local File set: 3.2
+Local File set: 4.2NT
 File Type: ClientLocal Original File
 Update Check Service {
 

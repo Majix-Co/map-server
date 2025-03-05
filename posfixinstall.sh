@@ -10,7 +10,7 @@ sudo apt-get install curl
 cd eCrypt-Installer
 echo Getting files
 curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/eCrypt4.1.py -o eCrypt4.1.py
-curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ufc.muf -o ufc.muf
+# curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ufc.muf -o ufc.muf
 sleep 3
 echo Detected as encrypted
 curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/passwordgen3.py -o passwordgen3.py
