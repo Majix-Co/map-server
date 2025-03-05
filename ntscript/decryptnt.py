@@ -30,6 +30,7 @@ def decrypt2():
                         exit()
                     elif i == "n":
                         filekey.close()
+                        dec_file.close()
                         f.close()
                         v.close()
                         enc_file.close()
@@ -72,6 +73,7 @@ def decrypt1():
                         f.close()
                         v.close()
                         enc_file.close()
+                        dec_file.close()
                         os.remove('ecryptinkey.key')
                         os.remove('encbackup.key')
                         print("Fully decrypted file")
