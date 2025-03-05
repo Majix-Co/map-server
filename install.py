@@ -32,6 +32,7 @@ if i == "f":
         else:
             print("This script is not compatible with your OS (yet)")
     except FileExistsError:
+        platformcheck = os.name
         if platformcheck == "posix":
             print("Partial Install Detected")
             print("Removing old files please re-run this script")
