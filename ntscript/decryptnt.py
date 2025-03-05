@@ -66,6 +66,7 @@ def decrypt1():
                     elif i == "n":
                         filekey.close()
                         f.close()
+                        v.close()
                         enc_file.close()
                         os.remove('ecryptinkey.key')
                         os.remove('encbackup.key')
