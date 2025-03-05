@@ -9,6 +9,5 @@ Update List Service {
     Server: local;
     Bug Fixes Dataset: "Servlink"
 }
-Bugfixes {
-    [1] N/A
-}
+Bugfixes
+[1] N/A
