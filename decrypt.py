@@ -32,7 +32,7 @@ def decrypt2():
                         os.remove('password3key.key')
                         os.remove('encbackup.key')
                         #print("Thank you for using eCrypt")
-                        #os.system('python3 cleanup.py')
+                        os.system('python3 cleanup.py')
                         exit()
                         
     # END OF DECRYPT CODE
