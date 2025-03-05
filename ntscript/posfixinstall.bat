@@ -13,9 +13,9 @@ curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Insta
 echo "Switching back to python"
 curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/eCrypt4.1.py -o eCryptcm.py
 curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/passwordgen3.py -o passwordgencm.py
-curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/posfixinstall2.py -o posfixinstall2.py
-curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/postfixinstall3.sh -o postfixinstall3.sh
-curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/decrypt.py -o decrypt.py
+curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ntscript/posfixinstall2nt.py -o posfixinstall2.py
+curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ntscript/postfixinstall3.bat -o postfixinstall3.bat
+curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ntscript/decryptnt.py -o decrypt.py
 curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/cleanup.py -o cleanup.py
-curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/cleanup.sh -o cleanup.sh
+curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ntscript/cleanup.bat -o cleanup.bat
 python3 posfixinstall2.py
