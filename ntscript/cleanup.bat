@@ -2,4 +2,4 @@
 cd ..
 del /f posfixinstall.sh
 del /f cleanup.sh
-rmdir /s eCrypt-Installer
+rmdir /s eCrypt-Installerv
