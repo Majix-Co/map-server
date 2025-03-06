@@ -24,7 +24,8 @@ try:
   shutil.move(source, dest)
   source = "passwordgen3.py"
   shutil.move(source, dest)
-  shutil.rmtree(os.getcwd())
+  # Add dir file infomation back to rmtree DO NOT DELETE THE ENTIRE DESKTOP!
+  shutil.rmtree()
   exit()
 except FileNotFoundError:
   os.mkdir(i)
