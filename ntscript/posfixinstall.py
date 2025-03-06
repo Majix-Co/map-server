@@ -33,6 +33,6 @@ shutil.move(tempvar + '/' + "cleanup.py", tempvar + '/' + "eCrypt-Installer")
 os.system('curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ntscript/cleanup.bat -o cleanup.bat')
 shutil.move(tempvar + '/' + "cleanup.bat", tempvar + '/' + "eCrypt-Installer")
 print("Returning to Python Codebase")
-run = "python3" + " " + tempvar + '\\' + "eCrypt-Installer" + "\\" + "posfixinstall2.py"
+run = "python3" + " " + tempvar + "\\" + "eCrypt-Installer" + "\\" + "posfixinstall2.py"
 os.system(run)
 exit
