@@ -43,7 +43,7 @@ if i == "f":
                 print("Windows support is still beta and may have some issues")
                 print("Please report any on the issue page on github")
                 os.system('curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ntscript/posfixinstall.py -o posfixinstall.py')
-                os.system('posfixinstall.py')
+                os.system('python3 posfixinstall.py')
         else:
             print("This script is not compatible with your OS (yet)")
     except FileExistsError:
@@ -58,7 +58,7 @@ if i == "f":
             print("Partial Install Detected")
             print("Removing old files please re-run this script")
             os.system('rmdir /s /q eCrypt-Installer')
-            os.remove('posfixinstall.bat')
+            os.remove('posfixinstall.py')
             print("Cleaned up")
             exit()
 elif i == "m":
