@@ -5,7 +5,7 @@ import time
 mainvar = open('tempfile.txt', 'r')
 tempvar = mainvar.read().strip()
 mainvar.close()
-dir = os.getcwd() + "\\"
+dir = os.getcwd() + "\\" + "eCrypt-Installer" + "\\"
 print("\nMajix Installer")
 print("\n4/5 | Decrypting files")
 def decrypt2():

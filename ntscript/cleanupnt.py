@@ -10,7 +10,7 @@ os.remove(dir + 'eCryptcm.py')
 os.remove(dir + 'install.py')
 os.remove(dir + 'passwordgencm.py')
 os.remove(dir + 'posfixinstall2.py')
-os.remove(dir + 'postfixinstall3.bat')
+os.remove(dir + 'postfixinstall3.py')
 os.remove(dir + 'cleanup.py')
 print("Installer completed okay!")
 source = "eCrypt4.1.py"
