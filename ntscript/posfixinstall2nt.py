@@ -4,7 +4,7 @@ import os
 print("\nMajix Installer")
 print("\n2/5 | Comparing files to web versions\n")
 time.sleep(2)
-dir = os.getcwd() + "\\" + "eCrypt-Installer"
+dir = os.getcwd() + "\\"
 source = dir + "\\" + "eCryptcm.py"
 scheck1 = dir + "\\" + "eCrypt4.1.py"
 print("Checking values")

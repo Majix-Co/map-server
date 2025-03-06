@@ -5,7 +5,7 @@ import time
 mainvar = open('tempfile.txt', 'r')
 tempvar = mainvar.read().strip()
 mainvar.close()
-dir = os.getcwd() + "\\" + "eCrypt-Installer" + "\\"
+dir = os.getcwd() + "\\"
 print("\nMajix Installer")
 print("\n4/5 | Decrypting files")
 def decrypt2():
@@ -33,6 +33,10 @@ def decrypt2():
                         print("Thank you for using eCrypt")
                         exit()
                     elif i == "n":
+                        v.close()
+                        f.close()
+                        enc_file.close()
+                        filekey.close()
                         os.remove(dir + "password3key.key")
                         os.remove(dir + "encbackup.key")
                         #print("Thank you for using eCrypt")
@@ -69,6 +73,11 @@ def decrypt1():
                         print("Thank you for using eCrypt")
                         exit()
                     elif i == "n":
+                        filekey.close()
+                        f.close()
+                        v.close()
+                        enc_file.close()
+                        dec_file.close()
                         os.remove(dir + "ecryptinkey.key")
                         os.remove(dir + "encbackup.key")
                         print("Fully decrypted file")
