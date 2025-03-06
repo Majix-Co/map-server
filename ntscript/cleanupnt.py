@@ -1,15 +1,17 @@
 import os
 import shutil
 import time
+dir = os.getcwd() + "\\" + "eCrypt-Installer" + "\\"
+rmdir =os.getcwd() + "\\" + "eCrypt-Installer"
 print("Majix Installer")
 print("\n5/5 | Cleanup\n")
-os.remove('decrypt.py')
-os.remove('eCryptcm.py')
-os.remove('install.py')
-os.remove('passwordgencm.py')
-os.remove('posfixinstall2.py')
-os.remove('postfixinstall3.bat')
-os.remove('cleanup.py')
+os.remove(dir + 'decrypt.py')
+os.remove(dir + 'eCryptcm.py')
+os.remove(dir + 'install.py')
+os.remove(dir + 'passwordgencm.py')
+os.remove(dir + 'posfixinstall2.py')
+os.remove(dir + 'postfixinstall3.bat')
+os.remove(dir + 'cleanup.py')
 print("Installer completed okay!")
 source = "eCrypt4.1.py"
 i = input("Where do you want to save the installed files? Give full directory: ")
@@ -26,7 +28,7 @@ try:
   shutil.move(source, dest)
   # Add dir file infomation back to rmtree DO NOT DELETE THE ENTIRE DESKTOP!
   # Add Dir and os.cwd() Functions to top lines add os.remove() Brackets
-  shutil.rmtree()
+  shutil.rmtree(rmdir)
   exit()
 except FileNotFoundError:
   os.mkdir(i)
