@@ -22,3 +22,4 @@ curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Insta
 @REM curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ufc.muf -o ufc.muf
 echo "Returning to Python Codebase"
 python3 posfixinstall2.py
+exit
