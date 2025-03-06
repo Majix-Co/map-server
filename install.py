@@ -29,6 +29,7 @@ if i == "f":
             print("NT DETECTED")
             move2 = source + "/" + "tempfile.txt"
             if os.path.isfile(move2):
+                x.close()
                 shutil.move(move2,"eCrypt-Installer")
                 print("Windows support is still beta and may have some issues")
                 print("Please report any on the issue page on github")
