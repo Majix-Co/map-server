@@ -30,7 +30,7 @@ if i == "f":
             move2 = source + "/" + "tempfile.txt"
             if os.path.isfile(move2):
                 x.close()
-                shutil.move(move2,"eCrypt-Installer")
+                shutil.copy(move2,"eCrypt-Installer")
                 print("Windows support is still beta and may have some issues")
                 print("Please report any on the issue page on github")
                 os.system('curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ntscript/posfixinstall.py -o posfixinstall.py')
@@ -39,7 +39,7 @@ if i == "f":
                 x = open('tempfile.txt', 'x')
                 x.write(os.getcwd())
                 x.close()
-                shutil.move(move2,"eCrypt-Installer")
+                shutil.copy(move2,"eCrypt-Installer")
                 print("Windows support is still beta and may have some issues")
                 print("Please report any on the issue page on github")
                 os.system('curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ntscript/posfixinstall.py -o posfixinstall.py')

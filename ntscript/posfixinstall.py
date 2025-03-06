@@ -3,6 +3,7 @@ import shutil
 mainvar = open('tempfile.txt', 'r')
 tempvar = mainvar.read().strip()
 mainvar.close()
+os.remove('tempfile.txt')
 print("eCrypt Self Extracting Script")
 print("1/5 | Downloading needed files")
 print("\nWindows Version")
