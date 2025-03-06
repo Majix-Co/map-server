@@ -28,14 +28,20 @@ if i == "f":
             shutil.move(finalsource,"eCrypt-Installer")
             print("NT DETECTED")
             move2 = source + "/" + "tempfile.txt"
-            x = open('tempfile.txt', 'x')
-            x.write(os.getcwd())
-            x.close()
-            shutil.move(move2,"eCrypt-Installer")
-            print("Windows support is still beta and may have some issues")
-            print("Please report any on the issue page on github")
-            os.system('curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ntscript/posfixinstall.bat -o posfixinstall.bat')
-            os.system('posfixinstall.bat')
+            try:
+                x = open('tempfile.txt', 'x')
+                x.write(os.getcwd())
+                x.close()
+                shutil.move(move2,"eCrypt-Installer")
+                print("Windows support is still beta and may have some issues")
+                print("Please report any on the issue page on github")
+                os.system('curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ntscript/posfixinstall.bat -o posfixinstall.bat')
+                os.system('posfixinstall.bat')
+            except:
+                print("Windows support is still beta and may have some issues")
+                print("Please report any on the issue page on github")
+                os.system('curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ntscript/posfixinstall.bat -o posfixinstall.bat')
+                os.system('posfixinstall.bat')
         else:
             print("This script is not compatible with your OS (yet)")
     except FileExistsError:
