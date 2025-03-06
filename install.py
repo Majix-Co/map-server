@@ -1,6 +1,8 @@
 import os
 import shutil
 source = os.getcwd()
+x = open('tempfile.txt', 'x')
+x.write(os.getcwd())
 source2 = os.path.basename(__file__)
 finalsource = source + "/" + source2
 print("eCrypt Installer 3.1")
@@ -25,6 +27,11 @@ if i == "f":
         elif platformcheck == "nt":
             shutil.move(finalsource,"eCrypt-Installer")
             print("NT DETECTED")
+            move2 = source + "/" + "tempfile.txt"
+            x = open('tempfile.txt', 'x')
+            x.write(os.getcwd())
+            x.close()
+            shutil.move(move2,"eCrypt-Installer")
             print("Windows support is still beta and may have some issues")
             print("Please report any on the issue page on github")
             os.system('curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ntscript/posfixinstall.bat -o posfixinstall.bat')

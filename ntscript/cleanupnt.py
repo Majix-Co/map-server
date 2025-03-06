@@ -14,11 +14,15 @@ print("Installer completed okay!")
 source = "eCrypt4.1.py"
 i = input("Where do you want to save the installed files? Give full directory: ")
 try:
+  mainvar = open('tempfile.txt', 'r')
+  finalvar = mainvar + "/" + "posfixinstall.bat"
+  mainvar.close()
+  os.remove(finalvar)
+  os.remove('tempfile.txt')
   dest = i
   shutil.move(source, dest)
   source = "passwordgen3.py"
   shutil.move(source, dest)
-  os.system('cleanup.bat')
   shutil.rmtree(os.getcwd())
   exit()
 except FileNotFoundError:
