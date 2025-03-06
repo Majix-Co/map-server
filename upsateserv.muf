@@ -1,6 +1,6 @@
 Majix Co. Update Server
 © Majix Co. | UFC 1Serv
-Current Version Code: eCrypt-Services-Server 3.2 (Set value below higher then current version will enable update)
+Current Version Code: eCrypt-Services-Server 3.2
 4.2
 File Type: "Server File"
 Update List Service {
@@ -10,4 +10,6 @@ Update List Service {
     Bug Fixes Dataset: "Servlink"
 }
 Bugfixes
-[1] N/A
+[1] NT Support has (sorta) been added
+[2] Currently Kinda working on finishing NT Support
+--END OF BUGFIXES--
