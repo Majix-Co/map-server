@@ -4,9 +4,9 @@ import os
 print("\nMajix Installer")
 print("\n2/5 | Comparing files to web versions\n")
 time.sleep(2)
-dir = os.getcwd()
-source = dir + "/" + "eCryptcm.py"
-scheck1 = dir + "/" + "eCrypt4.1.py"
+dir = os.getcwd() + "\\" + "eCrypt-Installer"
+source = dir + "\\" + "eCryptcm.py"
+scheck1 = dir + "\\" + "eCrypt4.1.py"
 print("Checking values")
 filecheck = filecmp.cmp(source,scheck1)
 if filecheck == True:
@@ -17,7 +17,8 @@ if filecheck == True:
     if filecheck2 == True:
         print("All checks Passed!")
         print("Preparing next check")
-        os.system('postfixinstall3.py')
+        run = "python3" + " " + dir + "\\" + "postfixinstall3.py"
+        os.system(run)
         exit()
     elif filecheck2 == False:
         print("Looks like the file is not right")
