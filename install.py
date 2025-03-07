@@ -1,8 +1,6 @@
 import os
 import shutil
 source = os.getcwd()
-x = open('tempfile.txt', 'x')
-x.write(os.getcwd())
 source2 = os.path.basename(__file__)
 finalsource = source + "/" + source2
 print("eCrypt Installer 3.1")
