@@ -13,7 +13,7 @@ os.remove(dir + 'posfixinstall2.py')
 os.remove(dir + 'postfixinstall3.py')
 os.remove(dir + 'cleanup.py')
 print("Installer completed okay!")
-source = "eCrypt4.1.py"
+source = dir + "eCrypt4.1.py"
 i = input("Where do you want to save the installed files? Give full directory: ")
 try:
   mainvar = open('tempfile.txt', 'r')
@@ -24,7 +24,7 @@ try:
   os.remove(tempvar + '\\' + 'tempfile.txt')
   dest = i
   shutil.move(source, dest)
-  source = "passwordgen3.py"
+  source = dir + "passwordgen3.py"
   shutil.move(source, dest)
   # Add dir file infomation back to rmtree DO NOT DELETE THE ENTIRE DESKTOP!
   # Add Dir and os.cwd() Functions to top lines add os.remove() Brackets
