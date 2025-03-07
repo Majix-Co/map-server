@@ -2,7 +2,7 @@ import os
 import shutil
 import time
 dir = os.getcwd() + "\\" + "eCrypt-Installer" + "\\"
-rmdir =os.getcwd() + "\\" + "eCrypt-Installer"
+rmdir = os.getcwd() + "\\" + "eCrypt-Installer"
 print("Majix Installer")
 print("\n5/5 | Cleanup\n")
 os.remove(dir + 'decrypt.py')
@@ -20,8 +20,8 @@ try:
   tempvar = mainvar.read().strip()
   finalvar = tempvar + '/' + "posfixinstall.bat"
   mainvar.close()
-  os.remove(finalvar)
-  os.remove('tempfile.txt')
+  #os.remove(finalvar)
+  os.remove(tempvar + '\\' + 'tempfile.txt')
   dest = i
   shutil.move(source, dest)
   source = "passwordgen3.py"
