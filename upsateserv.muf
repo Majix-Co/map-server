@@ -1,6 +1,6 @@
 Majix Co. Update Server
 © Majix Co. | UFC 1Serv
-Current Version Code: eCrypt-Services-Server 3.2
+Current Version Code: eCrypt-Services-Server 3.2 (Be alert! Changing the varibal below may break installations test before publishing | And remember keep it on that line!)
 4.2
 File Type: "Server File"
 Update List Service {
