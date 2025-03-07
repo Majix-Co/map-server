@@ -36,6 +36,7 @@ def decrypt2():
                         v.close()
                         f.close()
                         enc_file.close()
+                        dec_file.close()
                         filekey.close()
                         os.remove(dir + "password3key.key")
                         os.remove(dir + "encbackup.key")
