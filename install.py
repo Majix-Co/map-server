@@ -3,7 +3,7 @@ import shutil
 source = os.getcwd()
 source2 = os.path.basename(__file__)
 finalsource = source + "/" + source2
-version = 4.3
+version = 4.4
 print("eCrypt Installer", version)
 print("© Majix Co.")
 #open("temp.sh", 'x')
