@@ -18,6 +18,7 @@ curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Insta
 echo "Switching back to python"
 sleep 3
 curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/eCrypt4.4.py -o eCryptcm.py
+curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/LICENSE -o license.txt
 curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/passwordgen3.py -o passwordgencm.py
 curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/posfixinstall2.py -o posfixinstall2.py
 curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/postfixinstall3.sh -o postfixinstall3.sh
