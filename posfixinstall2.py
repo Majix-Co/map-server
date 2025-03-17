@@ -7,11 +7,11 @@ time.sleep(2)
 dir = os.getcwd()
 source3 = dir + "/" + "license.txt"
 license = open(source3, 'r')
-print("Please ready the license below")
+print("Please ready the license below\n")
+i = input("\nDo you agree to the license? (yes/no[default])")
 print(license.read())
 license.close()
 os.remove(source3)
-i = input("Do you agree to the license? (yes/no[default])")
 if i == "yes":
     source = dir + "/" + "eCryptcm.py"
     scheck1 = dir + "/" + "eCrypt4.4.py"
@@ -36,6 +36,7 @@ if i == "yes":
         exit()
 else:
     print("Whoops!, This program can not install if the license was not agreeded to")
-    os.rmdir(dir)
     print("Please rerun the install script")
+    deldir = "rm -rf " + dir
+    os.system(deldir)
     exit()

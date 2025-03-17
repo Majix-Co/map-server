@@ -35,5 +35,6 @@ if i == "yes":
         exit()
 else:
     print("Sorry you need to agree to the license to install this program")
-    os.remove(dir)
+    deldir = "rmdir /s /q " + dir
+    os.remove(deldir)
     exit()
