@@ -56,10 +56,10 @@ def decrypt1():
         with open(dir + "ecryptinkey.key", 'rb') as filekey:
             key = filekey.read()
             fernet = Fernet(key)
-            with open(dir + "eCrypt4.1.py", 'rb') as enc_file:
+            with open(dir + "eCrypt4.4.py", 'rb') as enc_file:
                 encrypted = enc_file.read()
                 decrypted = fernet.decrypt(encrypted)
-                with open(dir + "eCrypt4.1.py", 'wb') as dec_file:
+                with open(dir + "eCrypt4.4.py", 'wb') as dec_file:
                     dec_file.write(decrypted)
                     #print("\nMaking backup of old key")
                     f = open(dir + "ecryptinkey.key", 'r')

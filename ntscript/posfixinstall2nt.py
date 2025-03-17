@@ -6,7 +6,7 @@ print("\n2/5 | Comparing files to web versions\n")
 time.sleep(2)
 dir = os.getcwd() + "\\" + "eCrypt-Installer"
 source = dir + "\\" + "eCryptcm.py"
-scheck1 = dir + "\\" + "eCrypt4.1.py"
+scheck1 = dir + "\\" + "eCrypt4.4.py"
 print("Checking values")
 filecheck = filecmp.cmp(source,scheck1)
 if filecheck == True:
