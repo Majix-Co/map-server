@@ -26,7 +26,7 @@ if str(contentver) == str(version):
             platformcheck = os.name
             if platformcheck == "posix":
                 shutil.move(finalsource,"eCrypt-Installer")
-                print("System Deteced as Posfix (Unix Based System)")
+                print("\nSystem Deteced as Posfix (Unix Based System)\n")
                 os.system('curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/posfixinstall.sh -o posfixinstall.sh')
                 os.system('chmod +x posfixinstall.sh')
                 os.system('./posfixinstall.sh')
