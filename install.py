@@ -57,7 +57,8 @@ if str(contentver) == str(version):
             if platformcheck == "posix":
                 print("Partial Install Detected")
                 print("Removing old files please re-run this script")
-                os.rmdir("eCrypt-Installer")
+                os.system('rm -rf eCrypt-Installer')
+                os.system('rm -rf posfixinstall.py')
                 print("Cleaned up")
                 exit()
             elif platformcheck == "nt":
