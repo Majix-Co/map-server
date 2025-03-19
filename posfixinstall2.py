@@ -5,7 +5,7 @@ print("\nMajix Installer")
 print("\n2/5 | Comparing files to web versions\n")
 time.sleep(2)
 dir = os.getcwd()
-source3 = dir + "/" + "license.txt"
+source3 = dir.strip() + "/" + "license.txt"
 license = open(source3, 'r')
 print("Please ready the license below\n")
 i = input("\nDo you agree to the license? (yes/no[default])")

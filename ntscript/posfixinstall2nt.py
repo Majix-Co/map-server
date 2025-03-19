@@ -5,7 +5,7 @@ print("\nMajix Installer")
 print("\n2/5 | Comparing files to web versions\n")
 time.sleep(2)
 dir = os.getcwd() + "\\" + "eCrypt-Installer"
-source3 = dir + "\\" + "license.txt"
+source3 = dir.strip() + "\\" + "license.txt"
 source = dir + "\\" + "eCryptcm.py"
 scheck1 = dir + "\\" + "eCrypt4.4.py"
 license = open(source3, 'r')
