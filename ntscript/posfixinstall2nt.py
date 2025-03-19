@@ -11,6 +11,7 @@ scheck1 = dir + "\\" + "eCrypt4.4.py"
 license = open(source3, 'r')
 print("Please read the license")
 print(license.read())
+license.close()
 i = input("Do you agree to the license agreement (yes/no[default])")
 if i == "yes":
     print("Checking values")
