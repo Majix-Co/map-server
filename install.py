@@ -10,7 +10,7 @@ print("© Majix Co.")
 print("Preparing Installer")
 print(source)
 print("Getting needed files")
-os.system('curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/updateserv.muf -o temp.txt')
+os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/updateserv.muf -o temp.txt')
 file = open('temp.txt')
 print("Removed temp file")
 content = file.readlines()
@@ -27,7 +27,7 @@ if str(contentver) == str(version):
             if platformcheck == "posix":
                 shutil.move(finalsource,"eCrypt-Installer")
                 print("\nSystem Deteced as Posfix (Unix Based System)\n")
-                os.system('curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/posfixinstall.sh -o posfixinstall.sh')
+                os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/posfixinstall.sh -o posfixinstall.sh')
                 os.system('chmod +x posfixinstall.sh')
                 os.system('./posfixinstall.sh')
                 exit()
@@ -39,7 +39,7 @@ if str(contentver) == str(version):
                     shutil.copy(move2,"eCrypt-Installer")
                     print("Windows support is still beta and may have some issues")
                     print("Please report any on the issue page on github")
-                    os.system('curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ntscript/posfixinstall.py -o posfixinstall.py')
+                    os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/ntscript/posfixinstall.py -o posfixinstall.py')
                     os.system('python3 posfixinstall.py')
                 else:
                     x = open('tempfile.txt', 'x')
@@ -48,7 +48,7 @@ if str(contentver) == str(version):
                     shutil.copy(move2,"eCrypt-Installer")
                     print("Windows support is still beta and may have some issues")
                     print("Please report any on the issue page on github")
-                    os.system('curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/ntscript/posfixinstall.py -o posfixinstall.py')
+                    os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/ntscript/posfixinstall.py -o posfixinstall.py')
                     os.system('python3 posfixinstall.py')
             else:
                 print("This script is not compatible with your OS (yet)")
@@ -76,7 +76,7 @@ elif str(contentver) > str(version):
     print(content[13].replace('"','').strip())
     print(content[14].replace('"','').strip())
     print("\nA update file has been added to the current working directory rember to delete this version before updating")
-    os.system('curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/install.py -o update.py')
+    os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/install.py -o update.py')
     exit()
    
 
