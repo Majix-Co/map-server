@@ -41,8 +41,9 @@ if dirtest in dir:
                 os.system(rerun)
     else:
         print("Please ready the license below\n")
-        i = input("\nDo you agree to the license? (yes/no[default])")
+        print("\n")
         print(license.read())
+        i = input("\nDo you agree to the license? (yes/no[default])")
         license.close()
         os.remove(source3)
         if i == "yes":
