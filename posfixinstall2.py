@@ -82,7 +82,7 @@ if dirtest in dir:
     license = open(source3, 'r')
     x = input("Would you like to use a GUI license viewer? (y/n): ")
     if x == "y":
-        i = input("What editor would you like to use?(kate/gedit/xed): ")
+        i = input("What editor would you like to use?(kate/gedit/xed/nano): ")
         if i == "kate":
             try:
                 print("Okay launching kate")
@@ -113,9 +113,8 @@ if dirtest in dir:
                 print("Your system could not launch xde will rerun script try using text instead")
                 rerun = "python3 " + __file__
                 os.system(rerun)
-        elif i =="dev-opt":
+        elif i =="nano":
             try:
-                print("Developer option selected")
                 print("Opening in nano")
                 nano = ["nano", source3]
                 print(nano)
