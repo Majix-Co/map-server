@@ -34,8 +34,8 @@ if dir in dirtest:
                 print("Looks like the file is not right")
                 exit()
         elif filecheck == False:
-        print("File may have been tampered with they do not match killing script")
-        exit()
+            print("File may have been tampered with they do not match killing script")
+            exit()
     else:
         print("Whoops!, This program can not install if the license was not agreeded to")
         print("Please rerun the install script")
