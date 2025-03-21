@@ -8,15 +8,15 @@ time.sleep(2)
 dir = os.getcwd()
 dirtest = "eCrypt-Installer"
 source3 = dir + "/" + "license.txt"
-license = open(source3, 'r')
 if dirtest in dir:
+    license = open(source3, 'r')
     x = input("Would you like to use a GUI license viewer? (y/n): ")
     if x == "y":
         i = input("What editor would you like to use?(kate/gedit/xed): ")
         if i == "kate":
             try:
                 print("Okay launching kate")
-                kate = ["kate " + source3]
+                kate = ["kate ", source3]
                 subprocess.run([kate], check = True)
             except:
                 print("Your system could not launch kate will rerun script try using text instead")
@@ -25,7 +25,7 @@ if dirtest in dir:
         elif i == "gedit":
             try:
                 print("Okay launching gedit")
-                gedit = ["gedit " + source3]
+                gedit = ["gedit ", source3]
                 subprocess.run([gedit], check = True)
             except:
                 print("Your system could not launch gedit will rerun script try using text instead")
@@ -34,7 +34,7 @@ if dirtest in dir:
         elif i == "xed":
             try:
                 print("Okay launching XED")
-                xed = ["xed " + source3]
+                xed = ["xed ", source3]
                 subprocess.run([xed], check = True)
             except:
                 print("Your system could not launch xde will rerun script try using text instead")
@@ -44,7 +44,7 @@ if dirtest in dir:
             try:
                 print("Developer option selected")
                 print("Opening in nano")
-                nano = ["nano " + source3]
+                nano = ["nano ", source3]
                 print(nano)
                 subprocess.run([nano], check = True)
             except:
