@@ -10,7 +10,10 @@ source = dir + "\\" + "eCryptcm.py"
 scheck1 = dir + "\\" + "eCrypt4.4.py"
 license = open(source3, 'r')
 def start():
-    i = input("Do you agree to the license agreement (yes/no[default])")
+    dir = os.getcwd() + "\\" + "eCrypt-Installer"
+    source = dir + "\\" + "eCryptcm.py"
+    scheck1 = dir + "\\" + "eCrypt4.4.py"
+    i = input("Do you agree to the license agreement (yes/no[default]): ")
     if i == "yes":
         print("Checking values")
         filecheck = filecmp.cmp(source,scheck1)
@@ -43,7 +46,7 @@ if i == "yes":
     os.system(notepad)
     license.close()
     start()
-elif i == "no":
+else:
     print(license.read())
     license.close()
     start()
