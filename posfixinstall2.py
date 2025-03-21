@@ -18,7 +18,7 @@ if dirtest in dir:
                 print("Okay launching kate")
                 kate = "kate " + source3
                 subprocess.run([kate], check = True)
-            except subprocess.CalledProcessError:
+            except:
                 print("Your system could not launch kate will rerun script try using text instead")
                 rerun = "python3 " + __file__
                 os.system(rerun)
@@ -27,7 +27,7 @@ if dirtest in dir:
                 print("Okay launching gedit")
                 gedit = "gedit " + source3
                 subprocess.run([gedit], check = True)
-            except subprocess.CalledProcessError:
+            except:
                 print("Your system could not launch gedit will rerun script try using text instead")
                 rerun = "python3 " + __file__
                 os.system(rerun) 
@@ -36,7 +36,7 @@ if dirtest in dir:
                 print("Okay launching XED")
                 xed = "xed " + source3
                 subprocess.run([xed], check = True)
-            except subprocess.CalledProcessError:
+            except:
                 print("Your system could not launch xde will rerun script try using text instead")
                 rerun = "python3 " + __file__
                 os.system(rerun)
