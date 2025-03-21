@@ -16,8 +16,8 @@ if dirtest in dir:
         if i == "kate":
             try:
                 print("Okay launching kate")
-                kate = ["kate ", source3]
-                subprocess.run([kate], check = True)
+                kate = ["kate", source3]
+                subprocess.run(kate, check = True)
             except:
                 print("Your system could not launch kate will rerun script try using text instead")
                 rerun = "python3 " + __file__
@@ -25,8 +25,8 @@ if dirtest in dir:
         elif i == "gedit":
             try:
                 print("Okay launching gedit")
-                gedit = ["gedit ", source3]
-                subprocess.run([gedit], check = True)
+                gedit = ["gedit", source3]
+                subprocess.run(gedit, check = True)
             except:
                 print("Your system could not launch gedit will rerun script try using text instead")
                 rerun = "python3 " + __file__
@@ -34,8 +34,8 @@ if dirtest in dir:
         elif i == "xed":
             try:
                 print("Okay launching XED")
-                xed = ["xed ", source3]
-                subprocess.run([xed], check = True)
+                xed = ["xed", source3]
+                subprocess.run(xed, check = True)
             except:
                 print("Your system could not launch xde will rerun script try using text instead")
                 rerun = "python3 " + __file__
@@ -44,9 +44,9 @@ if dirtest in dir:
             try:
                 print("Developer option selected")
                 print("Opening in nano")
-                nano = ["nano ", source3]
+                nano = ["nano", source3]
                 print(nano)
-                subprocess.run([nano], check = True)
+                subprocess.run(nano, check = True)
             except:
                 print("Your system could not launch nano will rerun script try using text instead")
                 rerun = "python3 " + __file__
