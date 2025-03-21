@@ -10,9 +10,9 @@ dirtest = "eCrypt-Installer"
 source3 = dir.strip() + "/" + "license.txt"
 license = open(source3, 'r')
 if dirtest in dir:
-    x = input("Would you like to use a GUI text editor? (y/n): ")
+    x = input("Would you like to use a GUI license viewer? (y/n): ")
     if x == "y":
-        i = input("What editor would you like to use?(kate/gedit/xed)")
+        i = input("What editor would you like to use?(kate/gedit/xed): ")
         if i == "kate":
             try:
                 print("Okay launching kate")
