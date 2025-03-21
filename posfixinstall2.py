@@ -1,6 +1,7 @@
 import filecmp
 import time
 import os
+import subprocess
 print("\nMajix Installer")
 print("\n2/5 | Comparing files to web versions\n")
 time.sleep(2)
@@ -16,8 +17,8 @@ if dirtest in dir:
             try:
                 print("Okay launching kate")
                 kate = "kate " + source3
-                os.system(kate)
-            except:
+                subprocess.run([kate], check = True)
+            except subprocess.CalledProcessError:
                 print("Your system could not launch kate will rerun script try using text instead")
                 rerun = "python3 " + __file__
                 os.system(rerun)
@@ -25,8 +26,8 @@ if dirtest in dir:
             try:
                 print("Okay launching gedit")
                 gedit = "gedit " + source3
-                os.system(gedit)
-            except:
+                subprocess.run([gedit], check = True)
+            except subprocess.CalledProcessError:
                 print("Your system could not launch gedit will rerun script try using text instead")
                 rerun = "python3 " + __file__
                 os.system(rerun) 
@@ -34,8 +35,8 @@ if dirtest in dir:
             try:
                 print("Okay launching XED")
                 xed = "xed " + source3
-                os.system(xed)
-            except:
+                subprocess.run([xed], check = True)
+            except subprocess.CalledProcessError:
                 print("Your system could not launch xde will rerun script try using text instead")
                 rerun = "python3 " + __file__
                 os.system(rerun)
