@@ -50,8 +50,6 @@ if dirtest in dir:
                 print("Your system could not launch nano will rerun script try using text instead")
                 rerun = "python3 " + __file__
                 os.system(rerun)
-    
-
     else:
         print("Please ready the license below\n")
         print("\n")
