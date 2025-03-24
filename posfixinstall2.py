@@ -131,5 +131,7 @@ else:
     print('What happened? You are NOT running this in the install directory')
     print("Doing this can delete dierectory's you do not want to be deleted")
     print('Delete this and ONLY use install.py DO NOT attempt to run any scripts in that folder manually')
+    print("Running one of the install scripts manually can have unexpected results")
+    print("Please use the automated installer if it fails Rerun the main installer.py. Please do not attempt to run any other script manually")
     os.remove(__file__)
     exit('System Failsafe')
