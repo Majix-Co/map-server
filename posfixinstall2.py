@@ -90,7 +90,8 @@ if dirtest in dir:
             start()
         elif i == "gui":
             open('randomfailfile.file', 'r')
-        start()
+        else:
+            start()
     except:
         license = open(source3, 'r')
         x = input("Would you like to use a GUI license viewer? (y/n): ")
