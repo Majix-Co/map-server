@@ -10,7 +10,7 @@ os.remove('posfixinstall2.py')
 os.remove('postfixinstall3.sh')
 os.remove('cleanup.py')
 print("Installer completed okay!")
-source = "eCrypt4.1.py"
+source = "eCrypt4.4.py"
 os.system('chmod +x cleanup.sh')
 i = input("Where do you want to save the installed files? Give full directory: ")
 try:
