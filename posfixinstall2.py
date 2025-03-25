@@ -45,6 +45,7 @@ def startgui():
         exit()
 def start():
     print("Please ready the license below\n")
+    license = open('license.txt', 'r')
     print("\n")
     print(license.read())
     i = input("\nDo you agree to the license? (yes/no[default])")
@@ -84,7 +85,11 @@ if dirtest in dir:
         print("Whoops! Looks like you tried to use gui and it failed before now defaulting to text")
         file.close()
         os.remove('guiused.mef')
-        print(Exception)
+        i = input('Whould you like to default to cmd or try GUI again (gui/cmd)')
+        if i == "cmd":
+            start()
+        elif i == "gui":
+            open('randomfailfile.file', 'r')
         start()
     except:
         license = open(source3, 'r')
@@ -101,9 +106,9 @@ if dirtest in dir:
                 except:
                     print("Your system could not launch kate will rerun script try using text instead")
                     rerun = "python3 " + __file__
-                    os.system(rerun)
                     file = open('guiused.mef', 'x')
                     file.close()
+                    os.system(rerun)
             elif i == "gedit":
                 # Gnome Editor lines 97-106
                 try:
@@ -114,9 +119,9 @@ if dirtest in dir:
                 except:
                     print("Your system could not launch gedit will rerun script try using text instead")
                     rerun = "python3 " + __file__
-                    os.system(rerun) 
                     file = open('guiused.mef', 'x')
                     file.close()
+                    os.system(rerun)
             elif i == "xed":
                 # XED Editor Lines 107-116
                 try:
@@ -127,9 +132,9 @@ if dirtest in dir:
                 except:
                     print("Your system could not launch xde will rerun script try using text instead")
                     rerun = "python3 " + __file__
-                    os.system(rerun)
                     file = open('guiused.mef', 'x')
                     file.close()
+                    os.system(rerun)
             elif i =="nano":
                 # Nano Editor Lines 117-128
                 try:
@@ -141,9 +146,9 @@ if dirtest in dir:
                 except:
                     print("Your system could not launch nano will rerun script try using text instead")
                     rerun = "python3 " + __file__
-                    os.system(rerun)
                     file = open('guiused.mef', 'x')
                     file.close()
+                    os.system(rerun)
             else:
                 print("Whoops!, Looks like you did not type a valid editor name defaulting to text")
                 start()
