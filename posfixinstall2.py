@@ -84,6 +84,7 @@ if dirtest in dir:
         print("Whoops! Looks like you tried to use gui and it failed before now defaulting to text")
         file.close()
         os.remove('guiused.mef')
+        print(Exception)
         start()
     except:
         license = open(source3, 'r')
