@@ -10,7 +10,7 @@ installpak = "basicTools"
 # End of pak set
 version = 4.4
 print("Majix Installer", version)
-print("© Majix Co.")
+print(copyright)
 #open("temp.sh", 'x')
 print("Preparing Installer")
 print(source)
