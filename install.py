@@ -73,7 +73,7 @@ if str(contentver) == str(version):
                     print("Removing old files please re-run this script")
                     os.system('rmdir /s /q eCrypt-Installer')
                     os.remove('posfixinstall.py')
-                    print("Cleaned up")
+                    print("\nCleaned up")
                     exit()
         elif i == "m":
             print("Whoops!, Minimal install is not currently supported please use full install")

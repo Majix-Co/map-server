@@ -1,10 +1,13 @@
 import filecmp
 import time
 import os
+import shutil
+rmdir = os.getcwd() + "\\" + "eCrypt-Installer"
 print("\nMajix Installer")
 print("\n2/5 | Comparing files to web versions\n")
 time.sleep(2)
 dir = os.getcwd() + "\\" + "eCrypt-Installer"
+dir3 = dir = os.getcwd() + "\\" + "eCrypt-Installer" + "\\"
 source3 = dir.strip() + "\\" + "license.txt"
 source = dir + "\\" + "eCryptcm.py"
 scheck1 = dir + "\\" + "eCrypt4.4.py"
@@ -34,7 +37,17 @@ def start():
         elif filecheck == False:
             print("File may have been tampered with they do not match killing script")
             print("This will leave a partial install please clear this directory and rerun the script OR rerun the install.py script in the same diredctory it was originaly in to clear this directory")
-            exit()
+            print("\nAuto cleaning up directory\n")
+            os.remove(dir3 + 'decrypt.py')
+            os.remove(dir3 + 'eCryptcm.py')
+            os.remove(dir3 + 'install.py')
+            os.remove(dir3 + 'passwordgencm.py')
+            os.remove(dir3 + 'posfixinstall2.py')
+            os.remove(dir3 + 'postfixinstall3.py')
+            os.remove(dir3 + 'cleanup.py')
+            os.remove(dir3 + 'license.txt')
+            shutil.rmtree(rmdir)
+            exit() 
     else:
         print("Sorry you need to agree to the license to install this program")
         deldir = "rmdir /s /q " + dir
