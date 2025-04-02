@@ -4,7 +4,7 @@ import datetime
 source = os.getcwd()
 source2 = os.path.basename(__file__)
 finalsource = source + "/" + source2
-copyright = "Majix Co. " + datetime.datetime.now().year
+copyright = "Majix Co. ", datetime.datetime.now().year
 # Install software type 
 installpak = "basicTools"
 # End of pak set
