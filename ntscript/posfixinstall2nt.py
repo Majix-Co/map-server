@@ -2,6 +2,10 @@ import filecmp
 import time
 import os
 import shutil
+mainvar = open('tempfile.txt', 'r')
+tempvar = mainvar.read().strip()
+finalmove = tempvar + "\\" + "install.py"
+mainvar.close()
 rmdir = os.getcwd() + "\\" + "eCrypt-Installer"
 print("\nMajix Installer")
 print("\n2/5 | Comparing files to web versions\n")
@@ -40,18 +44,48 @@ def start():
             print("\nAuto cleaning up directory\n")
             os.remove(dir3 + 'decrypt.py')
             os.remove(dir3 + 'eCryptcm.py')
-            os.remove(dir3 + 'install.py')
+            #os.remove(dir3 + 'install.py')
             os.remove(dir3 + 'passwordgencm.py')
             os.remove(dir3 + 'posfixinstall2.py')
             os.remove(dir3 + 'postfixinstall3.py')
             os.remove(dir3 + 'cleanup.py')
             os.remove(dir3 + 'license.txt')
+            shutil.move(dir3 + "install.py", finalmove)
+            print("The install file was moved back to the directory it was originaly ran on, please rerun the install file")
+            print("The file was moved back to ", tempvar, " Under the name ", finalmove)
+            print("The directory has been deleted. Will now rerun script")
+            print("If you would like to rerun it yourself press Ctrl + C")
+            print("5 Seconds till script is auto-ran to cancel press Ctrl + C now")
+            time.sleep(5)
+            rerun = "python3 " + finalmove
             shutil.rmtree(rmdir)
-            exit() 
+            exit()
+            os.system(rerun)
+            shutil.rmtree(rmdir)
+            exit()
+
     else:
         print("Sorry you need to agree to the license to install this program")
-        deldir = "rmdir /s /q " + dir
-        os.remove(deldir)
+        os.remove(dir3 + 'decrypt.py')
+        os.remove(dir3 + 'eCryptcm.py')
+        #os.remove(dir3 + 'install.py')
+        os.remove(dir3 + 'passwordgencm.py')
+        os.remove(dir3 + 'posfixinstall2.py')
+        os.remove(dir3 + 'postfixinstall3.py')
+        os.remove(dir3 + 'cleanup.py')
+        os.remove(dir3 + 'license.txt')
+        shutil.move(dir3 + "install.py", finalmove)
+        print("The install file was moved back to the directory it was originaly ran on, please rerun the install file")
+        print("The file was moved back to ", tempvar, " Under the name ", finalmove)
+        print("The directory has been deleted. Will now rerun script")
+        print("If you would like to rerun it yourself press Ctrl + C")
+        print("5 Seconds till script is auto-ran to cancel press Ctrl + C now")
+        time.sleep(5)
+        rerun = "python3 " + finalmove
+        shutil.rmtree(rmdir)
+        exit()
+        os.system(rerun)
+        shutil.rmtree(rmdir)
         exit()
 i = input("Would you like to open the gui license? (yes/no[default])")
 if i == "yes":
