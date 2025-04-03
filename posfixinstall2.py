@@ -14,7 +14,7 @@ def startgui():
     #print(license.read())
     i = input("\nDo you agree to the license? (yes/no[default])")
     license.close()
-    os.remove(source3)
+    
     if i == "yes":
         source = dir + "/" + "eCryptcm.py"
         scheck1 = dir + "/" + "eCrypt4.4.py"
@@ -50,7 +50,7 @@ def start():
     print(license.read())
     i = input("\nDo you agree to the license? (yes/no[default])")
     license.close()
-    os.remove(source3)
+    
     if i == "yes":
         source = dir + "/" + "eCryptcm.py"
         scheck1 = dir + "/" + "eCrypt4.4.py"
