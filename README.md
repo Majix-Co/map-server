@@ -50,13 +50,15 @@
 <div class="navbar" style="border: black">
 <a class="navapps-active" href="https://github.com/Majix-Co/map-server/tree/main">Linux-Test-Branch</a>
 <a class="navapps" href="https://github.com/Majix-Co/map-server/tree/main">Main Branch</a>
+<a class ="navapps" href="https://github.com/Majix-Co/map-server/tree/Openbeta">OpenBeta</a>
+<a class="navapps" href="https://github.com/Majix-Co/map-server/tree/Installmain">InstallMain</a>
 </div>
 <h2> Welcome to the Majix Application Portal Server (MAPS)</h2>
 <h3> Welcome to the Linux Install Branch!</h3>
 <h4>Here are some of the branch's</h4>
 <hr>
 <ul>
-  <li> 
+  <li> Main Branch | Does not have a purpose
   <li>Installmain | Majix Installer Branch</li>
   <li>Openbeta | Beta's for main applications</li>
   <li> &#11088; Linux-Installer-Tester | Used for Majix Co. Testing. Is used to check for bugs with the linux installer</li>
