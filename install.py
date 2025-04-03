@@ -24,7 +24,7 @@ contentver = content[3].replace('"','').strip()
 file.close()
 os.remove('temp.txt')
 if str(contentver) == str(version):
-    print('Using majixpak ', installpak)
+    print('Using majixpak', installpak)
     i = input("Hello!, Would you like to full package or just the minimal packages? (f/m): ")
     if installpak == "basicTools":
         if i == "f":
