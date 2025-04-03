@@ -83,9 +83,7 @@ def start():
         time.sleep(5)
         rerun = "python3 " + finalmove
         shutil.rmtree(rmdir)
-        exit()
         os.system(rerun)
-        shutil.rmtree(rmdir)
         exit()
 i = input("Would you like to open the gui license? (yes/no[default])")
 if i == "yes":

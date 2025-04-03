@@ -4,8 +4,9 @@ import datetime
 source = os.getcwd()
 source2 = os.path.basename(__file__)
 finalsource = source + "/" + source2
-copyright = "Majix Co. ", datetime.datetime.now().year
+copyright = "© Majix Co. ", datetime.datetime.now().year
 # Install software type 
+# For others forking this project if all else fails use "basicTools"
 installpak = "basicTools"
 # End of pak set
 version = 4.4

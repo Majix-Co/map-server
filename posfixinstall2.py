@@ -164,8 +164,9 @@ if dirtest in dir:
         print("Whoops!, Your license is not valid")
         print("Someone has tampered with the license in this program")
         print("If this is another version of the installer someone else hosts or makes please report this issue to their issues page")
-        print("Please use the default license that came with this program or use the original installer")
-        print("Sorry if this is debugging purposes but please use the real original license")
+        print("If this is not posible, please use the default license that came with this program or use the original installer")
+        print("Sorry if you are testing this script but please use the real original license")
+        print("Using basicPak with Majix Installer is not designed for others outside majix server to use.")
         os.remove(__file__)
         exit('Whoops!, license is invalid')
 else:
