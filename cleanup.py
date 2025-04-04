@@ -25,33 +25,19 @@ try:
     os.system('./cleanup.sh')
     exit()
   except FileNotFoundError:
-    try:
-      print("You selected the directory " + i)
-      u = input("The directory does not exist would you like to create it? (y/n)")
-      if u == "y":
-        os.mkdir(i)
-        dest = i
-        shutil.move(source, dest)
-        source = "passwordgen3.py"
-        shutil.move(source, dest)
-        os.system('./cleanup.sh')
-        exit()
-      else:
-        print("Okay Aborting Install")
-        os.system('./cleanup.sh')
-        exit()
-    except ValueError:
-      e = ""
-      Exception == e
-      print("\nA fatal error occured when trying to copy files")
-      print("\nThe exception was: " + e)
-      print("\nThe install was aborted")
-      print("\nSorry for the error but I could not copy files")
-      print("\nIf this is a protected directory please run install.py as root")
-      print("\nOr login as root user and retry")
-      print("Rerunning Script")
-      rerun4 = "python3 " + __file__
-      os.system(rerun4)
+    print("You selected the directory " + i)
+    u = input("The directory does not exist would you like to create it? (y/n)")
+    if u == "y":
+      os.mkdir(i)
+      dest = i
+      shutil.move(source, dest)
+      source = "passwordgen3.py"
+      shutil.move(source, dest)
+      os.system('./cleanup.sh')
+      exit()
+    else:
+      print("Okay Aborting Install")
+      os.system('./cleanup.sh')
       exit()
 except:
   print("Whoops!, Looks like one of the files that were attempted to get deleted do not exist")
@@ -60,14 +46,14 @@ except:
   os.system('chmod +x cleanup.sh')
   i = input("Where do you want to save the installed files? Give full directory: ")
   try:
-    dest = i
-    shutil.move(source, dest)
-    source = "passwordgen3.py"
-    shutil.move(source, dest)
-    os.system('./cleanup.sh')
-    exit()
-  except FileNotFoundError:
     try:
+      dest = i
+      shutil.move(source, dest)
+      source = "passwordgen3.py"
+      shutil.move(source, dest)
+      os.system('./cleanup.sh')
+      exit()
+    except FileNotFoundError:
       print("You selected the directory " + i)
       u = input("The directory does not exist would you like to create it? (y/n)")
       if u == "y":
@@ -82,22 +68,20 @@ except:
         print("Okay Aborting Install")
         os.system('./cleanup.sh')
         exit()
-    except ValueError:
-      e = ""
-      Exception == e
-      print("\nA fatal error occured when trying to copy files")
-      print("\nThe exception was: " + e)
-      print("\nThe install was aborted")
-      print("\nSorry for the error but I could not copy files")
-      print("\nIf this is a protected directory please run install.py as root")
-      print("\nOr login as root user and retry")
-      print("Press Ctrl+C withen 5 seconds to about retry")
-      time.sleep(5)
-      rerun5 = "python3 " + __file__
-      os.system(rerun5)
-      exit()
-
-
+  except:
+    e = ""
+    Exception == e
+    print("\nA fatal error occured when trying to copy files")
+    print("\nThe exception was: " + e)
+    print("\nThe install was aborted")
+    print("\nSorry for the error but I could not copy files")
+    print("\nIf this is a protected directory please run install.py as root")
+    print("\nOr login as root user and retry")
+    print("Press Ctrl+C withen 5 seconds to about retry")
+    time.sleep(5)
+    rerun5 = "python3 " + __file__
+    os.system(rerun5)
+    exit()
 
 
 
