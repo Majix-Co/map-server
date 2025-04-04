@@ -30,7 +30,6 @@ def startgui():
                 print("Preparing next check")
                 os.system('chmod +x postfixinstall3.sh')
                 os.system('./postfixinstall3.sh')
-                exit()
             elif filecheck2 == False:
                 print("Looks like the file is not right")
                 exit()
@@ -66,7 +65,6 @@ def start():
                 print("Preparing next check")
                 os.system('chmod +x postfixinstall3.sh')
                 os.system('./postfixinstall3.sh')
-                exit()
             elif filecheck2 == False:
                 print("Looks like the file is not right")
                 exit()
@@ -109,6 +107,7 @@ if dirtest in dir:
                         kate = ["kate", source3]
                         subprocess.run(kate, check = True)
                         startgui()
+                        exit()
                     except:
                         print("Your system could not launch kate will rerun script try using text instead")
                         rerun = "python3 " + __file__
@@ -122,6 +121,7 @@ if dirtest in dir:
                         gedit = ["gedit", source3]
                         subprocess.run(gedit, check = True)
                         startgui()
+                        exit()
                     except:
                         print("Your system could not launch gedit will rerun script try using text instead")
                         rerun = "python3 " + __file__
@@ -135,6 +135,7 @@ if dirtest in dir:
                         xed = ["xed", source3]
                         subprocess.run(xed, check = True)
                         startgui()
+                        exit()
                     except:
                         print("Your system could not launch xde will rerun script try using text instead")
                         rerun = "python3 " + __file__
