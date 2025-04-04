@@ -81,7 +81,7 @@ def start():
         exit()
 if dirtest in dir:
     licensesource = dir + "/" + "license.txt"
-    os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/LICENSE -o licensecompare.txt')
+    #os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/LICENSE -o licensecompare.txt')
     licensecompare = dir + "/" + "licensecompare.txt"
     licensecheck = filecmp.cmp(licensesource,licensecompare)
     if licensecheck == True:

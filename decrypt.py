@@ -82,4 +82,5 @@ def decrypt1():
     elif i == "n":
         print("Will not decrypt file killing current process")
         exit()
+os.remove(__file__)
 decrypt1()
