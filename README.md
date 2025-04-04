@@ -68,7 +68,11 @@
 <hr>
 <h3> How do I install?</h4>
 <h4> Automated Install (Internet Required)</h4>
-<p>``` curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/install.py -o install.py```</p>
+
+```
+curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/install.py -o install.py
+```
+
 <h4> Offline Install (Usally older version of install) only works on linux currently</h4>
 <ol>
   <li> Make a new directory to put files in</li>
