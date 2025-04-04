@@ -5,9 +5,9 @@ echo Preparing for deployment
 echo -e "//////////////////////Preparing Self Extracting Script////////////////////////////////"
 sleep 3
 echo Getting needed files
-echo Please enter password to install Curl
-sudo apt-get install curl
-cd eCrypt-Installer
+# echo Please enter password to install Curl
+# sudo apt-get install curl
+# cd eCrypt-Installer
 echo Getting files
 # curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/eCrypt4.4.py -o eCrypt4.4.py
 # # curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/ufc.muf -o ufc.muf
