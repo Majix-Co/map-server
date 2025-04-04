@@ -40,7 +40,7 @@ try:
         print("Okay Aborting Install")
         os.system('./cleanup.sh')
         exit()
-    except:
+    except ValueError:
       e = ""
       Exception == e
       print("\nA fatal error occured when trying to copy files")
@@ -82,7 +82,7 @@ except:
         print("Okay Aborting Install")
         os.system('./cleanup.sh')
         exit()
-    except:
+    except ValueError:
       e = ""
       Exception == e
       print("\nA fatal error occured when trying to copy files")
