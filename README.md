@@ -1,9 +1,4 @@
-<!Doctype HTML>
-<html>
-  <head>
-    </head>
-<body>
-<style>
+<!-- style>
   .license {
     color: blue;
     text-decoration: bold;
@@ -50,7 +45,7 @@
     padding: 5px;
     text-decoration: none;
   }
-</style>
+</style> -->
 <h1>Hello!</h1>
 <div class="navbar" style="border: black">
 <a class="navapps-active" href="https://github.com/Majix-Co/map-server/tree/main">Main Branch</a>
