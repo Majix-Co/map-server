@@ -76,9 +76,12 @@ curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmai
 <h4> Offline Install (Usally older version of install) only works on linux currently</h4>
 <ol>
   <li> Make a new directory to put files in</li>
-  <li> Open the directory in a terminal</li>
-  <li> Run the following command ```https://github.com/Majix-Co/map-server.git```</li>
-  <li> Run "install.py" within that script</li>
+  <li>Paste the link in your web-browser on another computer or phone</li>
+  ```
+  https://github.com/Majix-Co/map-server/archive/refs/heads/offlineinstaller.zip
+  ```
+  <li> Add all files within in the directory you created</li>
+  <li> Run "install.py" within that folder</li>
   <li> Wait for it to install then delete the directory you created</li>
 <hr>
 <h4> What is this branch used for?</h4>
