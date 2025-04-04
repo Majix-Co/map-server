@@ -77,7 +77,7 @@ except:
     print("\nSorry for the error but I could not copy files")
     print("\nIf this is a protected directory please run install.py as root")
     print("\nOr login as root user and retry")
-    print("Press Ctrl+C withen 5 seconds to about retry")
+    print("Press Ctrl+C withen 5 seconds to cancel retry")
     time.sleep(5)
     rerun5 = "python3 " + __file__
     os.system(rerun5)
