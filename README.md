@@ -67,9 +67,9 @@
 <h4> &#11088; == You are currently here</h4>
 <h4> What is this branch used for?</h4>
 <ul>
-  <li> This branch is used for testing the "posfix" version of the Majix Installer</li>
-  <li> Mostly this branch never changes as no changes are usally sent to github from the testing server</li>
-  <li> So for consumers this branch is not used for much
+  <li> This branch is used for nothing</li>
+  <li> Mostly this branch never changes</li>
+  <li> So for consumers this branch is not used for much </li>
 </ul>
 <hr>
 <h5> © Majix Co. 2025 | For most refrences MAP will refer to NWEA Map testing service. All refrences in this document or on any Majix Co. branded sites MAP or MAPS refers to Majix Application Portal Server or Majix Application Portal. These are not valid copyrights in US law HOWEVER any data or scripts provided under this name are protected by LAW under "GNU GENERAL PUBLIC LICENSE." For more info about this license <a class="license" href="https://www.gnu.org/licenses/gpl-3.0.en.html">click here</a></h5>
