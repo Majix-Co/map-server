@@ -6,7 +6,8 @@ print("\nMajix Installer")
 print("\n2/5 | Comparing files to web versions\n")
 time.sleep(2)
 dir = os.getcwd()
-dirtest = "eCrypt-Installer"
+# Spooky, Below is the dirtest override switch set to os.getcwd() to override
+dirtest = os.getcwd()
 source3 = dir + "/" + "license.txt"
 def startgui():
     #print("Please ready the license below\n")

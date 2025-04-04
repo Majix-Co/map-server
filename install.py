@@ -7,6 +7,7 @@ finalsource = source + "/" + source2
 # Install software type 
 # For others forking this project if all else fails use "basicTools"
 installpak = "basicTools-Offline"
+# Set basicTools-Offline if all files are in this directory | Set basicTools to go default download
 # End of pak set
 year = str(datetime.datetime.now().year)
 version = 4.4
