@@ -4,7 +4,7 @@ import time
 print("Majix Installer")
 print("\n5/5 | Cleanup\n")
 try:
-  os.remove('decrypt.py')
+  '''os.remove('decrypt.py')
   os.remove('eCryptcm.py')
   os.remove('install.py')
   os.remove('license.txt')
@@ -12,7 +12,7 @@ try:
   os.remove('posfixinstall2.py')
   os.remove('postfixinstall3.sh')
   os.remove('cleanup.py')
-  os.remove('licensecompare.txt')
+  os.remove('licensecompare.txt')'''
   print("Installer completed okay!")
   source = "eCrypt4.4.py"
   os.system('chmod +x cleanup.sh')
