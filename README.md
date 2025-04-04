@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
   .license {
     color: blue;
     text-decoration: bold;
@@ -45,10 +45,10 @@
     padding: 5px;
     text-decoration: none;
   }
-</style>
+</style> -->
 <h1>Hello!</h1>
 <div class="navbar" style="border: black">
-<a class="navapps-active" href="https://github.com/Majix-Co/map-server/tree/main">Linux-Test-Branch</a>
+<a class="navapps-active" href="https://github.com/Majix-Co/map-server/edit/Linux-Installer-Tester">Linux-Test-Branch</a>
 <a class="navapps" href="https://github.com/Majix-Co/map-server/tree/main">Main Branch</a>
 <a class ="navapps" href="https://github.com/Majix-Co/map-server/tree/Openbeta">OpenBeta</a>
 <a class="navapps" href="https://github.com/Majix-Co/map-server/tree/Installmain">InstallMain</a>
