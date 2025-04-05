@@ -83,6 +83,7 @@ curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmai
   <li> unzip with unzip command and the file name example (unzip majixinstall.zip)</li>
   <li> Run "install.py" within that folder with "python3 install.py"</li>
   <li> Wait for it to install then delete the directory you created</li>
+</ol>
 <hr>
 <h4> What is this branch used for?</h4>
 <ul>
