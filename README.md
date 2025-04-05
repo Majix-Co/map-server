@@ -65,6 +65,25 @@
 </ul>
 <hr>
 <h4> &#11088; == You are currently here</h4>
+<hr>
+<h3> How do I install?</h4>
+<h4> Automated Install (Internet Required)</h4>
+
+```
+curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/install.py -o install.py
+```
+
+<h4> Offline Install (Usally older version of install) only works on linux currently</h4>
+<ol>
+  <li> Make a new directory to put files in</li>
+  <li> Make sure you installed python </li>
+  <li>Paste the link in your web-browser on another computer or phone</li>
+  <a href="https://github.com/Majix-Co/map-server/archive/refs/heads/offlineinstaller.zip">https://github.com/Majix-Co/map-server/archive/refs/heads/offlineinstaller.zip</a>
+  <li> Add all files within in the directory you created</li>
+  <li> unzip with unzip command and the file name example (unzip majixinstall.zip)</li>
+  <li> Run "install.py" within that folder with "python3 install.py"</li>
+  <li> Wait for it to install then delete the directory you created</li>
+<hr>
 <h4> What is this branch used for?</h4>
 <ul>
   <li> This branch is used for nothing</li>
