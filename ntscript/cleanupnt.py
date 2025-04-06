@@ -41,19 +41,18 @@ try:
       shutil.move(source, dest)
       source = "passwordgen3.py"
       shutil.move(source, dest)
-      exit()
+      os.remove(tempvar + '\\' + 'tempfile.txt')
     else:
       print("Aborting, Try a new directory")
       rerun = "python3 " + dir + "\\" + __file__
       os.system(rerun)
-      exit()
 except:
   print("Sorry :(, But I could not delete all files. Now falling back to copy mode")
   mainvar = open('tempfile.txt', 'r')
   tempvar = mainvar.read().strip()
   finalvar = tempvar + '\\' + "posfixinstall.bat"
   mainvar.close()
-  #os.remove(tempvar + '\\' + 'tempfile.txt')
+  os.remove(tempvar + '\\' + 'tempfile.txt')
   try:
     dest = i
     shutil.move(source, dest)
@@ -62,7 +61,6 @@ except:
     # Add dir file infomation back to rmtree DO NOT DELETE THE ENTIRE DESKTOP!
     # Add Dir and os.cwd() Functions to top lines add os.remove() Brackets
     shutil.rmtree(rmdir)
-    exit()
   except FileNotFoundError:
     print("Directory given: " + i)
     u = input("Directory not found would you like to create directory? (y/n)")
@@ -73,9 +71,7 @@ except:
       shutil.move(source, dest)
       source = "passwordgen3.py"
       shutil.move(source, dest)
-      exit()
     else:
       print("Aborting, Try a new directory")
       rerun = "python3 " + dir + "\\" + __file__
       os.system(rerun)
-      exit()
