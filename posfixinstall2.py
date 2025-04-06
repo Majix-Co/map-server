@@ -12,7 +12,7 @@ def startgui():
     #print("Please ready the license below\n")
     #print("\n")
     #print(license.read())
-    i = input("\nDo you agree to the license? (yes/no[default])")
+    i = input("\nDo you agree to the license? (yes/no[default]): ")
     license.close()
     
     if i == "yes":
@@ -47,7 +47,7 @@ def start():
     license = open('license.txt', 'r')
     print("\n")
     print(license.read())
-    i = input("\nDo you agree to the license? (yes/no[default])")
+    i = input("\nDo you agree to the license? (yes/no[default]): ")
     license.close()
     
     if i == "yes":

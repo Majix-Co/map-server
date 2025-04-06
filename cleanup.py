@@ -23,7 +23,7 @@ try:
     source = "passwordgen3.py"
     shutil.move(source, dest)
     os.system('./cleanup.sh')
-    exit()
+    
   except FileNotFoundError:
     print("You selected the directory " + i)
     u = input("The directory does not exist would you like to create it? (y/n)")
@@ -34,11 +34,11 @@ try:
       source = "passwordgen3.py"
       shutil.move(source, dest)
       os.system('./cleanup.sh')
-      exit()
+      
     else:
       print("Okay Aborting Install")
       os.system('./cleanup.sh')
-      exit()
+      
 except:
   print("Whoops!, Looks like one of the files that were attempted to get deleted do not exist")
   print("Falling back to finish install")
@@ -52,7 +52,7 @@ except:
       source = "passwordgen3.py"
       shutil.move(source, dest)
       os.system('./cleanup.sh')
-      exit()
+      
     except FileNotFoundError:
       print("You selected the directory " + i)
       u = input("The directory does not exist would you like to create it? (y/n)")
@@ -63,11 +63,11 @@ except:
         source = "passwordgen3.py"
         shutil.move(source, dest)
         os.system('./cleanup.sh')
-        exit()
+        
       else:
         print("Okay Aborting Install")
         os.system('./cleanup.sh')
-        exit()
+        
   except:
     e = ""
     Exception == e
@@ -81,7 +81,7 @@ except:
     time.sleep(5)
     rerun5 = "python3 " + __file__
     os.system(rerun5)
-    exit()
+    
 
 
 
