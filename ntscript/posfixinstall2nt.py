@@ -85,7 +85,7 @@ def start():
         shutil.rmtree(rmdir)
         os.system(rerun)
         exit()
-i = input("Would you like to open the gui license? (yes/no[default])")
+i = input("Would you like to open the gui license? (yes/no[default]): ")
 if i == "yes":
     notepad = "notepad.exe " + source3
     os.system(notepad)
