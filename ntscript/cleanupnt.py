@@ -30,7 +30,7 @@ try:
     # Add dir file infomation back to rmtree DO NOT DELETE THE ENTIRE DESKTOP!
     # Add Dir and os.cwd() Functions to top lines add os.remove() Brackets
     shutil.rmtree(rmdir)
-    exit()
+    os.remove(tempvar + '\\' + 'tempfile.txt')
   except FileNotFoundError:
     print("Directory given: " + i)
     u = input("Directory not found would you like to create directory? (y/n)")
