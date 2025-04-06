@@ -137,7 +137,7 @@ print(source)
 # Install software type 
 print("\nWarning! The offline-installer requires following of instructions listed on github page if you are doing automated install choose basictools\n")
 print("\n[INFO] For automated install press enter\n")
-i = input("This version of Majix Installer has 2 packs which would you like to use? basictools[default]/offline")
+i = input("This version of Majix Installer has 2 packs which would you like to use? basictools[default]/offline: ")
 if i == "offline":
     installpak = "basicTools-Offline"
     contentver = str(version)
