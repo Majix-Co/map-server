@@ -22,7 +22,6 @@ try:
     tempvar = mainvar.read().strip()
     finalvar = tempvar + '\\' + "posfixinstall.bat"
     mainvar.close()
-    os.remove(finalvar)
     os.remove(tempvar + '\\' + 'tempfile.txt')
     dest = i
     shutil.move(source, dest)
@@ -54,7 +53,6 @@ except:
   tempvar = mainvar.read().strip()
   finalvar = tempvar + '\\' + "posfixinstall.bat"
   mainvar.close()
-  os.remove(finalvar)
   os.remove(tempvar + '\\' + 'tempfile.txt')
   try:
     dest = i
