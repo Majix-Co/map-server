@@ -22,7 +22,7 @@ try:
     tempvar = mainvar.read().strip()
     finalvar = tempvar + '\\' + "posfixinstall.bat"
     mainvar.close()
-    os.remove(tempvar + '\\' + 'tempfile.txt')
+    #os.remove(tempvar + '\\' + 'tempfile.txt')
     dest = i
     shutil.move(source, dest)
     source = dir + "passwordgen3.py"
@@ -53,7 +53,7 @@ except:
   tempvar = mainvar.read().strip()
   finalvar = tempvar + '\\' + "posfixinstall.bat"
   mainvar.close()
-  os.remove(tempvar + '\\' + 'tempfile.txt')
+  #os.remove(tempvar + '\\' + 'tempfile.txt')
   try:
     dest = i
     shutil.move(source, dest)
