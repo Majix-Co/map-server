@@ -97,6 +97,7 @@ except:
           print("Okay Aborting Install")
           os.system('./cleanup.sh')
     else:
+      i = i + "/"
       try:
         dest = i
         shutil.move(source, dest)
