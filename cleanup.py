@@ -121,7 +121,7 @@ except:
   except:
     e = Exception
     print("\nA fatal error occured when trying to copy files")
-    print("\nThe exception was: " + e)
+    print("\nThe exception was: ", e)
     print("\nThe install was aborted")
     print("\nSorry for the error but I could not copy files")
     print("\nIf this is a protected directory please run install.py as root")
