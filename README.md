@@ -83,6 +83,7 @@ curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmai
   <li> Add all files within in the directory you created</li>
   <li> unzip with unzip command and the file name example (unzip majixinstall.zip)</li>
   <li> Run "install.py" within that folder with "python3 install.py"</li>
+  <li>Select the option "offline" if option is there</li>
   <li> Wait for it to install then delete the directory you created</li>
 </ol>
 <hr>
