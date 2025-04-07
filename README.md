@@ -91,7 +91,7 @@ curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmai
 <ul>
   <li> This branch is used for getting the required files for the Majix Installer</li>
   <li> This branch usally gets a lot of changes and github does not always update curl after so if the script is not working please be paitent</li>
-  <li>So far consumers this branch is used alot</li>
+  <li> So for consumers this branch is used alot</li>
 </ul>
 <hr>
 <h5> © Majix Co. 2025 | For most refrences MAP will refer to NWEA Map testing service. All refrences in this document or on any Majix Co. branded sites MAP or MAPS refers to Majix Application Portal Server or Majix Application Portal. These are not valid copyrights in US law HOWEVER any data or scripts provided under this name are protected by LAW under "GNU GENERAL PUBLIC LICENSE." For more info about this license <a class="license" href="https://www.gnu.org/licenses/gpl-3.0.en.html">click here</a></h5>
