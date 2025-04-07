@@ -67,7 +67,7 @@
 <h4> &#11088; == You are currently here</h4>
 <hr>
 <h3> How do I install?</h4>
-<h4> Automated Install (Internet Required)</h4>
+<h4> Automated Install (Internet Required) (Is simpiler)</h4>
 
 ```
 curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/install.py -o install.py
