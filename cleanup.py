@@ -44,6 +44,8 @@ except:
   print("Falling back to finish install")
   source = "eCrypt4.4.py"
   os.system('chmod +x cleanup.sh')
+  print("\n[DISCLAMER] For directory's the path must end with a / | example: /home/example/coolcode/\n")
+  print("\nNot including a slash for a directory can bring negative effects\n")
   i = input("Where do you want to save the installed files? Give full directory: ")
   try:
     try:
@@ -69,8 +71,7 @@ except:
         os.system('./cleanup.sh')
         
   except:
-    e = ""
-    Exception == e
+    e = Exception
     print("\nA fatal error occured when trying to copy files")
     print("\nThe exception was: " + e)
     print("\nThe install was aborted")
@@ -79,7 +80,8 @@ except:
     print("\nOr login as root user and retry")
     print("Press Ctrl+C withen 5 seconds to cancel retry")
     time.sleep(5)
-    rerun5 = "python3 " + __file__
+    rerun5 = "python3 " + "cleanup.py"
+    os.system('curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/cleanup.py -o cleanup.py')
     os.system(rerun5)
     
 
