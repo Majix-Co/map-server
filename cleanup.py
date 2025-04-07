@@ -16,45 +16,16 @@ try:
   print("Installer completed okay!")
   source = "eCrypt4.4.py"
   os.system('chmod +x cleanup.sh')
+  symbol = "/"
   i = input("Where do you want to save the installed files? Give full directory: ")
-  try:
-    dest = i
-    shutil.move(source, dest)
-    source = "passwordgen3.py"
-    shutil.move(source, dest)
-    os.system('./cleanup.sh')
-    
-  except FileNotFoundError:
-    print("You selected the directory " + i)
-    u = input("The directory does not exist would you like to create it? (y/n)")
-    if u == "y":
-      os.mkdir(i)
-      dest = i
-      shutil.move(source, dest)
-      source = "passwordgen3.py"
-      shutil.move(source, dest)
-      os.system('./cleanup.sh')
-      
-    else:
-      print("Okay Aborting Install")
-      os.system('./cleanup.sh')
-      
-except:
-  print("Whoops!, Looks like one of the files that were attempted to get deleted do not exist")
-  print("Falling back to finish install")
-  source = "eCrypt4.4.py"
-  os.system('chmod +x cleanup.sh')
-  print("\n[DISCLAMER] For directory's the path must end with a / | example: /home/example/coolcode/\n")
-  print("\nNot including a slash for a directory can bring negative effects\n")
-  i = input("Where do you want to save the installed files? Give full directory: ")
-  try:
+  if i.endswith(symbol):
     try:
       dest = i
       shutil.move(source, dest)
       source = "passwordgen3.py"
       shutil.move(source, dest)
       os.system('./cleanup.sh')
-      
+    
     except FileNotFoundError:
       print("You selected the directory " + i)
       u = input("The directory does not exist would you like to create it? (y/n)")
@@ -65,11 +36,88 @@ except:
         source = "passwordgen3.py"
         shutil.move(source, dest)
         os.system('./cleanup.sh')
-        
+      
       else:
         print("Okay Aborting Install")
         os.system('./cleanup.sh')
+  else:
+    print("Whoops!, That directory is not valid auto corecting")
+    i = i + "/"
+    print("Added slash to directory (Now is valid)")
+    try:
+      dest = i
+      shutil.move(source, dest)
+      source = "passwordgen3.py"
+      shutil.move(source, dest)
+      os.system('./cleanup.sh')
+    
+    except FileNotFoundError:
+      print("You selected the directory " + i)
+      u = input("The directory does not exist would you like to create it? (y/n)")
+      if u == "y":
+        os.mkdir(i)
+        dest = i
+        shutil.move(source, dest)
+        source = "passwordgen3.py"
+        shutil.move(source, dest)
+        os.system('./cleanup.sh')
+      
+      else:
+        print("Okay Aborting Install")
+        os.system('./cleanup.sh')
+
+except:
+  print("Whoops!, Looks like one of the files that were attempted to get deleted do not exist")
+  print("Falling back to finish install")
+  source = "eCrypt4.4.py"
+  os.system('chmod +x cleanup.sh')
+  i = input("Where do you want to save the installed files? Give full directory: ")
+  try:
+    symbol = "/"
+    if i.endswith(symbol):
+      try:
+        dest = i
+        shutil.move(source, dest)
+        source = "passwordgen3.py"
+        shutil.move(source, dest)
+        os.system('./cleanup.sh')
+      
+      except FileNotFoundError:
+        print("You selected the directory " + i)
+        u = input("The directory does not exist would you like to create it? (y/n)")
+        if u == "y":
+          os.mkdir(i)
+          dest = i
+          shutil.move(source, dest)
+          source = "passwordgen3.py"
+          shutil.move(source, dest)
+          os.system('./cleanup.sh')
         
+        else:
+          print("Okay Aborting Install")
+          os.system('./cleanup.sh')
+    else:
+      try:
+        dest = i
+        shutil.move(source, dest)
+        source = "passwordgen3.py"
+        shutil.move(source, dest)
+        os.system('./cleanup.sh')
+      
+      except FileNotFoundError:
+        print("You selected the directory " + i)
+        u = input("The directory does not exist would you like to create it? (y/n)")
+        if u == "y":
+          os.mkdir(i)
+          dest = i
+          shutil.move(source, dest)
+          source = "passwordgen3.py"
+          shutil.move(source, dest)
+          os.system('./cleanup.sh')
+        
+        else:
+          print("Okay Aborting Install")
+          os.system('./cleanup.sh')
   except:
     e = Exception
     print("\nA fatal error occured when trying to copy files")
