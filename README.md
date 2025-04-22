@@ -51,7 +51,7 @@
 <a class="navapps-active" href="https://github.com/Majix-Co/map-server/tree/Installmain">InstallMain</a>
 <a class="navapps" href="https://github.com/Majix-Co/map-server/tree/main">Linux-Test-Branch</a>
 <a class="navapps" href="https://github.com/Majix-Co/map-server/tree/main">Main Branch</a>
-<a class ="navapps" href="https://github.com/Majix-Co/map-server/tree/Openbeta">OpenBeta</a>
+<!-- <a class ="navapps" href="https://github.com/Majix-Co/map-server/tree/Openbeta">OpenBeta</a> -->
 </div>
 <h2> Welcome to the Majix Application Portal Server (MAPS)</h2>
 <h3> Welcome to the Installmain Branch</h3>
