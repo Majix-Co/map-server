@@ -74,6 +74,7 @@ curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmai
 ```
 
 <h4> Offline Install (Usally older version of install) only works on linux currently</h4>
+<h2>[DISCLAMER] The offline install branch has a bug where installs will fail. The install does complete successfully however fails the exit function. This is a known bug</h2>
 <ol>
   <li> Make a new directory to put files in</li>
   <li> Make sure you installed python </li>
