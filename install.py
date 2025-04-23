@@ -2,8 +2,8 @@ def install():
     if str(contentver) == str(version):
         if installpak == "basicTools":
             print('Using majixpak', installpak)
-            i = input("Hello!, Would you like to full package or just the minimal packages? (f/m): ")
-            if i == "f":
+            i = input("Hello!, Would you like to start the install? (y/n)")
+            if i == "y":
                 try:
                     os.mkdir("eCrypt-Installer")
                     print("Okay will get full package")
@@ -52,66 +52,73 @@ def install():
                         os.remove('posfixinstall.py')
                         print("\nCleaned up")
                         exit()
-            elif i == "m":
-                print("Whoops!, Minimal install is not currently supported please use full install")
+            elif i == "n":
+                print("Whoops!, Minimal Install Not supported")
                 exit()                  
         elif installpak == "basicTools-Offline":
             print("The Update Server is not enabled here")
             print('Using majixpak', installpak)
-            i = input("Hello!, Would you like to full package or just the minimal packages? (f/m): ")
-            if i == "f":
-                try:
-                    os.mkdir("eCrypt-Installer")
-                    print("Okay will get full package")
-                    platformcheck = os.name
-                    if platformcheck == "posix":
-                        shutil.move(finalsource,"eCrypt-Installer")
-                        print("\nSystem Deteced as Posfix (Unix Based System)\n")
-                        #os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/posfixinstall.sh -o posfixinstall.sh')
-                        os.system('chmod +x posfixinstall.sh')
-                        os.system('./posfixinstall.sh')
-                        exit()
-                    elif platformcheck == "nt":
-                        #shutil.move(finalsource,"eCrypt-Installer")
-                        #print("NT DETECTED")
-                        #move2 = source + "/" + "tempfile.txt"
-                        #if os.path.isfile(move2):
-                            #shutil.copy(move2,"eCrypt-Installer")
-                            #print("Windows support is still beta and may have some issues")
-                            #print("Please report any on the issue page on github")
-                            #os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/ntscript/posfixinstall.py -o posfixinstall.py')
-                            #os.system('python3 posfixinstall.py')
-                        #else:
-                            #x = open('tempfile.txt', 'x')
-                            #x.write(os.getcwd())
-                            #x.close()
-                            #shutil.copy(move2,"eCrypt-Installer")
-                            #print("Windows support is still beta and may have some issues")
-                            #print("Please report any on the issue page on github")
-                            #os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/ntscript/posfixinstall.py -o posfixinstall.py')
-                            #os.system('python3 posfixinstall.py')
-                            print("Whoops!, Looks like this pak does not have NT Support")
-                    else:
-                        print("This script is not compatible with your OS (yet)")
-                except FileExistsError:
-                    platformcheck = os.name
-                    if platformcheck == "posix":
-                        print("Partial Install Detected")
-                        print("Removing old files please re-run this script")
-                        os.system('rm -rf eCrypt-Installer')
-                        os.system('rm -rf posfixinstall.py')
-                        print("Cleaned up")
-                        exit()
-                    elif platformcheck == "nt":
-                        print("Partial Install Detected")
-                        print("Removing old files please re-run this script")
-                        os.system('rmdir /s /q eCrypt-Installer')
-                        os.remove('posfixinstall.py')
-                        print("\nCleaned up")
-                        exit()
-            elif i == "m":
-                print("Whoops!, Minimal install is not currently supported please use full install")
-                exit()        
+            print("Hello!, Before installing we need to test if you have the required packages")
+            check1 = ["curl", "--help"]
+            try:
+                subprocess.run(check1, check = True, stdout=subprocess.DEVNULL)
+                i = input(i = input("Hello!, Are you sure you would like to build the installer? (y[Default]/n) "))
+                if i == "y":
+                    try:
+                        os.mkdir("eCrypt-Installer")
+                        print("Okay will get full package")
+                        platformcheck = os.name
+                        if platformcheck == "posix":
+                            shutil.move(finalsource,"eCrypt-Installer")
+                            print("\nSystem Deteced as Posfix (Unix Based System)\n")
+                            #os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/posfixinstall.sh -o posfixinstall.sh')
+                            os.system('chmod +x posfixinstall.sh')
+                            os.system('./posfixinstall.sh')
+                            exit()
+                        elif platformcheck == "nt":
+                            #shutil.move(finalsource,"eCrypt-Installer")
+                            #print("NT DETECTED")
+                            #move2 = source + "/" + "tempfile.txt"
+                            #if os.path.isfile(move2):
+                                #shutil.copy(move2,"eCrypt-Installer")
+                                #print("Windows support is still beta and may have some issues")
+                                #print("Please report any on the issue page on github")
+                                #os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/ntscript/posfixinstall.py -o posfixinstall.py')
+                                #os.system('python3 posfixinstall.py')
+                            #else:
+                                #x = open('tempfile.txt', 'x')
+                                #x.write(os.getcwd())
+                                #x.close()
+                                #shutil.copy(move2,"eCrypt-Installer")
+                                #print("Windows support is still beta and may have some issues")
+                                #print("Please report any on the issue page on github")
+                                #os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/ntscript/posfixinstall.py -o posfixinstall.py')
+                                #os.system('python3 posfixinstall.py')
+                                print("Whoops!, Looks like this pak does not have NT Support")
+                        else:
+                            print("This script is not compatible with your OS (yet)")
+                    except FileExistsError:
+                        platformcheck = os.name
+                        if platformcheck == "posix":
+                            print("Partial Install Detected")
+                            print("Removing old files please re-run this script")
+                            os.system('rm -rf eCrypt-Installer')
+                            os.system('rm -rf posfixinstall.py')
+                            print("Cleaned up")
+                            exit()
+                        elif platformcheck == "nt":
+                            print("Partial Install Detected")
+                            print("Removing old files please re-run this script")
+                            os.system('rmdir /s /q eCrypt-Installer')
+                            os.remove('posfixinstall.py')
+                            print("\nCleaned up")
+                            exit()
+                elif i == "n":
+                    print("Whoops!, Minimal install is not currently supported please use full install")
+                    exit()
+            except:
+                print("Please install ""Curl"" Before attempting to build the installer")  
+                exit()      
     elif str(contentver) > str(version):
         print("Looks like there is a update avaible here is some of the things that have changed\n")
         #print(content[12].replace('"','').strip())
@@ -123,6 +130,7 @@ def install():
 import os
 import shutil
 import datetime
+import subprocess
 source = os.getcwd()
 source2 = os.path.basename(__file__)
 finalsource = source + "/" + source2
