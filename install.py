@@ -71,7 +71,7 @@ def install():
                         if platformcheck == "posix":
                             shutil.move(finalsource,"eCrypt-Installer")
                             print("\nSystem Deteced as Posfix (Unix Based System)\n")
-                            #os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/posfixinstall.sh -o posfixinstall.sh')
+                            os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/posfixinstall.sh -o posfixinstall.sh')
                             os.system('chmod +x posfixinstall.sh')
                             os.system('./posfixinstall.sh')
                             exit()
@@ -132,6 +132,7 @@ import shutil
 import datetime
 import subprocess
 os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/findtext.py -o findtext.py')
+import findtext
 source = os.getcwd()
 source2 = os.path.basename(__file__)
 finalsource = source + "/" + source2
