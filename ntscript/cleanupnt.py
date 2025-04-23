@@ -14,6 +14,7 @@ try:
   os.remove(dir + 'postfixinstall3.py')
   os.remove(dir + 'cleanup.py')
   os.remove(dir + 'license.txt')
+  os.remove(dir + 'findtext.py')
   print("Installer completed okay!")
   source = dir + "eCrypt4.4.py"
   i = input("Where do you want to save the installed files? Give full directory: ")

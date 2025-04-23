@@ -12,6 +12,7 @@ try:
   os.remove('posfixinstall2.py')
   os.remove('postfixinstall3.sh')
   os.remove('cleanup.py')
+  os.remove('findtext.py')
   os.remove('licensecompare.txt')
   print("Installer completed okay!")
   source = "eCrypt4.4.py"
