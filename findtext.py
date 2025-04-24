@@ -31,5 +31,6 @@ def filereplace(filepath, text_to_find, replace, reason):
                     #print(f"Text '{text_to_find}' found on line {line_number}: {line.strip()}")
                     #file.close()
                     write_to_line(filepath, line_number, replace)
+                    print(reason)
     except FileNotFoundError:
         print(f"Error: File not found at '{filepath}'")
