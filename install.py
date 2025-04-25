@@ -79,12 +79,13 @@ def install():
                                 open('majix.conf', 'x')
                                 configfile = open('majix.conf', 'w')
                                 configfile.writelines(
-                                
-                                '''Majix Installer LiveConfig File
+                                '''
+                                Majix Installer LiveConfig File
                                 Offline-Installer Config
                                 Install Mode:
                                 Active12
-                                # Modify Above Line to Active to re generate'''
+                                # Modify Above Line to Active to re generate
+                                '''
                                 )
                                 configfile.close()
                                 source = os.getcwd()
