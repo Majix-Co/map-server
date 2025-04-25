@@ -61,28 +61,30 @@ def install():
             print("Hello!, Before installing we need to test if you have the required packages")
             check1 = ["curl", "--help"]
             try:
-                subprocess.run(check1, check = True, stdout=subprocess.DEVNULL)
-                i = input(i = input("Hello!, Are you sure you would like to build the installer? (y[Default]/n) "))
+                #subprocess.run(check1, check = True, stdout=subprocess.DEVNULL)
+                i = input("Hello!, Are you sure you would like to build the installer? (y[Default]/n) ")
                 if i == "y":
                     try:
                         os.mkdir("eCrypt-Installer")
                         print("Okay will get full package")
                         platformcheck = os.name
                         if platformcheck == "posix":
+                            source = os.getcwd()
+                            source2 = os.path.basename(__file__)
+                            finalsource = source + "/" + source2
                             shutil.move(finalsource,"eCrypt-Installer")
                             print("\nSystem Deteced as Posfix (Unix Based System)\n")
-                            #os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/posfixinstall.sh -o posfixinstall.sh')
+                            os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/posfixinstall.sh -o posfixinstall.sh')
                             try:
                                 open('majix.conf', 'x')
                                 configfile = open('majix.conf', 'w')
                                 configfile.writelines(
-                                '''
-                                Majix Installer LiveConfig File
+                                
+                                '''Majix Installer LiveConfig File
                                 Offline-Installer Config
                                 Install Mode:
                                 Active12
-                                # Modify Above Line to Active to re generate
-                                '''
+                                # Modify Above Line to Active to re generate'''
                                 )
                                 configfile.close()
                                 source = os.getcwd()
@@ -137,8 +139,9 @@ def install():
                 elif i == "n":
                     print("Whoops!, Minimal install is not currently supported please use full install")
                     exit()
-            except:
+            except Exception as e:
                 print("Please install ""Curl"" Before attempting to build the installer")  
+                print(e)
                 exit()      
     elif str(contentver) > str(version):
         print("Looks like there is a update avaible here is some of the things that have changed\n")
