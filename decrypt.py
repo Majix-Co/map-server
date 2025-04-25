@@ -56,7 +56,7 @@ def decrypt2():
                                 )
                                 postfixinstall3.close()
                                 os.system('chmod +x postfixinstall3.sh')
-                                os.system('python3 cleanup.py')
+                                os.system('python3 pathfinsh.py')
                                 exit()
                             else:
                                 filekey.close()
@@ -67,8 +67,7 @@ def decrypt2():
                                 os.remove('password3key.key')
                                 os.remove('encbackup.key')
                                 #print("Thank you for using eCrypt")
-                                os.system('python3 pathfinsh.py')
-                                exit()
+                                os.system('python3 cleanup.py')
                         except:
                             filekey.close()
                             dec_file.close()
