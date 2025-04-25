@@ -71,10 +71,31 @@ def install():
                         if platformcheck == "posix":
                             shutil.move(finalsource,"eCrypt-Installer")
                             print("\nSystem Deteced as Posfix (Unix Based System)\n")
-                            os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/posfixinstall.sh -o posfixinstall.sh')
-                            os.system('chmod +x posfixinstall.sh')
-                            os.system('./posfixinstall.sh')
-                            exit()
+                            #os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/posfixinstall.sh -o posfixinstall.sh')
+                            try:
+                                open('majix.conf', 'x')
+                                configfile = open('majix.conf', 'w')
+                                configfile.writelines(
+                                '''
+                                Majix Installer LiveConfig File
+                                Offline-Installer Config
+                                Install Mode:
+                                Active12
+                                # Modify Above Line to Active to re generate
+                                '''
+                                )
+                                configfile.close()
+                                source = os.getcwd()
+                                source2 = 'majix.conf'
+                                finalsource = source + "/" + source2
+                                shutil.move(finalsource,"eCrypt-Installer")
+                                os.system('chmod +x posfixinstall.sh')
+                                os.system('./posfixinstall.sh')
+                                exit()
+                            except:
+                                os.system('chmod +x posfixinstall.sh')
+                                os.system('./posfixinstall.sh')
+                                exit()
                         elif platformcheck == "nt":
                             #shutil.move(finalsource,"eCrypt-Installer")
                             #print("NT DETECTED")

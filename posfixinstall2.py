@@ -26,10 +26,25 @@ def startgui():
             scheck1 = dir + "/" + "passwordgen3.py"
             filecheck2 = filecmp.cmp(source,scheck1)
             if filecheck2 == True:
-                print("All checks Passed!")
-                print("Preparing next check")
-                os.system('chmod +x postfixinstall3.sh')
-                os.system('./postfixinstall3.sh')
+                try:
+                    installconfig = open('majix.conf', 'r')
+                    iconfig = installconfig.readlines()
+                    icheck = iconfig[4].strip()
+                    if icheck == 'Active12':
+                        print('Looks like your installer has not been configured')
+                        print('Invoking config script')
+                        run6 = 'python3' + ' ' + 'patchadder4.py'
+                        os.system('python3 patchadder4.py')
+                    else:
+                        print("All checks Passed!")
+                        print("Preparing next check")
+                        os.system('chmod +x postfixinstall3.sh')
+                        os.system('./postfixinstall3.sh')
+                except:
+                    print("All checks Passed!")
+                    print("Preparing next check")
+                    os.system('chmod +x postfixinstall3.sh')
+                    os.system('./postfixinstall3.sh')
             elif filecheck2 == False:
                 print("Looks like the file is not right")
                 exit()
@@ -61,10 +76,19 @@ def start():
             scheck1 = dir + "/" + "passwordgen3.py"
             filecheck2 = filecmp.cmp(source,scheck1)
             if filecheck2 == True:
-                print("All checks Passed!")
-                print("Preparing next check")
-                os.system('chmod +x postfixinstall3.sh')
-                os.system('./postfixinstall3.sh')
+                installconfig = open('majix.conf', 'r')
+                iconfig = installconfig.readlines()
+                icheck = iconfig[4].strip()
+                if icheck == 'Active12':
+                    print('Looks like your installer has not been configured')
+                    print('Invoking config script')
+                    run6 = 'python3' + ' ' + 'patchadder4.py'
+                    os.system(run6)
+                else:
+                    print("All checks Passed!")
+                    print("Preparing next check")
+                    os.system('chmod +x postfixinstall3.sh')
+                    os.system('./postfixinstall3.sh')
             elif filecheck2 == False:
                 print("Looks like the file is not right")
                 exit()
