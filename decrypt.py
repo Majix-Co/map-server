@@ -2,6 +2,7 @@ import cryptography
 from cryptography.fernet import Fernet
 import os
 import time
+import findtext
 print("\nMajix Installer")
 print("\n4/5 | Decrypting files")
 def decrypt2():
@@ -30,11 +31,9 @@ def decrypt2():
                         exit()
                     elif i == "n":
                         #print("Thank you for using eCrypt")
-                        installconfig = open('majix.conf', 'r')
-                        iconfig = installconfig.readlines()
-                        icheck = iconfig[4].strip()
+                        icheck = findtext.filecheck('majix.conf', 'Active12')
                         try:
-                            if icheck == 'Active12':
+                            if icheck == True:
                                 print("All checks Passed!")
                                 print("Preparing next check")
                                 os.system('chmod +x postfixinstall3.sh')
