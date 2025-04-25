@@ -35,13 +35,13 @@ def filereplace(filepath, text_to_find, replace, reason):
     except FileNotFoundError:
         print(f"Error: File not found at '{filepath}'")
 def filecheck(filepath, texttofind):
+    try:
         with open(filepath, 'r') as file:
             for line_number, line in enumerate(file, 1):
                 if texttofind in line:
-                    #print(f"Text '{texttofind}' found on line {line_number}: {line.strip()}")
-                    return bool(True)
+                    #print(f"Text '{text_to_find}' found on line {line_number}: {line.strip()}")
                     #file.close()
-                    #write_to_line(filepath, line_number, replace)
-                    #print(reason)
-                else:
-                    return bool(False)
+                    return bool(True)
+    except FileNotFoundError:
+        #print(f"Error: File not found at '{filepath}'")
+        return bool(False)
