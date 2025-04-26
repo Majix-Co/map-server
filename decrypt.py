@@ -53,6 +53,7 @@ def decrypt2():
                                 sleep 5
                                 echo \nAlright!, Files were downloaded sucsefully running python code
                                 python3 decrypt.py
+                                exit
                                 '''
                                 )
                                 postfixinstall3.close()
