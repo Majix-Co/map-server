@@ -35,16 +35,19 @@ def startgui():
                         print('Invoking config script')
                         run6 = 'python3' + ' ' + 'patchadder4.py'
                         os.system('python3 patchadder4.py')
+                        exit()
                     else:
                         print("All checks Passed!")
                         print("Preparing next check")
                         os.system('chmod +x postfixinstall3.sh')
                         os.system('./postfixinstall3.sh')
+                        exit()
                 except:
                     print("All checks Passed!")
                     print("Preparing next check")
                     os.system('chmod +x postfixinstall3.sh')
                     os.system('./postfixinstall3.sh')
+                    exit()
             elif filecheck2 == False:
                 print("Looks like the file is not right")
                 exit()
@@ -84,11 +87,13 @@ def start():
                     print('Invoking config script')
                     run6 = 'python3' + ' ' + 'patchadder4.py'
                     os.system(run6)
+                    exit()
                 else:
                     print("All checks Passed!")
                     print("Preparing next check")
                     os.system('chmod +x postfixinstall3.sh')
                     os.system('./postfixinstall3.sh')
+                    exit()
             elif filecheck2 == False:
                 print("Looks like the file is not right")
                 exit()

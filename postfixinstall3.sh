@@ -6,3 +6,4 @@ curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmai
 sleep 5
 echo \nAlright!, Files were downloaded sucsefully running python code
 python3 decrypt.py
+exit

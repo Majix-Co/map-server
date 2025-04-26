@@ -18,7 +18,8 @@ findtext.filereplace('cleanup.py',"os.remove('licensecompare.txt')", '#', '10/10
 findtext.filereplace('eCrypt4.4.py', 'updateskip = 0', 'updateskip = 1', 'Done')
 def final():
     findtext.filereplace('majix.conf', 'Active12', 'Finished', 'Okay to use installer | Thank you for using majix!')
-    os.system('sudo pkill python')
+    #os.system('sudo pkill python')
+    exit()
 def encrypt2():    
     i = "y"
     if i == "y":
@@ -44,6 +45,7 @@ def encrypt2():
             encrypted_file.write(encrypted)
             print("Encrypted!")
             final()
+            exit()
     elif i == "n":
         print("Okay, No changes were made. Quiting Program")
         exit()
@@ -72,6 +74,7 @@ def encrypt():
             encrypted_file.write(encrypted)
             print("Encrypted!")
             encrypt2()
+            exit()
     elif i == "n":
         print("Okay, No changes were made. Quiting Program")
         exit()
