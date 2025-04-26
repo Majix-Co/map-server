@@ -2,6 +2,7 @@ import findtext
 import time
 import os
 import cryptography
+import sys
 from cryptography.fernet import Fernet
 print("Hello!, It seems you selected a ofline install")
 print('Just so you know there is a limit for errors')
@@ -90,3 +91,4 @@ print('\n--------------------------------------')
 print("This step has ended forwarding to next step")
 os.system('chmod +x postfixinstall3.sh')
 os.system('./postfixinstall3.sh')
+sys.exit()

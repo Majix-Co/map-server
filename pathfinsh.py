@@ -1,6 +1,7 @@
 import os
 import shutil
 import time
+import sys
 import findtext
 from cryptography.fernet import Fernet
 print('Adding Pernament modifications to cleanup.py')
@@ -17,7 +18,7 @@ findtext.filereplace('cleanup.py',"os.remove('licensecompare.txt')", '#', '10/10
 findtext.filereplace('eCrypt4.4.py', 'updateskip = 0', 'updateskip = 1', 'Done')
 def final():
     findtext.filereplace('majix.conf', 'Active12', 'Finished', 'Okay to use installer | Thank you for using majix!')
-    exit()
+    sys.exit()
 def encrypt2():    
     i = "y"
     if i == "y":

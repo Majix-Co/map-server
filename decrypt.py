@@ -2,6 +2,7 @@ import cryptography
 from cryptography.fernet import Fernet
 import os
 import time
+import sys
 import findtext
 print("\nMajix Installer")
 print("\n4/5 | Decrypting files")
@@ -57,7 +58,7 @@ def decrypt2():
                                 postfixinstall3.close()
                                 os.system('chmod +x postfixinstall3.sh')
                                 os.system('python3 pathfinsh.py')
-                                exit()
+                                sys.exit()
                             else:
                                 filekey.close()
                                 dec_file.close()
