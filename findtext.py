@@ -41,7 +41,7 @@ def filecheck(filepath, texttofind):
                 if texttofind in line:
                     #print(f"Text '{text_to_find}' found on line {line_number}: {line.strip()}")
                     #file.close()
-                    return bool(True)
+                    return True
     except FileNotFoundError:
-        #print(f"Error: File not found at '{filepath}'")
-        return bool(False)
+        print(f"Error: File not found at '{filepath}'")
+        return False
