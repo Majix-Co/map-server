@@ -82,6 +82,7 @@ def install():
                                 source2 = os.path.basename(__file__)
                                 finalsource = source + "/" + source2
                                 os.mkdir("eCrypt-Installer")
+                                shutil.move(finalsource,"eCrypt-Installer")
                                 print("Okay will get full package")
                                 open('majix.conf', 'x')
                                 configfile = open('majix.conf', 'w')
