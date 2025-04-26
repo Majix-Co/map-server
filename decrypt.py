@@ -71,7 +71,7 @@ def decrypt2():
                                 #print("Thank you for using eCrypt")
                                 os.system('python3 cleanup.py')
                                 exit()
-                        except:
+                        except Exception as e:
                             filekey.close()
                             dec_file.close()
                             f.close()
@@ -80,7 +80,8 @@ def decrypt2():
                             os.remove('password3key.key')
                             os.remove('encbackup.key')
                             #print("Thank you for using eCrypt")
-                            os.system('python3 cleanup.py')
+                            #os.system('python3 cleanup.py')
+                            print(e)
                             exit()
                         
     # END OF DECRYPT CODE
