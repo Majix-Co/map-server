@@ -75,7 +75,7 @@ def install():
                             icheck = findtext.filecheck('majix.conf', 'Active12')
 
                             if 1 == 1:
-                                    findtext.filereplace('install.py', '                            if 1 == 1:', '                            if 1 == 2:', )
+                                    findtext.filereplace('install.py', '                            if 1 == 1:', '                            if 1 == 2:', 'Cancel second run')
                                     source = os.getcwd()
                                     source2 = os.path.basename(__file__)
                                     finalsource = source + "/" + source2
