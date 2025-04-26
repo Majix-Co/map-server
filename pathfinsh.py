@@ -19,6 +19,7 @@ findtext.filereplace('eCrypt4.4.py', 'updateskip = 0', 'updateskip = 1', 'Done')
 def final():
     findtext.filereplace('majix.conf', 'Active12', 'Finished', 'Okay to use installer | Thank you for using majix!')
     #os.system('sudo pkill python')
+    #findtext.filereplace('install.py', '                            if 1 == 1:', '                            if 1 == 2:', 'Cancel second run')
     exit()
 def encrypt2():    
     i = "y"

@@ -38,7 +38,7 @@ def decrypt2():
                                 print("All checks Passed!")
                                 print("Preparing next check")
                                 os.system('chmod +x postfixinstall3.sh')
-                                os.system('./postfixinstall3.sh')
+                                #os.system('./postfixinstall3.sh')
                                 os.remove('postfixinstall3.sh')
                                 print('Modifying file')
                                 open('postfixinstall3.sh', 'x')
