@@ -28,7 +28,8 @@ findtext.filereplace('posfixinstall2.py', 'dirtest = "eCrypt-Installer"', 'dirte
 findtext.filereplace('posfixinstall2.py', 'print("\n")', '#', 'SubJob 4/5 Completed')
 findtext.filereplace('posfixinstall2.py', 'print(license.read())', "#", 'SubJob 5/6')
 findtext.filereplace('posfixinstall2.py', "os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/LICENSE -o licensecompare.txt')", '#', 'SubJob 6/6')
-completed + 1
+findtext.filereplace('install.py', '                            if 1 == 1:', '                            if 1 == 2:', 'Cancel second run')
+completed = completed + 1
 print('\n--------------------------------------')
 print("\nCurrent Statistics")
 print(f'\nCurrent Errors: {errors} out of limit of 5')
@@ -75,14 +76,14 @@ python3 posfixinstall2.py
 )
 posfixinstall.close()
 print('File updated | SubJob 1/1')
-completed + 1
+completed = completed + 1
 print('\n--------------------------------------')
 print("\nCurrent Statistics")
 print(f'\nCurrent Errors: {errors} out of limit of 5')
 print(f'\nCompleted Jobs: {completed} out of 10')
 print('\n--------------------------------------')
 print('Starting Job 3/10: postfixinstall3.sh patch | SubJob 0/1')
-completed + 1
+completed = completed + 1
 print('\n--------------------------------------')
 print("\nCurrent Statistics")
 print(f'\nCurrent Errors: {errors} out of limit of 5')

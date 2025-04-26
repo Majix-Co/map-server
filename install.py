@@ -66,16 +66,14 @@ def install():
                 i = input("Hello!, Are you sure you would like to build the installer? (y[Default]/n) ")
                 if i == "y":
                     try:
-                        os.mkdir("eCrypt-Installer")
                         print("Okay will get full package")
                         platformcheck = os.name
                         if platformcheck == "posix":
                             print("\nSystem Deteced as Posfix (Unix Based System)\n")
                             os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/posfixinstall.sh -o posfixinstall.sh')
-                            icheck = findtext.filecheck('majix.conf', 'Active12')
+                            #icheck = findtext.filecheck('majix.conf', 'Active12')
 
                             if 1 == 1:
-                                    findtext.filereplace('install.py', '                            if 1 == 1:', '                            if 1 == 2:', 'Cancel second run')
                                     source = os.getcwd()
                                     source2 = os.path.basename(__file__)
                                     finalsource = source + "/" + source2
