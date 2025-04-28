@@ -22,9 +22,9 @@ try:
   if i.endswith(symbol):
     try:
       dest = i
-      shutil.move(source, dest)
+      shutil.copy(source, dest)
       source = "passwordgen3.py"
-      shutil.move(source, dest)
+      shutil.copy(source, dest)
       os.system('./cleanup.sh')
     
     except FileNotFoundError:
@@ -33,9 +33,9 @@ try:
       if u == "y":
         os.mkdir(i)
         dest = i
-        shutil.move(source, dest)
+        shutil.copy(source, dest)
         source = "passwordgen3.py"
-        shutil.move(source, dest)
+        shutil.copy(source, dest)
         os.system('./cleanup.sh')
       
       else:
@@ -47,9 +47,9 @@ try:
     print("Added slash to directory (Now is valid)")
     try:
       dest = i
-      shutil.move(source, dest)
+      shutil.copy(source, dest)
       source = "passwordgen3.py"
-      shutil.move(source, dest)
+      shutil.copy(source, dest)
       os.system('./cleanup.sh')
     
     except FileNotFoundError:
@@ -58,9 +58,9 @@ try:
       if u == "y":
         os.mkdir(i)
         dest = i
-        shutil.move(source, dest)
+        shutil.copy(source, dest)
         source = "passwordgen3.py"
-        shutil.move(source, dest)
+        shutil.copy(source, dest)
         os.system('./cleanup.sh')
       
       else:
@@ -78,9 +78,9 @@ except:
     if i.endswith(symbol):
       try:
         dest = i
-        shutil.move(source, dest)
+        shutil.copy(source, dest)
         source = "passwordgen3.py"
-        shutil.move(source, dest)
+        shutil.copy(source, dest)
         os.system('./cleanup.sh')
       
       except FileNotFoundError:
@@ -89,9 +89,9 @@ except:
         if u == "y":
           os.mkdir(i)
           dest = i
-          shutil.move(source, dest)
+          shutil.copy(source, dest)
           source = "passwordgen3.py"
-          shutil.move(source, dest)
+          shutil.copy(source, dest)
           os.system('./cleanup.sh')
         
         else:
@@ -101,9 +101,9 @@ except:
       i = i + "/"
       try:
         dest = i
-        shutil.move(source, dest)
+        shutil.copy(source, dest)
         source = "passwordgen3.py"
-        shutil.move(source, dest)
+        shutil.copy(source, dest)
         os.system('./cleanup.sh')
       
       except FileNotFoundError:
@@ -112,9 +112,9 @@ except:
         if u == "y":
           os.mkdir(i)
           dest = i
-          shutil.move(source, dest)
+          shutil.copy(source, dest)
           source = "passwordgen3.py"
-          shutil.move(source, dest)
+          shutil.copy(source, dest)
           os.system('./cleanup.sh')
         
         else:
