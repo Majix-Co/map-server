@@ -35,6 +35,7 @@ def final():
     findtext.filereplace('majix.conf', 'Active12', 'Finished', 'Okay to use installer | Thank you for using majix!')
     #os.system('sudo pkill python')
     #findtext.filereplace('install.py', '                            if 1 == 1:', '                            if 1 == 2:', 'Cancel second run')
+    findtext.filereplace('install.py', 'offlinekiosk = 0', 'offlinekiosk = 1', 'Done')
     exit()
 def encrypt2():    
     i = "y"
@@ -59,6 +60,13 @@ def encrypt2():
         # Write the encrypted data back to the file
         with open('eCrypt4.4.py', 'wb') as encrypted_file:
             encrypted_file.write(encrypted)
+            os.remove('eCryptcm.py')
+            open('eCryptcm.py', 'x')
+            passwordoutput = open('eCryptcm.py', 'w')
+            with open('eCrypt4.4.py', 'r') as passinput:
+                passwordoutput.write(passinput.read())
+            passwordoutput.close()
+            passinput.close()
             print("Encrypted!")
             final()
             exit()
@@ -89,6 +97,13 @@ def encrypt():
         with open('passwordgen3.py', 'wb') as encrypted_file:
             encrypted_file.write(encrypted)
             print("Encrypted!")
+            os.remove('passwordgencm.py')
+            open('passwordgencm.py', 'x')
+            passwordoutput = open('passwordgencm.py', 'w')
+            with open('passwordgen3.py', 'r') as passinput:
+                passwordoutput.write(passinput.read())
+            passwordoutput.close()
+            passinput.close()
             encrypt2()
             exit()
     elif i == "n":
@@ -101,7 +116,7 @@ i = "y"
 if i == "y":
     try:
         os.path.isfile("passwordgen3.py")
-        encrypt()
+        print('Adding bypass flags')
     
     except Exception as e:
         print("An error has occurred. Please check if the main file is in this directory.")
