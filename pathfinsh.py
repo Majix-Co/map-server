@@ -33,9 +33,9 @@ cd ..
 cleanupsh.close()
 def final():
     findtext.filereplace('majix.conf', 'Active12', 'Finished', 'Okay to use installer | Thank you for using majix!')
+    findtext.filereplace('install.py', 'offlinekiosk = 0', 'offlinekiosk = 1', 'Done')
     #os.system('sudo pkill python')
     #findtext.filereplace('install.py', '                            if 1 == 1:', '                            if 1 == 2:', 'Cancel second run')
-    findtext.filereplace('install.py', 'offlinekiosk = 0', 'offlinekiosk = 1', 'Done')
     exit()
 def encrypt2():    
     i = "y"
