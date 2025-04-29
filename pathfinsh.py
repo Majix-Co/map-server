@@ -16,6 +16,21 @@ findtext.filereplace('cleanup.py',"os.remove('cleanup.py')", '#', '8/10')
 findtext.filereplace('cleanup.py',"os.remove('findtext.py')", '#', '9/10')
 findtext.filereplace('cleanup.py',"os.remove('licensecompare.txt')", '#', '10/10')
 findtext.filereplace('eCrypt4.4.py', 'updateskip = 0', 'updateskip = 1', 'Done')
+findtext.filereplace('cleanup.py', "os.remove('eCrypt4.4.py')", '#', 'Done')
+os.remove('cleanup.sh')
+open('cleanup.sh', 'x')
+cleanupsh = open('cleanup.sh', 'w')
+cleanupsh.writelines(
+''''
+#! /bin/bash
+cd ..
+# rm -f posfixinstall.sh
+# rm -f findtext.py
+# rm -f cleanup.sh
+# rm -rf eCrypt-Installer
+'''
+)
+cleanupsh.close()
 def final():
     findtext.filereplace('majix.conf', 'Active12', 'Finished', 'Okay to use installer | Thank you for using majix!')
     #os.system('sudo pkill python')

@@ -25,6 +25,7 @@ try:
       shutil.copy(source, dest)
       source = "passwordgen3.py"
       shutil.copy(source, dest)
+      os.remove('eCrypt4.4.py')
       os.system('./cleanup.sh')
     
     except FileNotFoundError:
@@ -36,6 +37,7 @@ try:
         shutil.copy(source, dest)
         source = "passwordgen3.py"
         shutil.copy(source, dest)
+        os.remove('eCrypt4.4.py')
         os.system('./cleanup.sh')
       
       else:
@@ -50,6 +52,7 @@ try:
       shutil.copy(source, dest)
       source = "passwordgen3.py"
       shutil.copy(source, dest)
+      os.remove('eCrypt4.4.py')
       os.system('./cleanup.sh')
     
     except FileNotFoundError:
@@ -61,6 +64,7 @@ try:
         shutil.copy(source, dest)
         source = "passwordgen3.py"
         shutil.copy(source, dest)
+        os.remove('eCrypt4.4.py')
         os.system('./cleanup.sh')
       
       else:
@@ -81,6 +85,7 @@ except:
         shutil.copy(source, dest)
         source = "passwordgen3.py"
         shutil.copy(source, dest)
+        os.remove('eCrypt4.4.py')
         os.system('./cleanup.sh')
       
       except FileNotFoundError:
@@ -92,11 +97,12 @@ except:
           shutil.copy(source, dest)
           source = "passwordgen3.py"
           shutil.copy(source, dest)
+          os.remove('eCrypt4.4.py')
           os.system('./cleanup.sh')
         
         else:
           print("Okay Aborting Install")
-          os.system('./cleanup.sh')
+          #os.system('./cleanup.sh')
     else:
       i = i + "/"
       try:
@@ -104,6 +110,7 @@ except:
         shutil.copy(source, dest)
         source = "passwordgen3.py"
         shutil.copy(source, dest)
+        os.remove('eCrypt4.4.py')
         os.system('./cleanup.sh')
       
       except FileNotFoundError:
@@ -115,6 +122,7 @@ except:
           shutil.copy(source, dest)
           source = "passwordgen3.py"
           shutil.copy(source, dest)
+          os.remove('eCrypt4.4.py')
           os.system('./cleanup.sh')
         
         else:
