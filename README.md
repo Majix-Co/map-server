@@ -70,8 +70,15 @@
 <h4> Automated Install (Internet Required) (Is easier to use)</h4>
 
 ```
-curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/install.py -o install.py
+curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/install.py -o install.py | python3 install.py
 ```
+
+<h4> Requirments!</h4>
+<ul>
+  <li> Curl (For building installer or online install only)</li>
+  <li> Python3 | For debian linux Users: sudo apt-get python3 | Windows users: winget install python</li>
+  <li> Cyryptography libary | pip install cryptography</li>
+</ul>
 
 <h4> Offline Install (Usally older version of install) only works on linux currently</h4>
 <ol>
