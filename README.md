@@ -67,14 +67,22 @@
 <h4> &#11088; == You are currently here</h4>
 <hr>
 <h3> How do I install?</h4>
-<h4> Automated Install (Internet Required)</h4>
+<h4> Automated Install (Internet Required) (Is easier to use)</h4>
 
 ```
-curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/install.py -o install.py
+curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/install.py -o install.py | python3 install.py
 ```
 
+<h4> Requirments!</h4>
+<ul>
+  <li> Curl (For building installer or online install only)</li>
+  <li> Python3 | For debian linux Users: sudo apt-get python3 | Windows users: winget install python</li>
+  <li> Cyryptography libary | pip install cryptography</li>
+</ul>
 <h4> Offline Install (Usally older version of install) only works on linux currently</h4>
+<hr>
 <h2><b>[DISCLAMER]</b> The offline install branch is in the process being removed. The Offline meBuilder will allow you to make offline installs. Until this is released do not expect offline support.</h2>
+<br>
 <h2>Sorry for the inconvience, But the builder will be easier to use, And easier to maintain, Meaning it will ALWAYS be up to date from the online install. (When builder is made within current version time-schedule)</h2>
 <ol>
   <li> Make a new directory to put files in</li>
