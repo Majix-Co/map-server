@@ -1,3 +1,7 @@
+# Majix Find&Replace Libary#
+# © Majix Co. 2025 #
+# Tested for internal use only #
+
 # Find And Replace Library
 def filereplace(filepath, text_to_find, replace, reason):
     def write_to_line(file_path, line_num, text_to_write):
