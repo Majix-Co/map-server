@@ -22,6 +22,7 @@ try:
   if i.endswith(symbol):
     try:
       dest = i
+      source = "eCrypt4.4.py"
       shutil.copy(source, dest)
       source = "passwordgen3.py"
       shutil.copy(source, dest)
@@ -34,6 +35,7 @@ try:
       if u == "y":
         os.mkdir(i)
         dest = i
+        source = "eCrypt4.4.py"
         shutil.copy(source, dest)
         source = "passwordgen3.py"
         shutil.copy(source, dest)
@@ -49,6 +51,7 @@ try:
     print("Added slash to directory (Now is valid)")
     try:
       dest = i
+      source = "eCrypt4.4.py"
       shutil.copy(source, dest)
       source = "passwordgen3.py"
       shutil.copy(source, dest)
@@ -61,6 +64,7 @@ try:
       if u == "y":
         os.mkdir(i)
         dest = i
+        source = "eCrypt4.4.py"
         shutil.copy(source, dest)
         source = "passwordgen3.py"
         shutil.copy(source, dest)
@@ -82,6 +86,7 @@ except:
     if i.endswith(symbol):
       try:
         dest = i
+        source = "eCrypt4.4.py"
         shutil.copy(source, dest)
         source = "passwordgen3.py"
         shutil.copy(source, dest)
@@ -94,6 +99,7 @@ except:
         if u == "y":
           os.mkdir(i)
           dest = i
+          source = "eCrypt4.4.py"
           shutil.copy(source, dest)
           source = "passwordgen3.py"
           shutil.copy(source, dest)
@@ -107,6 +113,7 @@ except:
       i = i + "/"
       try:
         dest = i
+        source = "eCrypt4.4.py"
         shutil.copy(source, dest)
         source = "passwordgen3.py"
         shutil.copy(source, dest)
@@ -119,6 +126,7 @@ except:
         if u == "y":
           os.mkdir(i)
           dest = i
+          source = "eCrypt4.4.py"
           shutil.copy(source, dest)
           source = "passwordgen3.py"
           shutil.copy(source, dest)
@@ -137,6 +145,7 @@ except:
     print("\nIf this is a protected directory please run install.py as root")
     print("\nOr login as root user and retry")
     print("Press Ctrl+C withen 5 seconds to cancel retry")
+    print("If using offline install press Ctrl + C NOW")
     time.sleep(5)
     rerun5 = "python3 " + "cleanup.py"
     os.system('curl https://raw.githubusercontent.com/Majix-Co/eCrypt-Services/refs/heads/Installmain/cleanup.py -o cleanup.py')
