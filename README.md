@@ -98,6 +98,7 @@ curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmai
 <ul>
   <li> This branch is used for getting the required files for the Majix Installer</li>
   <li> This branch usally gets a lot of changes and github does not always update curl after so if the script is not working please be paitent</li>
+  <li> Starting May 29th I will broadcast when it is currently a update cycle</li>
   <li> So for consumers this branch is used alot</li>
 </ul>
 <hr>
