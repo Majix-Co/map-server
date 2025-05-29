@@ -1,3 +1,4 @@
+# License Decrypter 
 def licensedec():
     i = "y"
     if i == "y":
@@ -31,6 +32,7 @@ def licensedec():
                         os.remove('encbackup.key')
                         print("Fully decrypted file")
                         return
+# Main install block of code
 def install():
     if str(contentver) == str(version):
         if installpak == "basicTools":
@@ -88,6 +90,7 @@ def install():
             elif i == "n":
                 print("Whoops!, Minimal Install Not supported")
                 exit()                  
+        # Here starts offline install package code
         elif installpak == "basicTools-Offline":
             print("The Update Server is not enabled here")
             print('Using majixpak', installpak)
@@ -104,6 +107,8 @@ def install():
                         if platformcheck == "posix":
                             print("\nSystem Deteced as Posfix (Unix Based System)\n")
                             #icheck = findtext.filecheck('majix.conf', 'Active12')
+                            # Replace with "if Majix.conf = to 'Finished'"
+                            # Remove try block for read if next test does not function
                             try:
                                 open('majix.conf', 'r')
                                 os.system('chmod +x posfixinstall.sh')
