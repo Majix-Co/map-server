@@ -114,7 +114,7 @@ def install():
                                 os.system('chmod +x posfixinstall.sh')
                                 os.system('./posfixinstall.sh')
                                 exit()
-                            except:
+                            except: 
                                 source = os.getcwd()
                                 os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/posfixinstall.sh -o posfixinstall.sh')
                                 source2 = os.path.basename(__file__)
@@ -219,6 +219,7 @@ def encrypt3():
             encrypted_file.write(encrypted)
             print("Encrypted!")
             return
+# Start of Install Script Function Getter [Step 1]
 import os
 import shutil
 import datetime
