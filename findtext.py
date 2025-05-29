@@ -53,5 +53,5 @@ def filecheck():
     print("You invoked the findtext library please follow the instructions listed on the website or use vscode intelisense to use library")
     import datetime
     year = str(datetime.datetime.now().year)
-    print(f"© Majix Installer {year}")
+    print(f"© Majix Installer '{year}'")
     return
