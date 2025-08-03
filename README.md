@@ -70,7 +70,7 @@
 <h4> Automated Install (Internet Required) (Is easier to use)</h4>
 
 ```
-curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/install.py -o install.py | python3 install.py
+curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/install.py -o install.py && python3 install.py
 ```
 
 <h4> Requirments!</h4>
