@@ -33,6 +33,7 @@ os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads
 shutil.move(tempvar + '/' + "cleanup.bat", tempvar + '/' + "eCrypt-Installer")
 os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/LICENSE -o license.txt')
 shutil.move(tempvar + '/' + "license.txt", tempvar + '/' + "eCrypt-Installer")
+shutil.copy(tempvar + '/' + "findtext.py", tempvar + '/' + "eCrypt-Installer")
 os.system('pip install cryptography')
 print("Returning to Python Codebase")
 run = "python3" + " " + tempvar + "\\" + "eCrypt-Installer" + "\\" + "posfixinstall2.py"
