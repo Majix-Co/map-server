@@ -1,7 +1,4 @@
 # License Decrypter 
-source = os.getcwd()
-source2 = os.path.basename(__file__)
-finalsource = source + "/" + source2
 def licensedec():
     i = "y"
     if i == "y":
