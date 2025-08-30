@@ -51,6 +51,9 @@ def install():
                         os.system('./posfixinstall.sh')
                         exit()
                     elif platformcheck == "nt":
+                        source = os.getcwd()
+                        source2 = os.path.basename(__file__)
+                        finalsource = source + "/" + source2
                         shutil.move(finalsource,"eCrypt-Installer")
                         print("NT DETECTED")
                         move2 = source + "/" + "tempfile.txt"
