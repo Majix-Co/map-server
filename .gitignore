@@ -1,6 +1,6 @@
 ## Server Only Files ##
 localdecrypt.py
-localecrypt.py
+localencrypt.py
 majixkernal.py
 dialtions.py
 ## Server Files ##
