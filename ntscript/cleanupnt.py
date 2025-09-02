@@ -102,8 +102,9 @@ except:
         source = "passwordgen3.py"
         shutil.move(source, dest)
       else:
+        dir2 = os.getcwd() + "\\" + __file__
         print("Aborting, Try a new directory")
-        rerun = "python3 " + dir + "\\" + __file__
+        rerun = "python3 " + dir2
         os.system(rerun)
   except Exception as e:
     print("To many errors occured install can not continue")
