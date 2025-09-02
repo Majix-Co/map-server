@@ -6,6 +6,13 @@ def updateskip():
         return
     else:
         return
+def updateskipcheck():
+    if updateskip == 1:
+        str(contentver) == str(version)
+        return
+    else:
+        return
+        
 def licensedec():
     i = "y"
     if i == "y":
@@ -41,9 +48,7 @@ def licensedec():
                         return
 # Main install block of code
 def install():
-    if updateskip == 1:
-        str(contentver) == str(version)
-        return
+    updateskipcheck()
     if str(contentver) == str(version):
         if installpak == "basicTools":
             print('Using majixpak', installpak)
