@@ -34,6 +34,9 @@ def licensedec():
                         return
 # Main install block of code
 def install():
+    if updateskip == 1:
+        str(contentver) == str(version)
+        return
     if str(contentver) == str(version):
         if installpak == "basicTools":
             print('Using majixpak', installpak)
@@ -191,9 +194,9 @@ Active12
                 exit()      
     elif str(contentver) > str(version):
         print("Looks like there is a update avaible here is some of the things that have changed\n")
-        #print(content[12].replace('"','').strip())
-        #print(content[13].replace('"','').strip())
-        #print(content[14].replace('"','').strip())
+        print(content[12].replace('"','').strip())
+        print(content[13].replace('"','').strip())
+        print(content[14].replace('"','').strip())
         print("\nA update file has been added to the current working directory rember to delete this version before updating")
         os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/install.py -o update.py')
         exit()
@@ -227,6 +230,14 @@ import os
 import shutil
 import datetime
 import subprocess
+import argparse
+parser = argparse.ArgumentParser(description="Majix Installer")
+parser.add_argument("--skipupdate", action="store_true" , help="Skips update Skip")
+args = parser.parse_args()
+if args.skipupdate:
+    global updateskip
+    updateskip = 1
+    exit()
 from cryptography.fernet import Fernet
 os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/findtext.py -o findtext.py')
 import findtext
