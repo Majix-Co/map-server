@@ -1,1 +1,102 @@
-gAAAAABoszJ0g2BG10rVeBm2XAicTxr3vnS9Eq9JTKscotIDPnWwmfLnh0W4TxkDtWr772F9NCME0yirDGPECZlwT8a1wrlWgTKLDSRrDrhKGFJ3uJ1QqsDEd1seX4NglebNJL4JcT70gmO0n08Pdcl7xQH0Vd07vNqwU5s7e396Jvf1AIrQNrC0Rgvzizn5VTdKtWLbH3aLjWNysqXtKpEKu_uw33s_rBIYFV-8WKMcj7dDGdkFhJvkdSeja5lQrUYVB2H1RZOAbo3hTb_5yqD_ateq3EaHJrdl3fTVffOUJPfz6vrjtLrwTxViEwd0cZ2nzpn83ISK027KKAXCeZetQyqayCEVM0UEUNmYb-LP41ledj930bxmY588vEPHDGJpzOMR-WBcUG96ve-rUzrfbK0gNMzzElRxQZ76skwwLjet92G0dIMWU8dYT83ZMXPuufX1rJy6_OU9ebevT0n1pBb9TmeJprNBi79QRr0poJHu4YqO_8_1UMae4134pF9gMURx5OncM_JQ5KroczMFor7PdC_JOUgChB00owAEH5UFQeFNy15SEnb_RnIMFsajOzARWQ_wd4VIoBbx_6ix19Veoie7SELBAk9QfuEWlkmFLqSxQxsaRPbipgd2PZ0h9I3Zxc_6_OiML5GL1GsrDVIi7D1MVCDA-kl4UtdOCJW_ZKHVcSJWFNoQAe2Rw9y059oJmed5T0p_Teh7sStEyjKslI-KvhErEo-BG4aZgBpO4NC9cbJdkn2Ge0zazHtdQEIkuMpzvmxk7npcaCVRBgHIcBa1CdPQ9qZfO_uI4mkZPx2jZlm85CJN7Jjq6xvlAn7Le0AvgbPjO9xNj7kZPnd46YiDBQoF7uH9t524NddKebJpZQfIhUkBYFfaSKOxQg3ezaHR7946UVVpE0t0PzzFJNroktRXMbb1TJG7fQJ6MU0ugtuFFrvAhVWiMib2UxEHEFWwqKE8w3MNCHStOd-LhT2PdwdBItop7g5fF_gLZRrcQ71zlyzyEUqxWpAaljVCs2gASCtKG5oZIQAA0zuVii6yI6hjZMo1cPBVPjGY3nNxGsHjtW4dmURIXqA6Qstb5W-_SZQsNxj4jQckR-dGITRadWNVbsyPEJR8_cnC8wMYTd8CjSDaVMLRXJBiYjyIjuBxzbmlRFufae6PDxT0dMjyScgMzZWistq0HLV1xSX3302ZtYiAGOjrgUN_53V0ZOU34A2PKkLxreW-ZZY8rKt0gBe2Qspvxtps40QabRMuxTtUKGWTUiRV9S7b_CvUZDF0Yq600cZvE7e1Gyfj8bc2bUu8AFBVlcfXR6Z2VZu4E6kwQasCKz3rk_WXqBFVYjdmosUzfmqc1BFv-5IyUgORsoAk1CjdV5d28gbceoX3DEobMVid4p1-ujMbC491d_5lsDSt9d7qUDvsdjYM4qz3I_hMca1pbKM6CHOn6lxv9ieHwVOd6S1JSRDonjHI-z6qZpdNex3e2FtBraGh3xdZYDiLScdJ7itaPZ0FaSI_qvak_p0lcoJfbmPvazsinxvuRdq14zLUcqmWN3pq8IdPi21yKc47Tl41Egv1wFNmNAG1Kbt4N-c796hQN7ZeBR1LxIFtxE4tUN17DjC-0W4kI1HyyXZn99uckNpylEuzvxoKLNwb0OxMRN6BLjVbxPqaoSOvYPTLmzmGGXvPNd9x23SC30WW4-gLTZH54cxyPT2HWoXeG_6bpoId3sy1TAUT8h0rS8T_hrhxFYtIFQpEBXYUxf7d-mhH3LKUxslAo8GfXuJdbz5Y9dObjdrBW9PxXVeJBMafpRNbzY2c436GmbmTqzZRKB4bPd8j9UO8C8FhSGHO_HqtzKsReW4d98EF2dKl-TwRGrNK2BHMxgUqSxJ3MfEGeo30CEa2ADQE3q_t2XS12QRqvBFa6b5Ht_aTFnKkOa3UOcl0od15yDgpah7ZUQBZ4tLlKnFNJkgcUhM1ldCX_dmShP8N-hdPCspPxWiQzjf2untXsVyeMa44-Du2WirUiqoRqVDCKHiuBiuwLV0tuCwbwu-jjfl4Wona2CV3xvA8BWlEvu7huBOLj4vjBdbLIHIY3Ukk8aDf18PSQoEVJStaEyTR2cTh-Bem0zT0TjVDb8S3OHDw_TzMbPCI-babaEcIiyNi84LEMjr0xrRRC5xNlkMME3zcbu8sOAGOwTsDdU1C6zUSvz44s5b-wd7dI_vGJmqtdTJ5oaE7A-ON2atSUR9XkJ4m83mLfmlbHHo141zFr1gFAsiSMkLdrFmfpQ-1zCwsnXQHmB7Vn_9-qHMMTN5Z7eyCEWVZGHErhNaNQN3FJCaUYVoP3D7yefdTzhl8XcCg9u5QqGN665Az2OgrSdBNSxlvWiajp9xdsr-BTUBMt0X5xfhFAmHBEXTS-NjkuCyfO9NI5Fbp2GYOGhU_EKR1Gt82xQhN-96Ju76x_KI61CJlfzQAe9qeTYXlYO-6wOwwUlbtnmIwCgqnmmu3FTrSGD3ZfjAQWQYU2-jR43Ekdxfp386ZRB-P_KQLGFdyPV7bqG_Mz7vwVMPBli0jJanGVauTKaQbC-xf04O0sLGVxz3htcC3MLHPYoHW4FyzqPbtrfRzZOQBw8k_RfYWbcZie0EvUl8rXEAQheUPqz1zSthfADdH_zHdYQQ9CD2N_PCFbKASF5a_8q1fIOFBkGYWIDf9hwcCY_WrHfbQIRre-Q4pwT23fXXv-zdJF2sudWOFDpB8xjZ0Y6vAn6E3K7p4rMD_0FVFU_tG4t0BYx6ePJnhxAJCfsCwjJTy51bznSF95duL60pMO9M8L4j3jyjg-m1hAhfuX0UxedHGRFGwNN6CHXdYoDBz4YgWuKeaaiMG0Zb8MgyP4a36q0PLOlNnE5syNLMkdtUZ73tTTdXWs45sCGZjCNIPA27HdpGWN-x4Xept0agCANlm5Ellt5-HuAEWqbw7CFKkBjOtgmHtHMRLBtoH8w_BQLK1Ifu6FgaD9nUZ39QA8CbWx-P-AezqS2ymyvLdFh3FXd0WttPoiZKJL7UtY9axPx0S8pB-3nwfLKIOIy1ynAf0P_ghnAmhfLfQ_EHxhVrQ6BKSzjI35sm-M3Pit7Svpd8XJhEsc6EVhadUYFvlxgMERudcGigbMc-AqFr4omr3Gx8lcnFcGHbW-WGeUci2gf51brXzrcrGKkGWCMeIDNmt35LZABznfIyDTOLwzp388u7t-3HPe99NVCmni9VNvTJO-JAYKpZcqEne7GFPkzKYBch2wWAulUSw5MQGlUwOumJpZQUsw3ZA71JdEL2u4fJ_KBxz7T9_uStjLpgI5mN76WAYgrJs2tXSfO9Ubu678ZEwe7xhXFjjra5Khc1ayFFOcaSxB_KyEkeE5r_AlXxs8OGBILTo7b8jYw91yuMSTLrxfa0nYr43gud1pZVEQGR9ojGUrr6Eo109QBA-JEZjo47SJqcNL8lK6tlN8mKodkrBmHnIWv4w3KXx1HPWO_A0h58M3McWRP-tx1AdvJhOffWeqc_OM5dvXzCQ7mZTVySo2HnaqchJoRbKbpx27grhxoiRv1ZkGBnQbQjV00_1Htcyovc17Th-JGBCdHrClqQoTM2_vXZfn0pOHx6AcTJxA-2z04dGVsOUsjAfMnmGQczOLEitHmD43oaQbc_pu4O5LDLeAlln00u9Fm3_3sN7NQOL28tS4eXMsfQdt5Y2XRBK6n25IkjKgOayKRIzcAp_nEzvXiQILOX_4R4O_hgI1I1GWCY0tyRvi-Jv8FfyVZ5ow-4UamzdmHxOmM6jUu0XY6dZPcojnfWNUqLDNcEe-gpaA_oqpnidc3p9Bz-96M-DSUVuq3hc6MqZOECRWzNxLyUX92PC1SdU_loCzxO26gn-NzdN_EVBVSxLkfYS-y5mnwvroGuLAD38HrS71ExsRCeSIS94ZFku4K8qrWdAJhL1EYUbMwyocPK8TmguswJzgIRi8O5965vbwKfAKjgIxuP4ISh5ytsrnesCjvVRLY0Iox3dRxKU3RF3n12b8H54bTO8r_NHpgCGxjhbtgY516aA84dqy74px-KA_oNb3MfQ2nnDw8VQcafpRIdRyUhvk4WwYgju4xk1TOPG6nnXZImijsCmMIa-DcqXrL9jlqor9S0QArzM0a0-3QP5oMfUR2XSSMkc6hymCNS6W9f-MrZLj_vhqXdlprJOpqSOKJRww1vtQmg9g2XjNcAEwvcLYRcF_GvM0GOka9R7aUTespMLnu5x7fQ-MpWPib6Ub8wRanq07s-N1aNkPxZ9sADrqb6cQutpQaxmVIIjtnaeRKr9MXtjLf2d1NkfTJVMIbH5jFwoR8tm2upXJoOUNkFLxKSidmtKDhnWch-GMw0cXTmcaGPAmnACAMr2GR5NIYjjeWiIlCgUbYvlnPM3mQsZFDgsutmJJQVdl4oOmyw-HAPCC8qZ_M4lOpBQJkZ7qfhzwyQtsq0fs4RTHzbpaMmRcvul_zzFj9ncWlz5TfPX9ETVxu_10153Js5TBZNixKHMEkxr19UUmVH1DINd2rAA4J2Biodq7VgeVQ3U9JGogd-W-aD7_aGxbipyU1nZxe-Yb6wDvv5U-ovvZLzMW4LNgQwHws0IQ4vpITxPXN655vK2RRslZ8VgiTGhw4iqthSbUnDwvU-7RUW_DyN_pAV-9M8-QxkT92bjNUBmXLvz51r61S1UlGZt_pWL5pwlKYehxW314Fe4jzHis2HUnCtL1-zQaQ8drCXFey2-L8lk4n98sV3weZ1yQdUJReVLjc-siHhUEzPLKwTkim0ID5qktHP5TcL4xES97GQgUVYoI0wDJ8DdOveikJrKNyK63SRNPmmw-MUfHvNI-zictq6VfG5D2UH_qCnv0SJEOvtM-MAo_WqSBOCxwsf4kInDdc0L4zLIbnf081XJGC7Ayjtz6rCJn2eUihr_LZOE6_p1KZq8Tf5tAvAzJxbM6Gp7z9KL1Z70QNoIoyEY6GXz3wwe5x2mtC_KiOaFw-Ker262F1fuPbeddYGsgB1Q3e2ywii7Q_bH5Vb4nLuYdcLVyn7aYQtLeZKaTYwCKmDoQumAtSnasE_h5d-YRC0S0c2jBKuwYeYkWOyVEnjFMDMSCODWs2bDebgPWTbkPnjeLpRGC3u3TMm_MmoMMtBRSB9ZNzAR9qRz3kzt5GbzIrat7XdmaWGC48TdZq4j8bUp9unkNvf6G0V101J-M6kTeH63leXi07peJe5ZPHWALE4qM_HNSTnKEj_3V6kmjCSLUEcoIrJFtAFYKsZq2TlSUDaNjs8C2wWd_eO7H4CD4oEZkPMy_Kf-ap0dLLD9prE_kJ3GSburtD3evYcEOdbVSMyPXAgpVso7q-sz4xzDA0pJrmPiK2l3VX7n-shEIdoK0ZQm-LoIXgfDSXY7XNeiK3QhSF9NFixKsOCGyyiYNAz8Bb185PthYPAaZO-1W94t7qkSmHb5cXYndT58-8eaumFwEmuJCvNhJcemCOqe1WbMX08Cg_qaUtRpWV0-W8qdLB-weBoDLymlRiQIvrm9oZ7hnCkkKHzBjXD1QkhGjtNbUiRIjTiQbRrY-2HoHD4FkCtho0vlX6an4JMOdWqY7fVz5D0YVeMV5IOdJSI6HYKQH26Km6jKRa0YZUV6AXh6a0aZrInUItE35olcNwFsXeABdAz_JT2aBkhjiMCXWaYaE0THK9joy0Jl0ItgwKau07-CC3agQtQqCEdCOfHDgHkHfOD3iKUboN86dipqEWS-K-5ZxyliWI0sgI7WTKoVHpSHtsZpg9N4H3pXnBBfHlsxoNFe10Sf86mC4QFt_pUdx5YwvGkc5grCP7d6qZ2LqwgT7eFmp5Nz51XBbLJ_TgvgdUXift_QnqeJnN130cFVb61wjMPjvk6mclPtlYcCsFSe2tDaU1TLgAr_M3PQRBOCNbBpl6w22Khk4c2L3iadqI1qeVzT7KyHPZcnj3RJXRTtYX6Fscom0gQ0wSBsTqGIp6ewUagxQSFJkmuymIc_kzaF7FwnGyvoBYaXnU4zw2qTbubEm0CGW4oUhMzolYeIIOSTEH7cq9PKQVdrsJlvOaw2IiJsySFE_jCY61ZuVxMMKZyPOUjvMTE0cvUz-9imyGjn14kJE4WMEYn7wC-FtuxZh1qLxngb9AHZ_g_IKarYybIkMiya3NYIOoZakOZ-bHzmWWrlX_8C9yak_WC36S8YqyRHs0mjA7vQai0-6_zyL4dE60zHRrlH1b2ikG7J0tH_WLWCBzOinnK7MOdoY0tg5lG-MSg-OLsbRQcXjWyST7L6boLbimyc5x8Ac5zyqg1q5U2naLVGkR0ig0whFI5j5s4p-lNPsIWpzz6mWpQinci_6020KQgWKaF5lJmnSDFZ0yCLRlO4p_0=
+import random
+import string
+import secrets
+import os
+#recenterror = 0
+
+#For bypassing of block list set block list to "None" leave var empty #
+passwordlist = []
+#Below is version code number
+versioncodename = "4.3D"
+passwordsymbols = ['!','@','#','$','%','^','&','*','(',')','-','_','+','=','<','>','?','/','[',']','{','}','|','`','~']
+blocklist = ""
+','.join(blocklist)
+allowedlist = ['1','2','3','4','5','6','7','8','9','0']
+blocklist = ''.join(blocklist)
+#print("Current Block list", blocklist)
+def startcode():
+    print("Welcome to the Password Generator")
+    print("Your password will be temporary saved to the script before being deleted")
+    print("© Majix Co.")
+    print("Current Version is: ", versioncodename)
+    print("Please answer the questons below")
+    print("\nThis script is a bit old and since does not have MUF(Majix Update Service) capabilities.\nYou may have to check for updates yourself if somthing breaks")
+    # Q var is password length
+    try:
+        O = input("Password Length: ")
+        if O == "":
+            print("\nPlease enter a number do not leave blank")
+            print("\nPlease try again by rerunning the script")
+            startcode()
+        elif any(char in blocklist for char in O):
+            #char in blocklist for char in 0 is checking if a char in the list is in the var O
+            print("\nYou typed a invalid charchter please try again\n")
+            print("\nPlease try again")
+            print("\nERROR")
+            startcode()
+        elif any(char in allowedlist for char in O):
+            q = int(O)
+            print("Your password will contain numbers letters")
+            p1 = random.choices(string.ascii_uppercase, k=q)
+            p2 = random.choices(string.digits, k=q)
+            p3 = random.choices(string.ascii_lowercase, k=q)
+            ''.join(p1)
+            ''.join(p2)
+            ''.join(p3)
+            p4 = [''.join(passwordsymbols)]
+            passwordlist = list(p1 + p2 + p3 + p4)
+            # print("Current Vars (Unshuffled Varibals avaible for password generation | Unformated text): ")
+            # print(passwordlist)
+            random.shuffle(passwordlist)
+            print("Final Password: ")
+            final_password = ''.join(secrets.choice(passwordlist) for i in range(q))
+            print(final_password[:q])
+            print("Thank you for using this tool!")
+            print("Your password has been cleared")
+            print("\nWould you like to save the password to the current working directory?(y/n)")
+            i = input("")
+            if i == "n":
+                print("Okay will not generate file")
+                exit()
+            else:   
+                fileexist = os.path.isfile('password.txt')
+                if fileexist == False:
+                    fp = open('password.txt', 'x')
+                    write = final_password[:q]
+                    fp = open('password.txt', 'w')
+                    fp.write(write)
+                    fp.close
+                    del final_password
+                    del passwordlist
+                    del p1
+                    del p2
+                    del p3
+                    del p4
+                elif fileexist == True:
+                    print("Whoops, Looks life the file to update already exist!")
+                    print("Please move the file out the current directory OR on the following prompt type delete me")
+                    print("Majix OnDomand-Prompt use either delete or exit")
+                    i = input('majix>')
+                    if i == "exit":
+                        exit()
+                    elif i == "delete":
+                        print("Okay deleting file")
+                        os.remove('password.txt')
+                        exit()
+        elif O == "0":
+            print("\nPlease use a higher number")
+            startcode()
+        else:
+            print("\nE10: The input given is invalid use numbers only")
+            print("\nEither there was a code fault or was a user error.\nA critical error occured")
+            print("\nInfo: This is a fault error this happens a piece of code may have skiped checks")
+            print("\nCheck if the ""if"" statement on line 23 is correctly parsing blocklist")
+            quit()
+    except Exception as e:
+        print("\nWhoops!, Looks like a letter may have been parsed to the main randomizer")
+        print("\nFor debugers the exact error is listed below")
+        print("\nFor regular users try getting a updated code system or delete this version and use install.py")
+        print("\nIf you changed blocklist set is back to defaults and see if it works again")
+        print("\nException caught as:", e)
+        quit()
+startcode()

@@ -1,1 +1,239 @@
-gAAAAABoszJ0IBv7R76AK75RfunERqHFgDxDXrUUiFVdfPOcZ88aWQVbkx7rlDEzLV-KCBm4VYgBZ-i9z0e7L9U1SwD1I8OoNaUcuk0tzBRtLYnTxM7TmcOvrw1_85CwqKI4ffhgIdpBNgGHEzhK93asvKxd0IoOwUXRitAkZjo56z1zR1KVYrKXRR-IHVGjlT-tmg7dE2Z5OuP4G1FKQbWLa16sIZh8AD-fTb1TzL8vZBeWfeCB5r6IDF5VYvMPebVxV0-1ujFjrbpgR-5DRABa782aV0O0_Ln3SNDZCg8eluIoJN5km0Dg4K_n57195Zx6ggWSterGZqqw4cVMMfFHHgNWhVRq5cmFFlX4RYqlTRmX8RPGiEt7R-GJWsisk-6T5w1kpJjKOdp3pGa_mIis-98rsLnX2LBmMOI-WY5qgZOorA8h_-1iU3LDX7gzHMqpPzVKD0Fa8IdLK7gRbrXfrYb4kXy0veluCbvXmU15y7hpyabG4dlo2RQSjhFC5xd4-S2qWMVD-b2LwRK2Ymu8lndya_aw2KVcOo_NJ-KZfG6GD310dmsLz6H_N9xgn1bLRB_H9khun73C5IR_wyjux-IrrhhSFpVNTtgCGhV06mhKH9i5ZrRRBPP_9YfZuDCByoeQyzlz1D_leospc2F1aULe9bySCfFsezdyz7X0V1UX9SG1XE_ef_1Ppmer0m9oHiFB9XStFRibXESTOTga6-b2kZSSF4Y35OBf333iYvVrJOvsAKws_OpamRoZ3ezgJKWz37YCNSWqssFJ1vOGtfwXePW9zCPI3ufqhSX6sp17Y1nkgfq-ELMoroxbIdRTMCUfUuluswRXDqZD5cAKMgDg5SWsjwG4VJ1jQHJjpqKcXl8xhFsHlrVGXn93NiN9uDOc7rIhDFcXDs3NK8yOYW8BJbNmHAkCCBm_FOWcWzyNaMLJUT7D2u8hQXJ3xSI51-rFNt1GkaCStzDeVuEohwwh0ezZQPbpBOrwJElOtzsJuU4ODzO5Gg-A0K99YmcavXPw-NdEmSPWb7BnV9LlV2vBi8WpRnHB33DCgJhtbJZachgO42SEuMTzBgs-5Y3hgkVe8HvjHetEloVorbUFjYZ2Sdp0TB8DfcBO09MK6ycvYXeX6-SmZAAy1JPI0179oNlphyN5gvWZUdJGjrVawjKunnGrV2k8tdQhuamnpJPftiXXC-_ZzG8HUQ7W3zPI8IbE2SnEJkBtGUmH-Cuz2yYnDMphgWU7f6-2vUKs-ezDD0nt5dA9SuknSxA8mDz8quWPcDR1Tu31LLEWTuJDlRHvGPx64IoCIbq1fZQ-CGvdSrok1Yi41o3b93pGWoFadjVQMLBp0KvcLSb36Pys3qmlyNmd0yJ5lc06EP378tOUw3WY9xWiGVms0esmbMaSXMgniWYjRn-xD7lcnmQ7gIWs4jo_QjMQrEIQy1ayWtg75OJGi8eUPAPbPf2kEmU8S-eUtZQJyl85x-oRI9mECzo7jWdNid8ASk7pJrxyuoIHxHB7vnaWcTq74n2cdmiQeiToj2bymfRMTiloNV1OLw1ktBtSUC6BeavIzV0or6-Kop0gfyjQogpCSAF_s-Lu7mchRs5tT8zQFckRk-5I43mp8WtVjZKXQLz5H4uAMfXU4hVXrJ9LkMMCMTzNHor2Z47n_nyuqKWTIoQ5KcjNTSFkdQcMPTGOkr2--SJ0JzogGdkXRvp6jFrelTNBrdx1wk61yaa7YqxIeX3zu2NWPqbD7b4fqGDG2Inssdvy02xnZtHPM0zaqfCjuArbzB5kd3b8Z4UduCUs7ZQ9rkEEuyK7Jlf9dsPEyxHb6NnJV5DagHSrDaLnDXNWQ6HNQOYB1E-Cq3FOQ8Ua-OQvbi28xkppinOZtOrt4OrI0CcPgin7iT0PdaUUvF8dWzItsM4v2pW6LcIbn6P2r7mhmDGBOv2yIbilPDIHYSysec4I0_kxjJAXicXG9_rX_mKSWWdkLierLm-V3BzNsgJNVww4D50KQB0ZqcsxRZ2XplljArT1ISnsBioKcxQU9-akYNm8lE5N0jJiZMrMoLxeHyLCPEUdtFuko6QxDpW7GzsXjWTyKLGxbARbpff0rFLN9Vag1xC6VPaOddSBAc_MWDXvnCSYDkuUbXhFLlbtPS2EI6YbuHN2ReCY5IjBIOQiljqRfIQLoWUDkL2iFiOguy3tdc2Auk2_JwfFwrQGjIwTgYXUS7MpNbtxUchChXgijuvWzZnjBRMmQMtJlfsap71QgfbuBwCMwlLNLr_SCO2ELytL_hoXDWVMPULdkRTUFodIbHJ926jTWIMqY6DjIWqxTHuZ_dr8wTypHtUWZ-_kbzgAmIJ_tGJMWGL2SnpjnF7RRUcTl7xyW_nJalCXmqdQn1xU8cUjULfDlsPq4pyr-daxiq3Va3SF_h_TwBz54ObGdHNRxGT7D6fmGYSA2lCguB4lNNhy4lWfXa6IVQBuEj36M2q-ZloGf5nSpgpPAxUpbcT6-aFsjkLXdoKtRzaG9TTJD2xV1HxZA3VBJaVP8sZIFLj6dPZ1lF7HKKhf3WjIVGGxmXXSUWkJAu2-uvr6bjIFKi6pHp7fy1R4EbdNrvfT8YwxcFW82jkF5qVAGIHfQyNzuKZ6NVCW4nwc_xitf0E3IGwt_Eug-6LZZuSd-Ur_QKkyftD3hf_CkbNYf0_S2gwM4g7wiXkZvvwUKyXTz-rXeaTPdfIRM9h-DX3UNdNCItV7iQ1Kx9D_p9kEBnj9JEsVp_nsmAVpmbga465jVmiyEjS2YIy1Qr0cZFksshg0ja8sIwgEqMABKznqq6-IgDX4EbZnaI9J5gxFpyAWd272TMzqPIBBZwfbBdd4xBUnoIgqsEVJCWgswraUz-rmfSpW180N-znYZrqSq7pGw9itDIyiYjtmA4VkMZ_zY9LGnMtrl1YEFWBpEcdWET9XhQmDfZ3Y3DUtcowMZhEWrsRPtsKFSyynMFYy_Kel8Za3YR4c1a_-3NeNokQy3AwXWxufPBgI1QSM7lNdVny48vnPDn7s84hXpJqC4iG6Sb19uPgoWswSJtbVYG8WZpQT02GU9XpJw4FSxcs_imoTX-4bYSjUv7SJQBa0HCKD6PFIZ1xQEF_Tngp5Y0p_ZnvPB3HHihgec4cFLlYzOxoOad5Xpt1cov2NEx8hE1LRZRLg6QktYBJ1a732SDwdjSZM8z0q9tPzc4UqX3qALMEHyKtI6J380PU7cUfMH9u8u0lJoVadXHRy-d6iJT94BY2oYMtXeyWr3S4MU29vmoZEF17QJJAFkv0V30q0gdytv9P4c2dJ_AQKaehFbhdfaG89JEYAJcNpuL8ENroAwvEl1T6RPeWXtl2DNRvEiBO9vLYVjNM1bV_-QA49IWnL1itb0P5MLmtBZ1PSdYy3G_kiWBPHNlI4juEB6JasQmY5Gu9EChQGVFtu9KCQPn7lMVYshKY2om6Mq8oVF-IJt0JYNtd-0w7ELBmOkgW2PJRr657PvufTdbKmndwuPPx1o6DFrDt2joT-KQEgtvzLO2zwHItLmQ5MayAN4-DXuRgmezSzJBvp8e71s8T3e0ZNqIjG9Mx-sYJtX0RYZN9IzZn-HeNkSGsuBa0JBQW7PTG8OZhcCrQZ6F3o8dNL2Ri1ZQ5FRHM67NwFvTV_piGgT0b5T5EnxRMWwF68b5xpUWiaD1EmA_S7JLjs6lA13rwgEBSgo4m0q6xLYDzt82gAJOrpJIrvFEMcyTr7BYprkMSNRGDy0T_ixUxqKvZwVQFL2aJ8OLatLTViC0avWj_5DJjfmc4T7C9eDL328aPdgts6RNJjpDOvkxuymeJVoEyrxKuhEEayj9xNmMOU9G1niS0xyEz9S7VUV2vPr-58H7xvYRFb02oo51X0GLaxnQzhrziugh__b7kkXTcSQFRkuuHNvBDKIKlbfRDsgApgTuUj-Fq3M3PXDFywFnAZPbcH8JlUPGWNwSjjTTkZEO3eB4JS26AYJ9r1ky2oY6DSihD0Iz7pk4K08WRO74Hx6-VjfqBcD6Zgpn_yHSGB_jH_uWeiaZFRrj-Mc__2wAz25WmlsMf8GeS1OgA6iWxBzdSXUYRfSsmjndUiElThdewQsEtCDkjDvGHI0mB_aAr-pVKPPSyN743nKmhLuEF72B-Vtb_nSZE6hZ--dQ-3CxEULMEUt7cttXWxGVTCXEibfbUWjvvmypT2DyR-qoGnCpkKLxKTJw6-NfweQolAPzHqAOtyY4SaWuBljOB3Xe86NXlAWElXH1YcTB5kaxeeWCjKFm57CIKEY4k3G8m3glLXs3N0dwq7_p18wzWQjXCUcEhjm8nHX5HZ9yGuew2KYoru3hSfDP3RnSOLX6J64qevqSzMQIqTDCWqtRV-IriOIQD1WppzDA-ZeJwMsClxWChTG7p4iokAYkERZfdNaVSCh54rAw_DgIEuxTjzuDuZibdWUc-n0NL7hlJ9ctZuCWWcW6eD_3rC5JGtLZGVfFu9CxWB5ySbhpKdPSIPqJli8YoFktX3gPevAZWjsAoq2B_5jlUz4noDvWYybx0MdqaNxKeZoHng_-dQZIOrC7WuoSqm8B3rz84ozReze2dHTd9_yXlLgsC3Uvezl4zYOcM-z9_T2QTze6SnYkY_7NWBT2lhsqDkf4jFgvpYSD6O_U2zSYFKu1hLAL78RUO_oShshJadPjRiqHrjQeXTeg67yJFsr_FFkUZbpy3P13nuVJQPt1lDJrQ8Uuj0aloHVMNMgH984lNKrwhPSPIMEzBgFHoL_wAH_TOYSG99a8nR6zbd4EQZ0pRtey2OOvdZ-XJ9SVmX1KfsDBqJWr8vThZy4pczdevPhPVuqihg5h3bCvsUolkk674nQDSzRDsjQ8kcuQ9v4NJTNc2YkoYmycBZiBtUfIQjvhDNdIXIThHAlpqRP56s2v9_3sCcepiJeHdcdqQHIoVa4GIF_W-wlWkSRhTrPpJWPAATjw_DtUftuhY1PcwC58hR-pSNXw9huEkE3APNSSFiLlvpr37O7ZX-5IXCpv5Pb3JsyvuP9YoTa4gpW518KiTHaJcCUPjF7MZhPw87y1DnMuMHUGl-gxwFR6ikTU45ZhcoOCWjqS1eMivpkptfM4Z0EijRY041ccK3Ga7iI9nfGI7UxOI0oYaXTJkk9Ze7Ql5hYT30iZbk7_7m5fMIHWFuZoQAfg9YkpzCO6SyilMp0xofo2QtTVI3D8DXJUY_AicT2wCKGWMEC32hb2DlLfMppfVj9es9EJaJa7y92Jjj4rY5PwYpKg_WdcqHhVvSi6wkgDKM5eV2nJ3NTTDvAE9P0b0QKOc48ju-q88DLVDbvnHLkzIaKyDSaagy57GvO7DZvB_apNqSgjr_XmpxKwB083pXyv8FjqvENSIkSCG6QJuvHeY3zZLUtdeKPUEPLRSZm1G4yI0el790KXCZbUhmpGv5a5cJZLudJF18n-TC8bcfsuVUlKJY8r26DMp7J4IBBHtSKEtUSHtoYHRgdd2ECjMfVQfgc-awEHezRM86pK6-itGhydeOX7y7DCy3pJ7t3D0jrYBSztJeiG_WcrN838-y9XYlTT9Tm79BaUd_n-j4PPsOMGxH5qCulyJKQzdOZZAtcSCOJFzdKjh-WoiZVnKGiqIpam3MzX_yrL_acZJqaklyWIzy41DMRAywfAQqqsvJI_abGrGzeIwrtGltkBhDghHofhWs2daZGDdrERbGUXYnINmK_wR8PUdMWr7-SI2v-oucPWaD__6obpBzQtxqnoC9NDQCOlh3rC7Tz8Ano9P-87B4dRRJ596Fhamd9cdCZ8FNl4nPAAZs7BsSzSL2Lg5fewBlcy10ZucPfgPBEyaRSsL8PbscwiHqZJ-Bu550yJh7FyoQOnNF1HGs1jKiFA15vEOcObW5zYj7O7cZ72AiQM3bDiLxx2yTJCcUvYE-S5BZL8Sx-yCJdMI8O1KgHvfjx1b34i_poMvnhF4X5j2npGx9XKDLuVzNuEuYBZnxIH1EVejJMHoeS6cEsL-6EP21QHtZxmhgRPDmBa1t0zYErb-ykgybSvPZpC9jhIZCufiM1z2_G34A4tTDsgkfddAK5usN9BHvAfKtoZ1KqKHG9NJ8q3lthHi09nloRsZOQG9BLtyzBJI_jME5sV4OsVc6XUFDW4A9yG4CsJtfM3Vees_4O3kfnYkIw0F_xNY_lxBZ7Ft-W2BOWuUc50gv-eMcBxAjqOMYaObsNrKyB4CZ1Jok3z4sd23hCwwQje_mOLyOdQJdyRSeM76s0YMjF1sJjut-3l2kiolFiotBT7N83xT7FjINQ2bp_pqBFcctQjLoxodBu4JTdQXnMN2ZzN3e38B8dKYXXmbZ4wsHmUGUYOw0_qONNoM30KH56vDDixvN5bAayDY13c3-oe5w59zWrxiokZj6MmdAzYG-_ie0hgwOAeBwSpk-acWgCAg3eVrEMzRT7DDUwi0GSnikpLu95dfSRMEJG1byojHMw5rkeDmgeUz01Vx1Ad-cc23XdEgjcpwW3LiP4mp9H45ToJQaVBEPd8b2vOcDs5r5HGhpIbitAL1YiO0xRX7Jknps6RwgllUnlt3qI-t7Qkm2mBEMfoLLdGl4wPQ0aIIbJvnUopH67cxjoDqapboz_79mYq9-Z12Cy0Drkwi5CSx2lY00Kan12k6z4tczhUA_q-_7dmy0afqz2dWnqUy69cnBEVvrdDAmG6XejJzrGGx5GSsPYuJDyCOPLop_Za-PZpb1VOqJlvEc9H-PvipUMARJtHXU2mbsNbwdYtiJEPhjs7IHoDxT-YW6egARNgFiyU59QGXsd1nzWYGPvklnU1Iz7iDLVbWO-uxM92YMeT84lhqNJ60TTmBV6_D_-XMWIdIlFGe5SXXhEW91k7_zk5jyKTUzJE8qdkmFr3sN0Sk3Db5LT2LbdI4Q-GsbQbZ3EQ01ODsgfMbKC4Modsy0UravuunPIC8M__dJcBdrUlEjkJU83e0eBg6fZ1BL-1Y-lhCjiYINVd8B8rXasY3w9Mac_HUjXe5IoqnevhfzpP_6bR2a1o9URFhU15Jd4CjfGzjOHef75PusnUx2uWKxhotkCLUeyAkNXNgXRo6HgprAw7Y4IvHXVba7VN1PmBwA0l15WtKFL9wy6Go0RjRlFQ2rf-3NOM9j3ppZdHODzxM25KgP051MxZAWR2KCH71B5vHqK5E00A3o2dBFeAqeh7q0MSgu1VO6Yoewx7P4h1PNkezdqWb9S0ViYgUKW03uJAPnPOLEmg_xRIT1RUXD64WnLlHScfWcvaQ_NPiQ0XPPeGmDF6jBBYx7W3u3TbQHNyQPjWrakrA4JpAD-2z7jR3MOjsjx6353BkIaprdEh0OwEp4RcSLFH2t-X9wEUA3Q8Jm3JP295uecwXeudtXsYis0YCygdN2g-8PNdYeM6aUvS-ghs6-LNiJ8oNxNivXtL0xlwO_t6obGCIKqvne9E4C9XwATElIK-q6jeZHRuQbs-3TF1zNhHYOjp-STfRGNsU1qjIbtBgq5De-3PyadIQ3tBUAfWuAG8gsYMFbr5MHhmnAaCB9A3IY66cZ42uxNuq98jEEPqUlC8dkC1OXiGd1OXom52LfVupYCFKAzC_XW_OxH8TYmvVr-dSyBcr3Ev516BUB6_mIIWt8qY5LpubIv19nB85K02fxtf9QRtm5Dwg8Ci1V_kPjWUl4xbZEU_R6xXEA2CsD18GWik6oOCxbkHY1Tzq7vCb2Sb64pfKq7c0d5ceQUCZZp8CYxZatWdU_sEOUqURD_ln3KkIbaxFMsnht8_8a7lydgFM9CjDqn0DsXy-RYN3k8wWln8D6l4RkknPuQLthAIBrXGQ6M-lCyWLu9n3lQos7D0aE4mRPnVhb3f_pbCIhzaVOt1P8c9ASW1J6u15WvHbCLQPDcrQq4QGc9ApgyDkPcfXy_2qbSEJ5uaUy62UP_IXZdJ9VKLFTKJ7fRYgHcK4orgnT7TLoqBDtrS2mqGo6_wYBxRfBmS1zb7WXrTjp0rTJ7M2omGDJF_CPfwyO3T4qbd61LXmCQgs4dgCa6wf659eauzCBopBuBIm1UMfAtlgGUhlN78GnVdFcXIUosuWAYYMV7PczxNdSM2E1RzZlYLIuR97L08RmhaZpukm4dhUUY1znvFBJmWK9bZS11shxTTBsveuAzHJ9-Ie9yaUvKP5jgQAqlVYHDfWNHPlKLTEE3pZAXmJ6N6zvOMVwfPy_MqlXDYR-uvilMJZ0UYYwPagcAuPFfZBKMym6Ulld6B6eZ8wk1gZDoZK3SGm74cCb4XJRlMhE_J5bq9U7nzybfbXb_x2JtLT-mcvWn252wVEjakIE78z6L-UqBJJLG-u2Ls3b7bkx7VT_QFMu4kjHU5WFd7gztvJzpxrVkAjiHgOycWw74Uo6BgGjhZ2FohpgczzM4eO081WvLnmoiKSbrXBfY1oqKOY9omGLczfz57jEfubS88n2pMEFgagdrasT9ANpQ91PIL-SfW4lKMwunsr08_F40sOlBFwY9rw2wlRuPhEJAapeX1iHSHxXCMuABxXCiw51QsQ4gzVAItSj7q7eBjP5xa70lpV5s1osu8xgt1ERgGFb5Dcw4Vr4hSSXXTuuLcHrdOXnCIJ_9J4-KY4792_cPBkKPzl9_LdmhzKjAqQsuYKx71cx7EdNXlteGlLyJTSh1YS09WqKebbkdofhdjQBcmxDIbXgWgyjQJyJSyMnUpIbP4V8HCUvv2M3mTZOh4S1WmMADqsIx9r8HPOlhc-V-puq0bNtCqhaHZ1h2ItCjKByRe_D6VOFpHDDgzN7D2O4Pxb8yBw3VUqLLZSvQE2nC4dHW27hqq5UW8IUSQK5M5MpRkGMN4qUMkyC8LhrpJvy6pVjc7xvw90fz2TO_zJChQrEixCj5thcQN0AHtPALV3Mn8SFBWd4W0bR4EWKSaxvrnhcJm9Oq1dGu_My916RZ402xSdHlPdhT5px3cRJay6qoXh7zqngNXvbtZ0_CHb6z7-Xq2hGRxHKw0dJL7JAdfAlo3gOjcy6P_XQTA2TlfTnY7Cwlcr3rqKqnmQhBpoTBu2ScNKPSKAuO-mocUdnjP3rgweRI9cWJHwqwe8lbzg_o-z64hwWyasRcX7gai7tXkj4tyTGGvPShHGSu7LYVeDF9zeTojySRoemarkuCnwprcLhpqWbM9dZfnDewfvRWuwfhJEwjU-NusUv3sVHG7NX3fmMstlYFBETkCN-QWHOxpXDGe1Wn6WaiyR7iYEwvCZghkUZx8PU3Onv96HPIFt6RCAeo-hGsav1ApANcgP3E4L-wrrKyEJApo9M5MsP9xBX8zrtt9OUs3nHZYwnnlgPYhb9ynDvkp7ipbAbiqxuQoCwynLM3q9W7UUI028BoB98uhD3OiOK2KmM6zKiEy2ROqGfghKm2KnR_ovxF5hPrMoilX1ZsnRJhEwGKqu889MSYd-O89g0pL8K-ghrUbJNRKVngvb_RyiRmtEigRp7MrJXOEwI_0QwiJhOVqU1vUsRVo08TMNdDw3QMDs_0Sfl_MIJh1Q0jqeMX_l62Lf0LUUkVI1G3-4HWy3CFhkZtI_UMy6wbuAhm57hW6gN01NSpPFDhz9IdZ83tXs0UgcqvYvVdJ4EH_IVwG3l0S5LhrFzXVQ1oFKsezICzkQlvrYb4PRtMmGFJVD4ADL3ZtV9nb3QfYZsPHWCr8u0kvHWa0h0XSlEqbBaAbW_HBK1GXAxeXBNccdvL-eR-sVyI2Yaqrm5eDgDb-qT-pKbqOA9bY6w6chK-d7nbkO_xhn24TqEiN5-loQtB1CRSCSnXt8dxnenc8iWRuAZypS-x6xoMua-OWRbUhxEqjPGIY-fvibj47xjJRcNXLDZCUTSxBqkLLEonP5RLZbby0NGA11PR6Vc30-EeB8RHc2n_yKqrQsi7ugrpTIHwWXRwgYZ-e_hJflMUkYmsYXZXlOKfp9zaec_Febmddb6aOUSUPW_FBW586UoNkKgK9ulPZe-2BEXfOf8aw0bnxsQJrXZXpX7aE_ip-ro9mQIIjqR0TKztqJNiE8HWhOXbXfrHTmWHIfaetfjSMo2VTD0UxadRjT8s4RTCh-ZZyBKe5MBP7SrpXogPARA8q2xX2Sl5MCEbsf3spPn-ZDH3MKmLIY8GFZOklmnq67XZqUBoH9QnQ2cGuJ5ibotQADAhMVXU28yRMP-G2pbo_x-nnDlFlr9udu3tWPcUz1HhneNEOw_-7BjQAwbduKYDdOivqdBS_KIFJLDYsr-v4YDJw4EQgjCjRiO8Om6Fl0rMd2WARcPbA6Fx1W677re9Ui0dQJ8lum6wPi0M3yGgLwU1-PMKiCORBe1JlCrHmVvmrjjunhcJ49lBmGaKUGX-wN2xifS4B1mEmzI9xBKXqMQ4ecVhiZj-M-frQsrMWZpTl0UvVlv8tugIaqgYhxIlUuGaJ9FHGKXAT29LUxfQ3cztUqmlxq0XR2fNPJJojvBRT2NZ9ATvSPsXDdOCYPZonCiQjWD2ksgvcV8Xn4QzuUiA4SYPqV_65PH9Ly3dMdWLb5Q5eYC2_TmQYcvl3-Q5BAsJGVAwN-XSPvqpvem_oe1UlRrJxJPy3nImoETV-a4OdSft5wBL3e4tgQkubfsatyz3TCKEYBv5Rae77yQMn7TBVHO3WjcYJDPBSzk6VPVq3PgujrEVhYMghL5jOfVUMwW-wEQVIO21DF7F1RduZBQcOJCNjZxWEf0VIvfb9sOSeY_RdJx3bsgIkeZyTNIMwykEW3LQ5inbvXZt_O4rmMnd9AqJW1IoZfg2HYjyoAz_qlLnhg6wSQ56Dvz832VTOCPahZtuB5g4p-lAzcj5nQL8iZPZhoQDHiZeknaOIW5_nK-65pW9hQHrnArSwWVFfQYVcH80xBbEk8GITheh_zpK3Qi0KsFFdqXmG3dz5sq9RRC_Sk0J2J6CzanC1iLMpW8oR5iTp7UEoetrEIcLKZuEE4dHIvPcaIV2Y77itW75Zm37mx-xTGDypr5bOOyJlXZR3EpS8hqX91XpdgrO4uUSggv0niqwNwY7B2ufQEg7-jKUjcCIdMgyX5WJ58XftvtaL0syTlNQo9D3vEesFfw85nCncEvqq9an_niemhZIyt-Jh_lNCuJWDnUglOL70CDlE3lYfUZdx5Q6vi4ItjiWgxY2NCeFjOOWCvcG9f-rGtolSlngV42ro-rOstBzvmuvHrUTVHrKrdvoEbm3vOUKgGA6UYL3vWg1MIjShNzDUkRIu6JZIywRYAvV_XuCbfx8Z2TKVq_8MAPF7mB1CRybjLUWy0Z1ozOEsLN3KEup-rhIyJCATSLMJubO7lWvXXIIyj244mBXeChxZdooZKPyGIepPSXZ3cOCWI9ZgmRQqCUwkvp-v3ymrEE3tDfhaNoWs5Hbh6wgUcPTTRvSLuMTy1zbBX4VSRWImREsLEv-1v_wiX3f_ZPExwD4xgVPcjVD4_tf9wpXbiML1W7V_fhBtUubivgtebKuOFInvSY3t-EOOkXKB2TyUJG_luLXwh0yO5Kbt_vL-ekBNZAL6SGsHNWRhIIBYIxjD6TjGcE0INJEpdG6xi1bHsqYpzpFOVrtLamslg8fFJsn_ttTxcPqpH--lnCb9oOns775_Yl7Zt8HynO6rQqSUGrvql-MPzAEgP2oHaTQ5cDyeRZ77t49TXzwlhUf_Vh-Dy3GrZRyA-pElL3zvkLrKBcEhWFu_rixO9UbGSwK2-5_OYeTBOxUY17Kn0ZaldoOgsKpv0TYpz-oOwutJwfTndQQP34WTjoAJI1w_vKGK5nVZc6AWNMmOlOtvz8doFoo-wj_Qkxyms_92I2qRZdQsj6x2Dp2p_Q0Vyxs5uxMPaTc08B_NmQcq2UJlTblqjSw2J5PczRzXGAvG_yBbQSo2I_tkyzv_LDvKpDEnW_P2t2J9H3IGvfSSx5focGK1Kk7G47MKC5WfZNUOA-4Wp2oA12fbxgMdWwSeYSO2Wrda2Xq7TcTOYS80YU_0y3kGwrOrukMskQ-a2OFbUNI-Y3_rpDZ3-gyf6FJtr0NLLFJZcIB1kiwTgtQ5X0g5ScKx6AeWPI7oh9w240NVdPv22Divy6vzr7YqhnAbvXfOFFSGB1EE0BiULo_hAT6OT1oUwPb4izxKuiI5j1bs6ULS1G4T_tvH9YlNqIWh19dIopaVVbyqWFtjPnJrwWu8-nPguQOnRymBO09_CzYmvK_1EiwOlG9sxMCsE-Le5fFIoZQ8NCeOqfgaUxiumQrLjKVcp0ha3gMx4Z6eTUy-g4uJigSFzttMjgTp8nSEGpJfa6i-ZAltp4iWlrELTlxd1xUrE1gtjVOV6DeF2ucR2BwHaf5FlFTsysI6xanfjCYrOFoE34iApiY1oZLD4ef2PZhHhrV27fLhQNa93TTQuMsiEDWnhuI_bR5TtTJtpPxhAPRhxpVbmNpHq7DMive3NJVVVFcxZA332jH4iwKZUbxRE2tvNUsDNElXRRCimfthFmRZsw-Jc6GwpiIFM9AA92R9n2HVUZD5Ao4V_6lYg3EzSQ9-Zz2nlCbqZoxDEoFs-LudE4T5D33B2T4J9jaRtd98bSox16QSU2CUQkZWDHLGR6Mei4wMNHqlLQ5myOLyEEL4t8XJ2aeYo1zmtw9qtjyZvGgJVBrOZijXzLIpRdMDMG0uBIPllSbNBgGqnBe-wSWJ_Ye33WWPB8jFBJbXvt8RL-7BJGrF14BRQoZccsIOvkXVJRULHuxMHPngOo4AZvg7fMLCIckIBZbYJOYqg2WaAWCzRbf9HTG0IfrLFo-cyr68r8ChxsleSgM_f_ln2Al1p-xyHpO2noQ7vK29Ow2nIfTdNMBQ7XvmfP7iptqw8KzYPb4UvIpK36AS2JO6e24TRFul1fxhtd_GKkyPQQEB-D7HCpwvVqv9V0Ykp-hIUch67DaeNmcEkutvc2fn5kmmUyC5_NDY9YzjGCS-KXUcumSbdE6M9HL1XVQk2SzfqRDnAAQv7TWvrKgMnaXI1Rhdo5ULV6d1PrOmfBTUCgqTyr5cJ6AEFmHe1aa4S5Ed7UnGIVOuOFzzXiTYc1WNlniCY8u4hhv_k2Nx0k7WxkqVQfjcPNU8fVUMP5kvB6lMLzZCUkJk-9_hgffTo-_B004_RBwaq23ZKwkMwe4sx4I57B1VyKIiR4m8CvzWIIGeIuhboNeTM7LG7xPs0ImqQHGfDajHNzMo72JdcYpmy57saXHJHksIDKD8D8wBWuV37h0BN76iI0zWbrhB8HahhlqnalP1Ka9z-Rf2hXgJrETYckNIhVyTwlcubEF3stysvFryuyYLyvLSN8-4Fra6_0bacCq1AoemiRf9jnPfyaP98yqxPm19LwZMySbc5JPlKsYP_x3LPbKu0B-xfHTfe0MwOec3fhwvMMdCk0EsPeVCbc0FERn8nNar-77dLpTylfAHZVXATFDDEydaKJOkXCUMoMQrH9srk1PXsYtS22JAjYzWVR_iBcuB_Aa1FssCfRqo_7Okf7xu-PWVOImwodbuPenwRtKRwwoYgj9pRr_NiFGp9H7ginwggUp3kklwJBzzp8ex7GOilDEiiPBhHrioKPzhhA6AxYgnuFCPDfFcRbqxGIUq0T_vLacPKLKyur09j1GqLIjQNav9hnlwlIUOxtl9jdQG8dLUt_Pk8e7axCfu3UUZXsClCLOjgg2UIRovP1A4AsD4xbzl6K_sscPf0xlJ3IOntKHjMZPoMTzNzpyL-KKaR_0ak0EhIbPwj9IbdyTw1zHI4vJXGhNGBzBQ9yzyIyF9_egcwJK_QlSE2G2JZ8ML-qI7GUyKKJnVOx4NajlweQ7uIJ-bYeLUP0LO4AxUxQQv-pp6EYley8dak5TuolJcfvy303Y9KMXYw73xI2uwMBFWY_x-gG7yrE1vPSXHARFF2G7UYXVhZOjVXS3p95ThNjxt6L1V_l64SnA2NHp-5G9N4Z5Gzlmkfrz6MKA4VQWjUo-maZfhSO-vgOvYRsgsyoGu-sMMZSM1mbIAEJae0-WVSUZKrg51syoxPetwmKTl31ud56GjRseiSO5u7W8H5jmrQ5i76vchn3ruf86ZfwSp_JbMqUX8qohiqU5Apgl9kRCPwgE909Zs_s_Zpw6ErnLArH0UUmh4LxDkVtmIWnx_SvRmk1bDVpNv893AIeU437Igr4TvDI8i9LV7hOipLVTQm0DppVQsEYu6v20W-v4Dat4PoJTtob2-CmE3cB-IXTLIRyWZfLVyytbUtD_2bzx5e319gaLfNLxZq114OeZaxkvn3aqZhm3g3LKftPKZ1vP1g-PSRqpTtrcWSOOQOP50oFYvsqHn-Lja0NBoKLebcwiTfbV25fVYRMr812aQxD7QnmdqA3CPWhMIEAoYpx5m02tmJOPt0DE5mB7eWgP7ew2NNZONVP4NKa5bzEWx68-ccY0fziMKM5vt8ZnV4486nVFX5V5tuzfGEz0uVPd74BXNIwbLkuVqbccQYFHJtyaz3Eqr_mq0BifBRa3PSFiTaGZTxAnUjYynLrr82Qnb7WLxK8aGNnMeajhbYvtRkB7SQuKJxgpiqZ-BGxoAfQ-J50qJj60tboYpNA1GJFpzv44mqtj9R9D5EtgZ2ycBjetMbtC0nRgA1pb4J-SRRwBoBIWuB9o9pYkckZiQV_4qRrEBA3odlnQQCie7DBWgQ6yT0R6tVq8moEexLybxsP_njEp2_l4LnJpTUeeY5UBXNtlxtFjSbouTpwt84psIEw96H0ku_ZVXgTGZEo7unrZVdsoSfU-O1164cB7d1XNWdlPx3wC0CA7DLVAxPy5OYZQWre3-ceAMFn6Yqn4_Q_kld8-rGAwSurl1QneG6L-_xOmqCuy_6E63Xi8crYuGAWrQTzKAg9PBl-uuTVmuOPfpor8N__KHGnV0YeuKyzQVk0ermryssTEstdXU07GuMzw8qlIlYlUDUCbhrxDtukvJw5FRbn2aEPeuB2vUKfYHL0iybSlxeZx4D_BK2UqB31t0kMtZ2JSZ4HMQNMws92EAQoWWbJUFahbtprvvlmf891yP3IJXxQnNNd4LPQ-ZxsOGCUYofYTiuAOABETeCUIxEO93X0xJpyhbHcjTRsj02DB5Tzx_RYNbqL8t6U-GS7-RqJ8FnLDrX2brQUVXAyG0MHvBpj1htAMg05EsqJi9N4k8FVyKCi3gvl_D7ALRXCf4YWpVtJD68kbQCZjdMLXctLH1t8LcNS4VclBU4C7eDt1Tvh70najaKhIrdb5kbVMiOzCdCnztRZc6YI3X63pg1EA5GVXQ-cMXzqWekKIIxWLwIsWoICEErCfUzDNIi3JAf7QybNCrtIi2KdXjQTPfAEeb-RQkYqnV0731oWKUFd4oTRrBY3PkvojfDNs6-K_GD8v-jxt0CWITa-2BMUl7MdjqOS1Yj6YyfEuUN5J6yGkd5AF0NYi5V6aqNxY2yKyL24lMrXelCqoJ0hli5hqnLX-BQC-CxjU7GK4Rh_v6pMqdNGLxBPdLOjmq18gezeH8poLeL_Tgb1E-SKZr6_FgD71AgPfowGfByPUD7dTuLqpf96hbrq1FWNAYUgjSilvqCYguHK0mkH57EUgao-dE9PXySJNQRxzaT1H_f_tlpplhdBURYZ_Nr3OIJF3yc32nIbsq0eaLOHxz4aDLUAP5QOGpSqSFd6KlYDOKUfRCfWXOIxnBfHmq4OFNxs3dKw6KqY8dXHTcobn0KcUfJShorzs6QDZtOX
+import cryptography
+from cryptography.fernet import Fernet
+import os
+import time
+from datetime import datetime
+year = datetime.now().year
+updateskip = 0
+# START OF DECRYPT SCRIPT #
+def decrypt():
+    i = input("Are you sure you would like to decrypt (y/n) ")
+    if i == "y":
+        print("\n[FileCheck] Starting File check service\n")
+        i = input("What is the name of the key (Make sure it is in the same directory as this script)\n[Please include .key in the name]\n: ")
+        keycurrent = i
+        print("This is the key selceted: ", keycurrent)
+        filecheck = os.path.isfile(i) 
+        if filecheck == True:
+            print("\nThis will decrypt the file and delete the old key a new key will need to be genereated")
+            try:
+                try:
+                    with open(keycurrent, 'rb') as filekey:
+                        key = filekey.read()
+                        fernet = Fernet(key)
+                        with open(encfile, 'rb') as enc_file:
+                            encrypted = enc_file.read()
+                            decrypted = fernet.decrypt(encrypted)
+                            with open(encfile, 'wb') as dec_file:
+                                dec_file.write(decrypted)
+                                print("\nMaking backup of old key")
+                                try:
+                                    f = open(keycurrent, 'r')
+                                    open('encbackup.key', 'x')
+                                    v = open('encbackup.key', 'w')
+                                    v.write(f.read())
+                                    time.sleep(3)
+                                    print("\nBackup created")
+                                    i = input("\nWould you like to keep the backup? [If you change the file the old key will be invalid] (y/n): ")
+                                    if i == "y":
+                                        os.remove(keycurrent)
+                                        print("Thank you for using eCrypt")
+                                        exit()
+                                    elif i == "n":
+                                        os.remove(keycurrent)
+                                        os.remove('encbackup.key')
+                                        print("Thank you for using eCrypt")
+                                        exit()
+                                except:
+                                        print("\nWhoops!, Look like you already have a backup in this directory. Could not auto make a backup but key was saved\n")
+                                        print("Thank you for using eCrypt!")
+                                        exit()
+                except IsADirectoryError:
+                    print("\nWhoops! Looks like the path you gave is a directory please point to a file or double check your path\n")
+                    exit()
+                except PermissionError:
+                    print("\nWhoops! Looks like the file can't be written to make sure it is not in a system protected directory and can be written to without sudo if that does not work run this script with the sudo command\n")
+            except ValueError:
+                print("\n[ERROR] Your key is not valid or is couropted make sure it is the .key format and is the original copy or correctly formated please try again\n")
+                exit()
+
+
+        elif filecheck == False:
+            print("Sorry that path is not valid please try again")
+            exit()
+# END OF DECRYPT #
+# START OF ENCRYPT #
+def encrypt():    
+    i = input("Are you sure you would like to encrypt? Once encrypted if you lose the key you CAN NOT access the data. See README for more info(y/n): ")
+    if i == "y":
+            try:
+                i = input("What would you like to name your key? Only type the name NOT the file extension: ")
+                filecheck = i + ".key"
+                filecheckfin = os.path.isfile(filecheck)
+                name = i
+                if filecheckfin == False:
+                    name = i
+                    # Generate a key and save it
+                    key = Fernet.generate_key()
+                    with open(name + '.key', 'wb') as filekey:
+                        filekey.write(key)
+                # specify type and use that UNLESS you are using a varibal
+                    # Read the key from the file
+                    with open(name + '.key', 'rb') as filekey:
+                        key = filekey.read()
+
+                    # Read the file to be encrypted
+                    with open(encfile, 'rb') as file:
+                        original = file.read()
+
+                # Create a Fernet cipher suite and encrypt the data
+                    cipher_suite = Fernet(key)
+                    encrypted = cipher_suite.encrypt(original)
+
+                    # Write the encrypted data back to the file
+                    with open(encfile, 'wb') as encrypted_file:
+                        encrypted_file.write(encrypted)
+                        print("Encrypted!")
+                        exit()
+                elif filecheckfin == True:
+                    print("\n[WARNING] The key name specified already exist using that name would overwrite the file please try another\n")
+                    print("\n[BE ALERT!] This script auto deletes the key IF used to decrypt your file.\nMeaning this key could be ACTIVE it is recommended to just move the key instead of formating\n")
+                    i = input("Format Key? (Will allow you to use that name) (y/n): ")
+                    if i == "y":
+                        print("\nWill be formating the file: ", name + '.key')
+                        i = input("\nThis will FORMAT your key you can NOT recover the key. Are you sure? (y/n)")
+                        if i == "y":
+                            print("Formating key")
+                            os.remove(name + '.key')
+                            print("\nKey Formated restarting script\n")
+                            encrypt()
+                        elif i == "n":
+                            print("Ending Program no chanegs made")
+                            exit()
+                    elif i == "n":
+                        print("Ending Program No changes made")
+                        exit()
+                    encrypt()
+            except PermissionError:
+                print("\nWhoops! Looks like that file cant be accesed please check the file is not in a write protected directory if that does not work try running the script with sudo or putting it in the current working directory\n")
+                exit()
+            except IsADirectoryError:
+                print("\nWhoops! Looks like the path you gave is a directory please point to a file or double check your path\n")
+                os.remove(name + '.key')
+                exit()
+    elif i == "n":
+        print("Okay, No changes were made. Quiting Program")
+        exit()
+# END OF ENCRYPT SCRIPT #
+source = os.getcwd()
+version = 4.4
+print("[WARN] This script uses the OS module")
+#print("\nWill create new working directory to add files\n")
+def enccheck():
+        print("\nFunction was successfully called!")
+        #print("\nKey will be made by user discression")
+        i = input("\nDo you agree to allow this program to access the required files? (y[encrypt]/n/decrypt): ")
+        if i == "y":
+            try:
+                os.path.isfile(encfile)
+                encrypt()    
+            except FileNotFoundError as e:
+                print("An error has occurred. Please check if the main file is in this directory.")
+                print("This error has occurred:", e)
+        elif i.lower() == "n":
+            print("This needs to be accepted. Killing program. No changes have been made")
+            exit()
+        elif i == "decrypt":
+            try:
+                os.path.isfile(i + '.key')
+                os.path.isfile(encfile)
+                decrypt()
+            except FileNotFoundError as e:
+                print("[ERROR]Failed file test please make sure your files are named corectly and are in this directory. See README for more info. You could also have a broken enc key see readme for more info")
+                exit()
+        else:
+            print("That option is not a option please try again")
+            exit()
+
+
+dir = os.getcwd()
+source = dir + "/" + "ufc.muf"
+os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/updateserv.muf -o temp.txt')
+file = open('temp.txt')
+#print("Removed temp file")
+content = file.readlines()
+contentver = content[3].replace('"','').strip()
+if updateskip == 0:
+    if str(contentver) == str(version):
+        file.close()
+        os.remove('temp.txt')
+        print("Welcome to eCrypt", version)
+        print("Majix Co.", year)
+        i = input("What file do you want to use?\nexample (/home/user/Downloads/example.txt) or if in same directory as script (example.txt): ")
+        print("Okay, This file will be prepared for encryption")
+        print("\nChecking if path is valid\n")
+        doesexist = os.path.exists(i)
+        if doesexist == True:
+            print("\nYour path is valid calling encrypt function")
+            print("\nStating File structure")
+            encfile = i
+            print("\nThis file is selected: ", encfile)
+            print("\nCalling check")
+            enccheck()
+        elif doesexist == False:
+            print("That file path is invalid or does not exist please try again")
+            exit()
+    elif str(contentver) > str(version):
+        print("Looks like there is a update avaible here is some of the things that have changed\n")
+        print(content[12].replace('"','').strip())
+        print(content[13].replace('"','').strip())
+        print(content[14].replace('"','').strip())
+        print(content[15].replace('"','').strip())
+        print(content[15].replace('"','').strip())
+        print("\nA update file has been added to the current working directory rember to delete this version before updating")
+        os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/eCrypt4.4.py -o update.py')
+        file.close()
+        os.remove('temp.txt')
+        exit()
+    else:
+        contentver = version
+        if str(contentver) == str(version):
+            print("\nThe current Majix Update File is broken on server level falling back")
+            print("This is NOT a client side issue")
+            file.close()
+            os.remove('temp.txt')
+            print("Welcome to eCrypt", version)
+            print("Majix Co.", year)
+            i = input("What file do you want to use?\nexample (/home/user/Downloads/example.txt) or if in same directory as script (example.txt): ")
+            print("Okay, This file will be prepared for encryption")
+            print("\nChecking if path is valid\n")
+            doesexist = os.path.exists(i)
+            if doesexist == True:
+                print("\nYour path is valid calling encrypt function")
+                print("\nStating File structure")
+                encfile = i
+                print("\nThis file is selected: ", encfile)
+                print("\nCalling check")
+                enccheck()
+            elif doesexist == False:
+                print("That file path is invalid or does not exist please try again")
+                exit()
+        else:
+            exit()
+else:
+    print("Welcome to eCrypt", version)
+    print("Majix Co.", year)
+    i = input("What file do you want to use?\nexample (/home/user/Downloads/example.txt) or if in same directory as script (example.txt): ")
+    print("Okay, This file will be prepared for encryption")
+    print("\nChecking if path is valid\n")
+    doesexist = os.path.exists(i)
+    if doesexist == True:
+        print("\nYour path is valid calling encrypt function")
+        print("\nStating File structure")
+        encfile = i
+        print("\nThis file is selected: ", encfile)
+        print("\nCalling check")
+        enccheck()
+    elif doesexist == False:
+        print("That file path is invalid or does not exist please try again")
+        exit()
