@@ -17,7 +17,7 @@ try:
   os.remove(dir + 'findtext.py')
   print("Installer completed okay!")
   source = dir + "eCrypt4.4.py"
-  i = input("\nWhould you like to copy files to original directory you ran this script from or specify? N to specify | Y to autocopy\n")
+  i = input("\nWhould you like to copy files to original directory you ran this script from or specify? N to specify | Y to autocopy: \n")
   if i == "Y":
     mainvar = open('tempfile.txt', 'r')
     tempvar = mainvar.read().strip()
@@ -30,7 +30,7 @@ try:
     finalvar = tempvar + '\\' + "posfixinstall.bat"
     mainvar.close()
     #os.remove(tempvar + '\\' + 'tempfile.txt')
-    dest = i
+    dest = tempvar
     shutil.move(source, dest)
     source = dir + "passwordgen3.py"
     shutil.move(source, dest)
