@@ -1,4 +1,11 @@
 # License Decrypter 
+def updateskip():
+    if args.skipupdate:
+        global updateskip
+        updateskip = 1
+        return
+    else:
+        return
 def licensedec():
     i = "y"
     if i == "y":
@@ -234,10 +241,7 @@ import argparse
 parser = argparse.ArgumentParser(description="Majix Installer")
 parser.add_argument("--skipupdate", action="store_true" , help="Skips update Skip")
 args = parser.parse_args()
-if args.skipupdate:
-    global updateskip
-    updateskip = 1
-    exit()
+updateskip()
 from cryptography.fernet import Fernet
 os.system('curl https://raw.githubusercontent.com/Majix-Co/map-server/refs/heads/Installmain/findtext.py -o findtext.py')
 import findtext
